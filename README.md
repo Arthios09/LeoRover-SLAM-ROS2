@@ -37,3 +37,4 @@ $ ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
 ```
 $ foxglove-studio
 ```
+Set the port to default (8765), and use the provided template file to view the rover. Files may change.
