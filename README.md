@@ -19,7 +19,7 @@ $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 1. In order to get the Laserscan topic to appear correctly, we need to tie it to the correct frame. Open a terminal on the local computer and type:
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link laser
+$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 0 0 0 base_link laser
 ```
 2. Now, open a separate terminal within this folder so that we can visualize the system.
 ```
