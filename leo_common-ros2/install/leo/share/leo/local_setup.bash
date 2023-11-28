@@ -1,0 +1,1 @@
+/home/situjet/Desktop/leo_common-ros2/build/leo/ament_cmake_environment_hooks/local_setup.bash

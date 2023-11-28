@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_aruco_msgs
+running egg_info
+creating aruco_msgs.egg-info
+writing aruco_msgs.egg-info/PKG-INFO
+writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+writing top-level names to aruco_msgs.egg-info/top_level.txt
+writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_aruco_msgs_egg
+[  5%] Built target aruco_msgs__cpp
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker_array__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libaruco_msgs__rosidl_generator_c.so[0m
+[ 20%] Built target aruco_msgs__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_c.so[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o[0m
+[ 46%] Built target aruco_msgs__rosidl_typesupport_c
+[ 51%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o[0m

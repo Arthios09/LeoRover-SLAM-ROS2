@@ -1,0 +1,7 @@
+{
+  "package_name": "aruco_msgs",
+  "non_idl_tuples": [
+    "/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs:msg/Marker.msg",
+    "/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs:msg/MarkerArray.msg"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "package_name": "leo_msgs",
+  "non_idl_tuples": [
+    "/home/situjet/Desktop/leo_common-ros2/src/leo_msgs:msg/Imu.msg",
+    "/home/situjet/Desktop/leo_common-ros2/src/leo_msgs:msg/WheelOdom.msg",
+    "/home/situjet/Desktop/leo_common-ros2/src/leo_msgs:msg/WheelOdomMecanum.msg",
+    "/home/situjet/Desktop/leo_common-ros2/src/leo_msgs:msg/WheelStates.msg",
+    "/home/situjet/Desktop/leo_common-ros2/src/leo_msgs:srv/SetImuCalibration.srv"
+  ]
+}

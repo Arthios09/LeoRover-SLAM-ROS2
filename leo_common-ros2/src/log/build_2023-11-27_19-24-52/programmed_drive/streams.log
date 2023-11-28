@@ -1,0 +1,20 @@
+[0.772s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build --no-deps install_data
+[1.022s] running develop
+[1.036s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.036s]   warnings.warn(
+[1.038s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.039s]   warnings.warn(
+[1.204s] running egg_info
+[1.204s] writing programmed_drive.egg-info/PKG-INFO
+[1.204s] writing dependency_links to programmed_drive.egg-info/dependency_links.txt
+[1.204s] writing entry points to programmed_drive.egg-info/entry_points.txt
+[1.204s] writing requirements to programmed_drive.egg-info/requires.txt
+[1.204s] writing top-level names to programmed_drive.egg-info/top_level.txt
+[1.207s] reading manifest file 'programmed_drive.egg-info/SOURCES.txt'
+[1.207s] writing manifest file 'programmed_drive.egg-info/SOURCES.txt'
+[1.208s] running build_ext
+[1.209s] Creating /home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages/programmed-drive.egg-link (link to .)
+[1.209s] 
+[1.209s] Installed /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive
+[1.210s] running install_data
+[1.369s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive' returned '0': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build --no-deps install_data

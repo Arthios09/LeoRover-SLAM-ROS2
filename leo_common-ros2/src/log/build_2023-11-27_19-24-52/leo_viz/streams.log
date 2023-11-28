@@ -1,0 +1,44 @@
+[0.153s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.271s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.407s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.791s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.844s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.937s] -- Configuring done (0.8s)
+[0.939s] -- Generating done (0.0s)
+[0.940s] -- Build files have been written to: /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz
+[0.946s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz
+[0.948s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz -- -j12 -l12
+[0.983s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz -- -j12 -l12
+[1.017s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz
+[1.040s] -- Install configuration: ""
+[1.040s] -- Execute custom install script
+[1.041s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/launch/rviz.launch.xml
+[1.042s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/launch/view_model.launch.xml
+[1.044s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/rviz/robot.rviz
+[1.046s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/ament_index/resource_index/package_run_dependencies/leo_viz
+[1.048s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/ament_index/resource_index/parent_prefix_path/leo_viz
+[1.051s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/environment/ament_prefix_path.sh
+[1.053s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/environment/ament_prefix_path.dsv
+[1.055s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/environment/path.sh
+[1.057s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/environment/path.dsv
+[1.059s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/local_setup.bash
+[1.061s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/local_setup.sh
+[1.063s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/local_setup.zsh
+[1.065s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/local_setup.dsv
+[1.067s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.dsv
+[1.069s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/ament_index/resource_index/packages/leo_viz
+[1.071s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/cmake/leo_vizConfig.cmake
+[1.073s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/cmake/leo_vizConfig-version.cmake
+[1.075s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.xml
+[1.082s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz

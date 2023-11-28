@@ -1,0 +1,1 @@
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/ament_cmake_core/arucoConfig-version.cmake

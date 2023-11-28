@@ -1,0 +1,578 @@
+[1.049s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.049s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa386a0b6a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa386b4b430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa386b4b430>>)
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.098s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/situjet/Desktop/leo_common-ros2/src'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ignore_ament_install'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['colcon_pkg']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'colcon_pkg'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['colcon_meta']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'colcon_meta'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ros'
+[1.115s] DEBUG:colcon.colcon_core.package_identification:Package 'leo' with type 'ros.ament_cmake' and name 'leo'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_description' with type 'ros.ament_cmake' and name 'leo_description'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_desktop' with type 'ros.ament_cmake' and name 'leo_desktop'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_msgs' with type 'ros.ament_cmake' and name 'leo_msgs'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_teleop' with type 'ros.ament_cmake' and name 'leo_teleop'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'colcon_pkg'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ros'
+[1.119s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_teleop_holonomic' with type 'ros.ament_cmake' and name 'leo_teleop_holonomic'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['colcon_meta']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'colcon_meta'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['ros']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_viz' with type 'ros.ament_cmake' and name 'leo_viz'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ignore_ament_install'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'programmed_drive' with type 'ros.ament_python' and name 'programmed_drive'
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install
+[1.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/situjet/Desktop/leo_common-ros2/install
+[1.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 408 installed packages in /opt/ros/humble
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.374s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.374s] DEBUG:colcon.colcon_core.verb:Building package 'leo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_description', 'symlink_install': True, 'test_result_base': None}
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.388s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.388s] DEBUG:colcon.colcon_core.verb:Building package 'leo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.401s] DEBUG:colcon.colcon_core.verb:Building package 'leo_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop', 'symlink_install': True, 'test_result_base': None}
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_target' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_clean_first' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'cmake_force_configure' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'ament_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop_holonomic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.415s] DEBUG:colcon.colcon_core.verb:Building package 'leo_teleop_holonomic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic', 'symlink_install': True, 'test_result_base': None}
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_first' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_force_configure' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'ament_cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.428s] DEBUG:colcon.colcon_core.verb:Building package 'programmed_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive', 'symlink_install': True, 'test_result_base': None}
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_args' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target' from command line to 'None'
+[1.441s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_first' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_force_configure' from command line to 'False'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'ament_cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.442s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.442s] DEBUG:colcon.colcon_core.verb:Building package 'leo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo', 'symlink_install': True, 'test_result_base': None}
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_target' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_clean_first' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_force_configure' from command line to 'False'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'ament_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.455s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.455s] DEBUG:colcon.colcon_core.verb:Building package 'leo_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_viz', 'symlink_install': True, 'test_result_base': None}
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_target' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_clean_first' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_force_configure' from command line to 'False'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'ament_cmake_args' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.469s] DEBUG:colcon.colcon_core.verb:Building package 'leo_desktop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/leo_desktop', 'symlink_install': True, 'test_result_base': None}
+[1.482s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.495s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_description' with build type 'ament_cmake'
+[1.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_description'
+[1.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_msgs' with build type 'ament_cmake'
+[1.568s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_msgs'
+[1.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop' with build type 'ament_cmake'
+[1.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop'
+[1.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic' with build type 'ament_cmake'
+[1.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic'
+[1.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.780s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive' with build type 'ament_python'
+[1.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'ament_prefix_path')
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.sh'
+[1.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description
+[1.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs
+[1.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic
+[2.090s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive'
+[2.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic
+[2.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic -- -j12 -l12
+[2.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic -- -j12 -l12
+[2.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic
+[2.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop_holonomic)
+[2.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop_holonomic
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic' for CMake module files
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic' for CMake config files
+[2.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop_holonomic', 'cmake_prefix_path')
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.ps1'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.sh'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/bin'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/lib/pkgconfig/leo_teleop_holonomic.pc'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/lib/python3.10/site-packages'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/bin'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.ps1'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.dsv'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.sh'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.bash'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.zsh'
+[2.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/colcon-core/packages/leo_teleop_holonomic)
+[2.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop_holonomic)
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic' for CMake module files
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic' for CMake config files
+[2.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop_holonomic', 'cmake_prefix_path')
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.ps1'
+[2.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.dsv'
+[2.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/hook/cmake_prefix_path.sh'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/bin'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/lib/pkgconfig/leo_teleop_holonomic.pc'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/lib/python3.10/site-packages'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/bin'
+[2.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.dsv'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.sh'
+[2.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.bash'
+[2.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/leo_teleop_holonomic/package.zsh'
+[2.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop_holonomic/share/colcon-core/packages/leo_teleop_holonomic)
+[2.550s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/ament_index/resource_index/packages/programmed_drive
+[2.550s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.xml
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build --no-deps install_data
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop -- -j12 -l12
+[2.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description
+[2.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_description -- -j12 -l12
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop -- -j12 -l12
+[2.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_description -- -j12 -l12
+[2.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop
+[2.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_description
+[2.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[2.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_teleop
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop' for CMake module files
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop' for CMake config files
+[2.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/bin'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/lib/python3.10/site-packages'
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/bin'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.ps1'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.sh'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.bash'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.zsh'
+[2.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[2.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[2.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_description
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description' for CMake module files
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description' for CMake config files
+[2.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[2.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/bin'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/lib/pkgconfig/leo_description.pc'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/lib/python3.10/site-packages'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/bin'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.ps1'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.dsv'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.sh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.bash'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/colcon-core/packages/leo_description)
+[2.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop' for CMake module files
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop' for CMake config files
+[2.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/bin'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/lib/python3.10/site-packages'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/bin'
+[2.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.ps1'
+[2.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.dsv'
+[2.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.sh'
+[2.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.bash'
+[2.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/leo_teleop/package.zsh'
+[2.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[3.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description' for CMake module files
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description' for CMake config files
+[3.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[3.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[3.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[3.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[3.047s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/bin'
+[3.047s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/lib/pkgconfig/leo_description.pc'
+[3.047s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/lib/python3.10/site-packages'
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/bin'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.sh'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.bash'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/leo_description/package.zsh'
+[3.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_description/share/colcon-core/packages/leo_description)
+[3.065s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_viz' with build type 'ament_cmake'
+[3.065s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_viz'
+[3.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'pythonpath_develop')
+[3.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive' returned '0': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build --no-deps install_data
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/share/programmed_drive/hook/pythonpath_develop.ps1'
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/share/programmed_drive/hook/pythonpath_develop.dsv'
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/share/programmed_drive/hook/pythonpath_develop.sh'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive' for CMake module files
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive' for CMake config files
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/bin'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/pkgconfig/programmed_drive.pc'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages'
+[3.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'pythonpath')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.sh'
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/bin'
+[3.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(programmed_drive)
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.ps1'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.dsv'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.sh'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.bash'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.zsh'
+[3.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/colcon-core/packages/programmed_drive)
+[3.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz
+[4.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz
+[4.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz -- -j12 -l12
+[4.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz -- -j12 -l12
+[4.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz
+[4.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs
+[4.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs -- -j12 -l12
+[4.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_viz)
+[4.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_viz' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_viz
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz' for CMake module files
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz' for CMake config files
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_viz', 'cmake_prefix_path')
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.ps1'
+[4.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.dsv'
+[4.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.sh'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/bin'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/lib/pkgconfig/leo_viz.pc'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/lib/python3.10/site-packages'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/bin'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.dsv'
+[4.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.sh'
+[4.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.bash'
+[4.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.zsh'
+[4.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/colcon-core/packages/leo_viz)
+[4.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_viz)
+[4.287s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz' for CMake module files
+[4.288s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz' for CMake config files
+[4.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_viz', 'cmake_prefix_path')
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.ps1'
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.dsv'
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.sh'
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/bin'
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/lib/pkgconfig/leo_viz.pc'
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/lib/python3.10/site-packages'
+[4.305s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/bin'
+[4.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.ps1'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.sh'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.bash'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/leo_viz/package.zsh'
+[4.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz/share/colcon-core/packages/leo_viz)
+[7.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs -- -j12 -l12
+[7.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs
+[7.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[7.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_msgs
+[7.717s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs' for CMake module files
+[7.717s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs' for CMake config files
+[7.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[7.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib'
+[7.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[7.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[7.751s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/bin'
+[7.751s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[7.752s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib/python3.10/site-packages'
+[7.752s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/bin'
+[7.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.ps1'
+[7.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.dsv'
+[7.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.sh'
+[7.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.bash'
+[7.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.zsh'
+[7.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[7.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[7.907s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs' for CMake module files
+[7.908s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs' for CMake config files
+[7.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[7.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[7.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[7.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[7.925s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib'
+[7.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[7.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[7.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[7.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[7.942s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/bin'
+[7.942s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[7.943s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib/python3.10/site-packages'
+[7.943s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/bin'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.ps1'
+[7.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.dsv'
+[7.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.sh'
+[7.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.bash'
+[7.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/leo_msgs/package.zsh'
+[7.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[7.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo' with build type 'ament_cmake'
+[7.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo'
+[7.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo
+[8.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo
+[8.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo -- -j12 -l12
+[8.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo -- -j12 -l12
+[8.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo
+[8.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[8.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo
+[8.780s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo' for CMake module files
+[8.780s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo' for CMake config files
+[8.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[8.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[8.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[8.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/bin'
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/lib/pkgconfig/leo.pc'
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/lib/python3.10/site-packages'
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/bin'
+[8.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.ps1'
+[8.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.dsv'
+[8.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.sh'
+[8.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.bash'
+[8.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.zsh'
+[8.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/colcon-core/packages/leo)
+[8.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo' for CMake module files
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo' for CMake config files
+[8.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[8.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[8.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[8.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[8.897s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/bin'
+[8.898s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/lib/pkgconfig/leo.pc'
+[8.898s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/lib/python3.10/site-packages'
+[8.898s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo/bin'
+[8.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.ps1'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.dsv'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.sh'
+[8.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.bash'
+[8.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/leo/package.zsh'
+[8.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo/share/colcon-core/packages/leo)
+[8.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/leo_desktop' with build type 'ament_cmake'
+[8.916s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/situjet/Desktop/leo_common-ros2/src/leo_desktop'
+[8.933s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.933s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_desktop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop
+[9.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake /home/situjet/Desktop/leo_common-ros2/src/leo_desktop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop
+[9.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop -- -j12 -l12
+[9.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop -- -j12 -l12
+[9.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop
+[9.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_desktop)
+[9.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop' returned '0': AMENT_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/src/install/leo:/home/situjet/Desktop/leo_common-ros2/src/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/src/install/leo_description:/home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/home/situjet/Desktop/leo_common-ros2/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop
+[9.748s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop' for CMake module files
+[9.748s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop' for CMake config files
+[9.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_desktop', 'cmake_prefix_path')
+[9.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.ps1'
+[9.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.dsv'
+[9.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.sh'
+[9.766s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/bin'
+[9.766s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/lib/pkgconfig/leo_desktop.pc'
+[9.767s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/lib/python3.10/site-packages'
+[9.767s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/bin'
+[9.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.ps1'
+[9.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.dsv'
+[9.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.sh'
+[9.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.bash'
+[9.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.zsh'
+[9.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/colcon-core/packages/leo_desktop)
+[9.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_desktop)
+[9.848s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop' for CMake module files
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop' for CMake config files
+[9.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_desktop', 'cmake_prefix_path')
+[9.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.ps1'
+[9.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.dsv'
+[9.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.sh'
+[9.865s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/bin'
+[9.865s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/lib/pkgconfig/leo_desktop.pc'
+[9.866s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/lib/python3.10/site-packages'
+[9.866s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/bin'
+[9.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.ps1'
+[9.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.dsv'
+[9.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.sh'
+[9.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.bash'
+[9.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/leo_desktop/package.zsh'
+[9.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/leo_desktop/share/colcon-core/packages/leo_desktop)
+[9.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.884s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.914s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.924s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.ps1'
+[9.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/situjet/Desktop/leo_common-ros2/src/install/_local_setup_util_ps1.py'
+[9.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.ps1'
+[9.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.sh'
+[9.960s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/situjet/Desktop/leo_common-ros2/src/install/_local_setup_util_sh.py'
+[9.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.sh'
+[9.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.bash'
+[9.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.bash'
+[9.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.zsh'
+[9.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.zsh'

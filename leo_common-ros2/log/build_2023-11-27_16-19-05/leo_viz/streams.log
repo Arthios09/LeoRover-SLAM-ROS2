@@ -1,0 +1,24 @@
+[0.060s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/build/leo_viz': CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/install/leo_description:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/build/leo_viz -- -j12 -l12
+[0.089s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/build/leo_viz' returned '0': CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/install/leo_description:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/leo_common-ros2/build/leo_viz -- -j12 -l12
+[0.165s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/build/leo_viz': CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/install/leo_description:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/build/leo_viz
+[0.184s] -- Install configuration: ""
+[0.184s] -- Execute custom install script
+[0.184s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/launch/rviz.launch.xml
+[0.184s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/launch/view_model.launch.xml
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/rviz/robot.rviz
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/package_run_dependencies/leo_viz
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/parent_prefix_path/leo_viz
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/environment/ament_prefix_path.sh
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/environment/path.sh
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/environment/path.dsv
+[0.185s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.bash
+[0.186s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.sh
+[0.186s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.zsh
+[0.186s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.dsv
+[0.186s] -- Symlinking: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/package.dsv
+[0.188s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/packages/leo_viz
+[0.189s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/cmake/leo_vizConfig.cmake
+[0.189s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/cmake/leo_vizConfig-version.cmake
+[0.189s] -- Up-to-date symlink: /home/situjet/Desktop/leo_common-ros2/install/leo_viz/share/leo_viz/package.xml
+[0.192s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/build/leo_viz' returned '0': CMAKE_PREFIX_PATH=/home/situjet/Desktop/leo_common-ros2/install/leo_description:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop_holonomic:/home/situjet/Desktop/leo_common-ros2/install/leo_desktop:/home/situjet/Desktop/leo_common-ros2/install/leo_viz:/home/situjet/Desktop/leo_common-ros2/install/leo:/home/situjet/Desktop/leo_common-ros2/install/leo_teleop:/home/situjet/Desktop/leo_common-ros2/install/leo_msgs:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/leo_common-ros2/build/leo_viz

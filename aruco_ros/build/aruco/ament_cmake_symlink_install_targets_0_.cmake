@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/libaruco.so" "TARGETS" "aruco" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

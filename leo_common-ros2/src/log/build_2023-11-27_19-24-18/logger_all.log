@@ -1,0 +1,191 @@
+[1.061s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'programmed_drive']
+[1.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['programmed_drive'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f08b2f0b700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f08b3049630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f08b3049630>>)
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.111s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/situjet/Desktop/leo_common-ros2/src'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ignore_ament_install'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['colcon_pkg']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'colcon_pkg'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['colcon_meta']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'colcon_meta'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extensions ['ros']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(leo) by extension 'ros'
+[1.129s] DEBUG:colcon.colcon_core.package_identification:Package 'leo' with type 'ros.ament_cmake' and name 'leo'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['colcon_pkg']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'colcon_meta'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(leo_description) by extension 'ros'
+[1.130s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_description' with type 'ros.ament_cmake' and name 'leo_description'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'colcon_meta'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extensions ['ros']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(leo_desktop) by extension 'ros'
+[1.131s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_desktop' with type 'ros.ament_cmake' and name 'leo_desktop'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(leo_msgs) by extension 'ros'
+[1.132s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_msgs' with type 'ros.ament_cmake' and name 'leo_msgs'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ignore'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ignore_ament_install'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['colcon_pkg']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'colcon_pkg'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['colcon_meta']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop) by extension 'ros'
+[1.133s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_teleop' with type 'ros.ament_cmake' and name 'leo_teleop'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['ignore', 'ignore_ament_install']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ignore'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ignore_ament_install'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['colcon_pkg']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'colcon_pkg'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['colcon_meta']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'colcon_meta'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extensions ['ros']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(leo_teleop_holonomic) by extension 'ros'
+[1.133s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_teleop_holonomic' with type 'ros.ament_cmake' and name 'leo_teleop_holonomic'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['ignore', 'ignore_ament_install']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ignore'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ignore_ament_install'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['colcon_pkg']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'colcon_pkg'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['colcon_meta']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'colcon_meta'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extensions ['ros']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(leo_viz) by extension 'ros'
+[1.134s] DEBUG:colcon.colcon_core.package_identification:Package 'leo_viz' with type 'ros.ament_cmake' and name 'leo_viz'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['colcon_meta']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'colcon_meta'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extensions ['ros']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(programmed_drive) by extension 'ros'
+[1.136s] DEBUG:colcon.colcon_core.package_identification:Package 'programmed_drive' with type 'ros.ament_python' and name 'programmed_drive'
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_description' in 'leo_description'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_msgs' in 'leo_msgs'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_teleop' in 'leo_teleop'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_teleop_holonomic' in 'leo_teleop_holonomic'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo' in 'leo'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_viz' in 'leo_viz'
+[1.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'leo_desktop' in 'leo_desktop'
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/situjet/Desktop/leo_common-ros2/src/leo_teleop_holonomic/install
+[1.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/situjet/Desktop/leo_common-ros2/install
+[1.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 408 installed packages in /opt/ros/humble
+[1.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_first' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_force_configure' from command line to 'False'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'ament_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[1.406s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.406s] DEBUG:colcon.colcon_core.verb:Building package 'programmed_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive', 'merge_install': False, 'path': '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive', 'symlink_install': False, 'test_result_base': None}
+[1.419s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.433s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive' with build type 'ament_python'
+[1.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'ament_prefix_path')
+[1.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.718s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive'
+[1.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/programmed_drive build --build-base /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build install --record /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/install.log --single-version-externally-managed
+[2.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive' returned '0': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/programmed_drive build --build-base /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build install --record /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/install.log --single-version-externally-managed
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive' for CMake module files
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive' for CMake config files
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/bin'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/pkgconfig/programmed_drive.pc'
+[2.343s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages'
+[2.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'pythonpath')
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.dsv'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/hook/pythonpath.sh'
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/bin'
+[2.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(programmed_drive)
+[2.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.ps1'
+[2.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.dsv'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.sh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.bash'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/programmed_drive/package.zsh'
+[2.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/share/colcon-core/packages/programmed_drive)
+[2.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.379s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.402s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.411s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.427s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.ps1'
+[2.428s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/situjet/Desktop/leo_common-ros2/src/install/_local_setup_util_ps1.py'
+[2.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.ps1'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.sh'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/situjet/Desktop/leo_common-ros2/src/install/_local_setup_util_sh.py'
+[2.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.sh'
+[2.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.bash'
+[2.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.bash'
+[2.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/situjet/Desktop/leo_common-ros2/src/install/local_setup.zsh'
+[2.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/situjet/Desktop/leo_common-ros2/src/install/setup.zsh'

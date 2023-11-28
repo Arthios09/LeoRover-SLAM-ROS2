@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000082] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.000106] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.000123] (aruco_ros) JobQueued: {'identifier': 'aruco_ros', 'dependencies': OrderedDict([('aruco', '/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco'), ('aruco_msgs', '/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs')])}
+[0.000524] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.044039] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.085267] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.085380] (aruco) Command: {'cmd': ['/home/situjet/.local/bin/cmake', '/home/situjet/Desktop/aruco_ros/aruco_ros/aruco', '-DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco'], 'cwd': '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'situjet'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/situjet'), ('OLDPWD', '/home/situjet/Desktop/aruco_ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '172.31.1.148'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'situjet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'situjet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/situjet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/situjet-Zephyrus:@/tmp/.ICE-unix/1450,unix/situjet-Zephyrus:/tmp/.ICE-unix/1450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a3a5b55_1ade_45dc_bb03_783c78d24bc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://172.31.1.148:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087655] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.087850] (aruco_msgs) Command: {'cmd': ['/home/situjet/.local/bin/cmake', '/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs', '-DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs'], 'cwd': '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'situjet'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/situjet'), ('OLDPWD', '/home/situjet/Desktop/aruco_ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '172.31.1.148'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'situjet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'situjet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/situjet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/situjet-Zephyrus:@/tmp/.ICE-unix/1450,unix/situjet-Zephyrus:/tmp/.ICE-unix/1450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a3a5b55_1ade_45dc_bb03_783c78d24bc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://172.31.1.148:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099864] (-) TimerEvent: {}
+[0.135365] (aruco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.135523] (aruco_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.173299] (aruco_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.173449] (aruco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.182621] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.182719] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199956] (-) TimerEvent: {}
+[0.218940] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.219065] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.228305] (aruco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.228465] (aruco_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.228580] (aruco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228637] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228855] (aruco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228921] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.234547] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.234679] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.279014] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.279135] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.288655] (aruco_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.288838] (aruco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.288938] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289094] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289377] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.289573] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.291205] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.291323] (aruco) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300023] (-) TimerEvent: {}
+[0.400209] (-) TimerEvent: {}
+[0.500413] (-) TimerEvent: {}
+[0.599638] (aruco) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.599790] (aruco_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600468] (-) TimerEvent: {}
+[0.662945] (aruco_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.680394] (aruco) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.2.0") \n'}
+[0.693967] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.698416] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700539] (-) TimerEvent: {}
+[0.706244] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.719895] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.732367] (aruco) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.739780] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.740003] (aruco) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.740772] (aruco) StdoutLine: {'line': b'-- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco\n'}
+[0.747775] (aruco) CommandEnded: {'returncode': 0}
+[0.748099] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'build'}
+[0.748122] (aruco) Command: {'cmd': ['/home/situjet/.local/bin/cmake', '--build', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco', '--', '-j12', '-l12'], 'cwd': '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'situjet'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/situjet'), ('OLDPWD', '/home/situjet/Desktop/aruco_ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '172.31.1.148'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'situjet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'situjet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/situjet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/situjet-Zephyrus:@/tmp/.ICE-unix/1450,unix/situjet-Zephyrus:/tmp/.ICE-unix/1450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a3a5b55_1ade_45dc_bb03_783c78d24bc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://172.31.1.148:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.776404] (aruco) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o\x1b[0m\n'}
+[0.776633] (aruco) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o\x1b[0m\n'}
+[0.776764] (aruco) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o\x1b[0m\n'}
+[0.776898] (aruco) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o\x1b[0m\n'}
+[0.777153] (aruco) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o\x1b[0m\n'}
+[0.777299] (aruco) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o\x1b[0m\n'}
+[0.777431] (aruco) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o\x1b[0m\n'}
+[0.777649] (aruco) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o\x1b[0m\n'}
+[0.777777] (aruco) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o\x1b[0m\n'}
+[0.777900] (aruco) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o\x1b[0m\n'}
+[0.778096] (aruco) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o\x1b[0m\n'}
+[0.778827] (aruco) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o\x1b[0m\n'}
+[0.800647] (-) TimerEvent: {}
+[0.815645] (aruco_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.896172] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.900737] (-) TimerEvent: {}
+[1.001099] (-) TimerEvent: {}
+[1.101481] (-) TimerEvent: {}
+[1.201834] (-) TimerEvent: {}
+[1.224575] (aruco) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o\x1b[0m\n'}
+[1.301929] (-) TimerEvent: {}
+[1.402281] (-) TimerEvent: {}
+[1.502616] (-) TimerEvent: {}
+[1.602965] (-) TimerEvent: {}
+[1.703412] (-) TimerEvent: {}
+[1.793467] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.803528] (-) TimerEvent: {}
+[1.903953] (-) TimerEvent: {}
+[2.004370] (-) TimerEvent: {}
+[2.088598] (aruco) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o\x1b[0m\n'}
+[2.104482] (-) TimerEvent: {}
+[2.127295] (aruco) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o\x1b[0m\n'}
+[2.181600] (aruco) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o\x1b[0m\n'}
+[2.204583] (-) TimerEvent: {}
+[2.304893] (-) TimerEvent: {}
+[2.359808] (aruco) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o\x1b[0m\n'}
+[2.404991] (-) TimerEvent: {}
+[2.505308] (-) TimerEvent: {}
+[2.605720] (-) TimerEvent: {}
+[2.706121] (-) TimerEvent: {}
+[2.806565] (-) TimerEvent: {}
+[2.906891] (-) TimerEvent: {}
+[3.007218] (-) TimerEvent: {}
+[3.107513] (-) TimerEvent: {}
+[3.132529] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.207616] (-) TimerEvent: {}
+[3.307934] (-) TimerEvent: {}
+[3.408244] (-) TimerEvent: {}
+[3.436790] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.439994] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[3.440211] (aruco_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.440340] (aruco_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.440448] (aruco_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.440555] (aruco_msgs) StderrLine: {'line': b'\n'}
+[3.440662] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.440767] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.440872] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.440981] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.441088] (aruco_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.441195] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.459849] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.462013] (aruco_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.462677] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[3.462780] (aruco_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.462844] (aruco_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.462902] (aruco_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.462957] (aruco_msgs) StderrLine: {'line': b'\n'}
+[3.463012] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.463067] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.463130] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.463184] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.463238] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.463319] (aruco_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.463411] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.482276] (aruco_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[3.482498] (aruco_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.482629] (aruco_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.482745] (aruco_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.482854] (aruco_msgs) StderrLine: {'line': b'\n'}
+[3.482958] (aruco_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.483060] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.483163] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.483267] (aruco_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.483383] (aruco_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[3.483493] (aruco_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.483608] (aruco_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.491644] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.491903] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.492035] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.492147] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.508353] (-) TimerEvent: {}
+[3.511593] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.607357] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.608427] (-) TimerEvent: {}
+[3.631611] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.633405] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.634522] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.637459] (aruco_msgs) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.674144] (aruco_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.676718] (aruco_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs\n'}
+[3.686085] (aruco_msgs) CommandEnded: {'returncode': 0}
+[3.686835] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'build'}
+[3.687084] (aruco_msgs) Command: {'cmd': ['/home/situjet/.local/bin/cmake', '--build', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs', '--', '-j12', '-l12'], 'cwd': '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'situjet'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/situjet'), ('OLDPWD', '/home/situjet/Desktop/aruco_ros'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '172.31.1.148'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1450'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'situjet'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'situjet'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/situjet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/situjet-Zephyrus:@/tmp/.ICE-unix/1450,unix/situjet-Zephyrus:/tmp/.ICE-unix/1450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a3a5b55_1ade_45dc_bb03_783c78d24bc6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://172.31.1.148:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cbb95207062cccbf40af8a9f65540236'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.708528] (-) TimerEvent: {}
+[3.721543] (aruco_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.724574] (aruco_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.725970] (aruco_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_aruco_msgs\n'}
+[3.808624] (-) TimerEvent: {}
+[3.908914] (-) TimerEvent: {}
+[3.952515] (aruco_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.953052] (aruco_msgs) StdoutLine: {'line': b'creating aruco_msgs.egg-info\n'}
+[3.953238] (aruco_msgs) StdoutLine: {'line': b'writing aruco_msgs.egg-info/PKG-INFO\n'}
+[3.953402] (aruco_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_msgs.egg-info/dependency_links.txt\n'}
+[3.953562] (aruco_msgs) StdoutLine: {'line': b'writing top-level names to aruco_msgs.egg-info/top_level.txt\n'}
+[3.954860] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[3.956560] (aruco_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[3.957015] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[3.976869] (aruco_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_aruco_msgs_egg\n'}
+[3.987592] (aruco_msgs) StdoutLine: {'line': b'[  5%] Built target aruco_msgs__cpp\n'}
+[3.991180] (aruco_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.991468] (aruco_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.991616] (aruco_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.006798] (aruco_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[4.007446] (aruco_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker_array__functions.c.o\x1b[0m\n'}
+[4.008996] (-) TimerEvent: {}
+[4.062300] (aruco_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaruco_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.081887] (aruco_msgs) StdoutLine: {'line': b'[ 20%] Built target aruco_msgs__rosidl_generator_c\n'}
+[4.085647] (aruco_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.086225] (aruco_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.086420] (aruco_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.109096] (-) TimerEvent: {}
+[4.209379] (-) TimerEvent: {}
+[4.216158] (aruco_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[4.216913] (aruco_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o\x1b[0m\n'}
+[4.305997] (aruco_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[4.306802] (aruco_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker_array__type_support.cpp.o\x1b[0m\n'}
+[4.309469] (-) TimerEvent: {}
+[4.336893] (aruco_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.357795] (aruco_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker_array__type_support.cpp.o\x1b[0m\n'}
+[4.358071] (aruco_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o\x1b[0m\n'}
+[4.366755] (aruco_msgs) StdoutLine: {'line': b'[ 46%] Built target aruco_msgs__rosidl_typesupport_c\n'}
+[4.387597] (aruco_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o\x1b[0m\n'}
+[4.387873] (aruco_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o\x1b[0m\n'}
+[4.409568] (-) TimerEvent: {}
+[4.450871] (aruco_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o\x1b[0m\n'}
+[4.451147] (aruco_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[4.481246] (aruco_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h'\n"}
+[4.481845] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o] Interrupt\n'}
+[4.482603] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/build.make:165: CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o] Interrupt\n'}
+[4.482707] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o] Interrupt\n'}
+[4.482838] (aruco) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco.dir/build.make:300: CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o] Interrupt\n'}
+[4.482954] (aruco) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco.dir/build.make:244: CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o] Interrupt\n'}
+[4.483051] (aruco) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruco.dir/all] Interrupt\n'}
+[4.483143] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:173: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o] Interrupt\n'}
+[4.483272] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.483371] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.483463] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.483585] (aruco_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.483679] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>\n'}
+[4.483770] (aruco_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[4.483889] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main\n'}
+[4.483983] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o] Interrupt\n'}
+[4.484095] (aruco_msgs) StderrLine: {'line': b'    generate_typesupport_fastrtps_c(args.generator_arguments_file)\n'}
+[4.484216] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c\n'}
+[4.484311] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.484436] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.484532] (aruco_msgs) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[4.484720] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[4.484830] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[4.484952] (aruco_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[4.485071] (aruco_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[4.485166] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[4.485287] (aruco_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[4.485383] (aruco_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[4.485476] (aruco_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[4.485569] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/build.make:173: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o] Interrupt\n'}
+[4.485757] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[4.485850] (aruco_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt\n'}
+[4.485940] (aruco_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[4.486031] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[4.486159] (aruco) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.486262] (aruco_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[4.486357] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[4.486452] (aruco_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[4.486551] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[4.486644] (aruco_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[4.486743] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[4.486840] (aruco_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[4.486932] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[4.487029] (aruco_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[4.487125] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[4.487216] (aruco) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.487391] (aruco) StderrLine: {'line': b'  File "/home/situjet/.local/bin/cmake", line 8, in <module>\n'}
+[4.487490] (aruco) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[4.487580] (aruco) StderrLine: {'line': b'  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake\n'}
+[4.487720] (aruco_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[4.487822] (aruco_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[4.487912] (aruco) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[4.488013] (aruco) StderrLine: {'line': b'  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program\n'}
+[4.488108] (aruco) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[4.488202] (aruco) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[4.488296] (aruco_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[4.488397] (aruco) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[4.488490] (aruco) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[4.488584] (aruco) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[4.488737] (aruco) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[4.488828] (aruco) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[4.488920] (aruco) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[4.489054] (aruco) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[4.489166] (aruco) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.489274] (aruco_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[4.489381] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[4.489489] (aruco_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[4.489785] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[4.489885] (aruco_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[4.489977] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[4.490065] (aruco_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[4.490155] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[4.490254] (aruco_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[4.490345] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan\n'}
+[4.490436] (aruco_msgs) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[4.490524] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan\n'}
+[4.490614] (aruco_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[4.490704] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[4.490798] (aruco_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[4.490888] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan\n'}
+[4.490977] (aruco_msgs) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[4.491068] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan\n'}
+[4.491157] (aruco_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[4.491246] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[4.491331] (aruco_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[4.491419] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan\n'}
+[4.491504] (aruco_msgs) StderrLine: {'line': b"    i = scanner.complex('[', ']', 0)\n"}
+[4.491591] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1907, in complex\n'}
+[4.491680] (aruco_msgs) StderrLine: {'line': b'    if c == enter:\n'}
+[4.491782] (aruco_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.496794] (aruco_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x7f7b5ea2e320>\n'}
+[4.497179] (aruco_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.497460] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[4.497912] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[4.498385] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[4.498501] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[4.498599] (aruco_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[4.498694] (aruco) CommandEnded: {'returncode': -2}
+[4.503520] (aruco_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:144: rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h] Interrupt\n'}
+[4.503690] (aruco_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[4.503841] (aruco_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.509634] (-) TimerEvent: {}
+[4.512563] (aruco_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.512675] (aruco_msgs) StderrLine: {'line': b'  File "/home/situjet/.local/bin/cmake", line 8, in <module>\n'}
+[4.512783] (aruco_msgs) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[4.512847] (aruco_msgs) StderrLine: {'line': b'  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake\n'}
+[4.512908] (aruco_msgs) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[4.512965] (aruco_msgs) StderrLine: {'line': b'  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program\n'}
+[4.513022] (aruco_msgs) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[4.513079] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 347, in call\n'}
+[4.513169] (aruco_msgs) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[4.513229] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait\n'}
+[4.513285] (aruco_msgs) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[4.513341] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait\n'}
+[4.513397] (aruco_msgs) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[4.513451] (aruco_msgs) StderrLine: {'line': b'  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait\n'}
+[4.513531] (aruco_msgs) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[4.513587] (aruco_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.516986] (aruco_msgs) CommandEnded: {'returncode': -2}
+[4.604152] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 'SIGINT'}
+[4.604728] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 'SIGINT'}
+[4.609746] (-) TimerEvent: {}
+[4.616030] (aruco_ros) JobSkipped: {'identifier': 'aruco_ros'}
+[4.616236] (-) EventReactorShutdown: {}

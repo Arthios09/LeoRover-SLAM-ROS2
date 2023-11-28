@@ -1,0 +1,205 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_aruco_msgs
+running egg_info
+creating aruco_msgs.egg-info
+writing aruco_msgs.egg-info/PKG-INFO
+writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+writing top-level names to aruco_msgs.egg-info/top_level.txt
+writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_aruco_msgs_egg
+[  5%] Built target aruco_msgs__cpp
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 15%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker_array__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libaruco_msgs__rosidl_generator_c.so[0m
+[ 20%] Built target aruco_msgs__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_c.so[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o[0m
+[ 46%] Built target aruco_msgs__rosidl_typesupport_c
+[ 51%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o[0m
+gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h'
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o] Interrupt
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/build.make:165: CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:173: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:159: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o] Interrupt
+    generate_typesupport_fastrtps_c(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+    return generate_files(generator_arguments_file, mapping)
+gmake[2]: *** wait: No child processes.  Stop.
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+    interpreter.string(template_content, template_path, locals=data)
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/build.make:173: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o] Interrupt
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+    token = scanner.one()
+  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+    self.subscan(scanner, self.type)
+  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+    token = scanner.one()
+  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+    self.subscan(scanner, self.type)
+  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+    token = scanner.one()
+  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan
+    i = scanner.complex('[', ']', 0)
+  File "/usr/lib/python3/dist-packages/em.py", line 1907, in complex
+    if c == enter:
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x7f7b5ea2e320>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[2]: *** [CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:144: rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
+Traceback (most recent call last):
+  File "/home/situjet/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

@@ -1,0 +1,84 @@
+[0.073s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros
+[0.102s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.323s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.356s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.662s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[0.732s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.735s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.083s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[1.084s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[1.094s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.482s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.488s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.489s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.499s] -- Found aruco: 5.0.3 (/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/share/aruco/cmake)
+[1.502s] -- Found aruco_msgs: 5.0.3 (/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake)
+[1.581s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.742s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.816s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.817s] -- Configured cppcheck include dirs: /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros/include
+[1.817s] -- Configured cppcheck exclude dirs and/or files: 
+[1.818s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.818s] -- Configured cpplint exclude dirs and/or files: 
+[1.818s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.818s] -- Added test 'lint_cmake' to check CMake code style
+[1.819s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.820s] -- Added test 'uncrustify' to check C / C++ code style
+[1.820s] -- Configured uncrustify additional arguments: 
+[1.821s] -- Added test 'xmllint' to check XML markup files
+[1.822s] -- Configuring done (1.7s)
+[1.876s] -- Generating done (0.0s)
+[1.878s] -- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros
+[1.889s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros' returned '0': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros
+[1.890s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros -- -j12 -l12
+[1.937s] [ 18%] Built target aruco_ros_utils
+[1.946s] [ 63%] [32mBuilding CXX object CMakeFiles/single.dir/src/simple_single.cpp.o[0m
+[1.946s] [ 63%] Built target double
+[1.946s] [ 81%] Built target marker_publisher
+[13.434s] [ 90%] [32m[1mLinking CXX executable single[0m
+[14.489s] [100%] Built target single
+[14.500s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros' returned '0': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros -- -j12 -l12
+[14.544s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros
+[14.568s] -- Install configuration: ""
+[14.568s] -- Execute custom install script
+[14.569s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib/libaruco_ros_utils.so
+[14.569s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib/aruco_ros/marker_publisher
+[14.569s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib/aruco_ros/single
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib/aruco_ros/double
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker26_5cm.jpg
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_1cm.jpg
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_2cm.jpg
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker582_5cm.jpg
+[14.570s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker582_5cm_margin_2cm.jpg
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker_in_hand.jpg
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/marker_in_object.jpg
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/new_coordinates.png
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker.png
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker_world.png
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/launch/double.launch.py
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/launch/marker_publisher.launch.py
+[14.571s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/launch/single.launch.py
+[14.572s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/ament_index/resource_index/package_run_dependencies/aruco_ros
+[14.572s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/ament_index/resource_index/parent_prefix_path/aruco_ros
+[14.572s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.sh
+[14.572s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.dsv
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/environment/path.sh
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/environment/path.dsv
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/local_setup.bash
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/local_setup.sh
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/local_setup.zsh
+[14.573s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/local_setup.dsv
+[14.573s] -- Symlinking: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/package.dsv
+[14.575s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/ament_index/resource_index/packages/aruco_ros
+[14.576s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig.cmake
+[14.576s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+[14.576s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/share/aruco_ros/package.xml
+[14.576s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/include
+[14.576s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/include/aruco_ros
+[14.580s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros' returned '0': CMAKE_PREFIX_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco/lib:/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros

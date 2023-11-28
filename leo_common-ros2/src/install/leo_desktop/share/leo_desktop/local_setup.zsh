@@ -1,0 +1,1 @@
+/home/situjet/Desktop/leo_common-ros2/src/build/leo_desktop/ament_cmake_environment_hooks/local_setup.zsh

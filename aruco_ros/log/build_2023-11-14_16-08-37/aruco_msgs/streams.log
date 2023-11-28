@@ -1,0 +1,70 @@
+[0.045s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs
+[0.067s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.226s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.264s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.357s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.400s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.740s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.628s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.628s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.628s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.628s]   the cmake_policy command to set the policy and suppress this warning.
+[1.628s] 
+[1.628s] Call Stack (most recent call first):
+[1.628s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.628s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.628s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.628s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.628s] [0m
+[1.644s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.644s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.645s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.645s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.645s]   the cmake_policy command to set the policy and suppress this warning.
+[1.645s] 
+[1.645s] Call Stack (most recent call first):
+[1.645s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.645s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.645s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.645s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.645s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.645s] [0m
+[1.659s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.659s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.659s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.659s]   the cmake_policy command to set the policy and suppress this warning.
+[1.659s] 
+[1.659s] Call Stack (most recent call first):
+[1.659s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.659s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.659s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.659s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.659s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.659s] [0m
+[1.660s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.660s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.661s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.703s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.714s] -- Added test 'lint_cmake' to check CMake code style
+[1.714s] -- Added test 'xmllint' to check XML markup files
+[1.717s] -- Configuring done (1.7s)
+[1.745s] -- Generating done (0.0s)
+[1.748s] -- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs
+[1.756s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs
+[1.756s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs -- -j12 -l12
+[1.786s] failed to create symbolic link '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/ament_cmake_python/aruco_msgs/aruco_msgs' because existing path cannot be removed: Is a directory
+[1.786s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_aruco_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_aruco_msgs] Error 1
+[1.786s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_aruco_msgs.dir/all] Error 2
+[1.786s] gmake[1]: *** Waiting for unfinished jobs....
+[1.787s] [  2%] Built target aruco_msgs__cpp
+[1.788s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[1.788s] gmake: *** [Makefile:146: all] Error 2
+[1.792s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs -- -j12 -l12

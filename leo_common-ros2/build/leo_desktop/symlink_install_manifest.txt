@@ -1,0 +1,15 @@
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/package_run_dependencies/leo_desktop
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/parent_prefix_path/leo_desktop
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/ament_prefix_path.sh
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/ament_prefix_path.dsv
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/path.sh
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/path.dsv
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.bash
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.sh
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.zsh
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.dsv
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.dsv
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/packages/leo_desktop
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/cmake/leo_desktopConfig.cmake
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/cmake/leo_desktopConfig-version.cmake
+/home/situjet/Desktop/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.xml

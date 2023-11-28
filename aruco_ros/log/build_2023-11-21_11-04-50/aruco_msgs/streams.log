@@ -1,0 +1,196 @@
+[0.074s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs
+[0.102s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.314s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.348s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.361s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.522s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.944s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.998s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.000s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.000s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.000s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.000s]   the cmake_policy command to set the policy and suppress this warning.
+[2.000s] 
+[2.001s] Call Stack (most recent call first):
+[2.001s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.001s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.001s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.001s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.001s] [0m
+[2.018s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.019s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.019s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.019s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.019s]   the cmake_policy command to set the policy and suppress this warning.
+[2.019s] 
+[2.019s] Call Stack (most recent call first):
+[2.019s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.019s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.019s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.019s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.019s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.019s] [0m
+[2.038s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.038s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.038s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.038s]   the cmake_policy command to set the policy and suppress this warning.
+[2.038s] 
+[2.039s] Call Stack (most recent call first):
+[2.039s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.039s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.039s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.039s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.039s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.039s] [0m
+[2.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.041s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.041s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.095s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.112s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.113s] -- Added test 'lint_cmake' to check CMake code style
+[2.114s] -- Added test 'xmllint' to check XML markup files
+[2.119s] -- Configuring done (2.0s)
+[2.175s] -- Generating done (0.0s)
+[2.177s] -- Build files have been written to: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs
+[2.185s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake /home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs
+[2.186s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs -- -j12 -l12
+[2.224s] [  2%] Built target aruco_msgs__cpp
+[2.226s] [  2%] Built target ament_cmake_python_symlink_aruco_msgs
+[2.228s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[2.237s] [ 23%] Built target aruco_msgs__rosidl_typesupport_cpp
+[2.237s] [ 33%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[2.237s] [ 43%] Built target aruco_msgs__rosidl_typesupport_c
+[2.237s] [ 53%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[2.238s] [ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[2.240s] [ 74%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[2.247s] [ 74%] Built target aruco_msgs
+[2.254s] [ 76%] Built target aruco_msgs__py
+[2.267s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[2.277s] [ 89%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.277s] [ 94%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[2.277s] [100%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[2.459s] running egg_info
+[2.459s] writing aruco_msgs.egg-info/PKG-INFO
+[2.459s] writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+[2.460s] writing top-level names to aruco_msgs.egg-info/top_level.txt
+[2.465s] reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[2.466s] writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[2.484s] [100%] Built target ament_cmake_python_build_aruco_msgs_egg
+[2.491s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --build /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs -- -j12 -l12
+[2.559s] Invoking command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs
+[2.582s] -- Install configuration: ""
+[2.583s] -- Execute custom install script
+[2.583s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs
+[2.584s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h
+[2.584s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h
+[2.584s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h
+[2.584s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh
+[2.585s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv
+[2.586s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[2.586s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.586s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp
+[2.586s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp
+[2.587s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp
+[2.588s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[2.588s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.588s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.588s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[2.588s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[2.589s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.589s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[2.589s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[2.589s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh
+[2.589s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv
+[2.590s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/PKG-INFO
+[2.590s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/SOURCES.txt
+[2.590s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/dependency_links.txt
+[2.590s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/top_level.txt
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.591s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c
+[2.592s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.593s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.593s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.593s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl
+[2.593s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl
+[2.593s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv
+[2.594s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/path.sh
+[2.595s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/path.dsv
+[2.595s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.bash
+[2.595s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.sh
+[2.595s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.zsh
+[2.595s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.dsv
+[2.595s] -- Symlinking: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.dsv
+[2.597s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs
+[2.598s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake
+[2.598s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.598s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.598s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.598s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.599s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.599s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.599s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake
+[2.599s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake
+[2.599s] -- Up-to-date symlink: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.xml
+[2.600s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so
+[2.600s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so
+[2.601s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.601s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so
+[2.601s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so
+[2.602s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so
+[2.602s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so
+[2.631s] Listing '/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...
+[2.631s] Compiling '/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py'...
+[2.631s] Listing '/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...
+[2.634s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so
+[2.635s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake
+[2.635s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.635s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.635s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.635s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake
+[2.637s] -- Up-to-date: /home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.642s] Invoked command in '/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/situjet/.local/bin/cmake --install /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs

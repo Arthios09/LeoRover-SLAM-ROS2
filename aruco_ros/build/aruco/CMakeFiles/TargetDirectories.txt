@@ -1,0 +1,10 @@
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/uninstall.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/aruco_uninstall.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/aruco.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/test.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/edit_cache.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/rebuild_cache.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/list_install_components.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/install.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/install/local.dir
+/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/CMakeFiles/install/strip.dir

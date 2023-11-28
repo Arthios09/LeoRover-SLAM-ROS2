@@ -1,0 +1,20 @@
+gmake[2]: *** [CMakeFiles/aruco.dir/build.make:300: CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/aruco.dir/build.make:244: CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruco.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
+Traceback (most recent call last):
+  File "/home/situjet/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/situjet/.local/lib/python3.10/site-packages/cmake/__init__.py", line 39, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

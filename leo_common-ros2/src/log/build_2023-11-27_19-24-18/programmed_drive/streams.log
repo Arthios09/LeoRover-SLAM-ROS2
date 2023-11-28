@@ -1,0 +1,22 @@
+[0.626s] Invoking command in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/programmed_drive build --build-base /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build install --record /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/install.log --single-version-externally-managed
+[0.846s] running egg_info
+[0.847s] writing ../build/programmed_drive/programmed_drive.egg-info/PKG-INFO
+[0.847s] writing dependency_links to ../build/programmed_drive/programmed_drive.egg-info/dependency_links.txt
+[0.847s] writing entry points to ../build/programmed_drive/programmed_drive.egg-info/entry_points.txt
+[0.847s] writing requirements to ../build/programmed_drive/programmed_drive.egg-info/requires.txt
+[0.847s] writing top-level names to ../build/programmed_drive/programmed_drive.egg-info/top_level.txt
+[0.850s] reading manifest file '../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+[0.850s] writing manifest file '../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+[0.851s] running build
+[0.851s] running build_py
+[0.851s] running install
+[0.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.851s]   warnings.warn(
+[0.851s] running install_lib
+[0.852s] running install_data
+[0.852s] running install_egg_info
+[0.854s] removing '/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[0.854s] Copying ../build/programmed_drive/programmed_drive.egg-info to /home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info
+[0.855s] running install_scripts
+[0.872s] writing list of installed files to '/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/install.log'
+[0.890s] Invoked command in '/home/situjet/Desktop/leo_common-ros2/src/programmed_drive' returned '0': PYTHONPATH=/home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/prefix_override:/home/situjet/Desktop/leo_common-ros2/src/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/programmed_drive build --build-base /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/build install --record /home/situjet/Desktop/leo_common-ros2/src/build/programmed_drive/install.log --single-version-externally-managed
