@@ -27,6 +27,25 @@ $ source install/setup.bash
 $ ros2 launch leo_viz rviz.launch.xml
 ```
 
+### Launching Aruco ROS
+1. Make sure to be in the aruco_ros folder before executing
+```
+$ source install/setup.bash
+$ ros2 launch ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=0 reference_frame:=base_link camera_frame:=camera_optical_frame
+```
+
+### Running preprogrammed drive scripts
+1. To run preprogrammed commands, modify commands.txt and run the following program:
+```
+$ source install/setup.bash
+$ ros2 run preprogrammed_drive drive
+```
+2. To run the Aruco follow command
+```
+$ source install/setup.bash
+$ ros2 run preprogrammed_drive aruco_drive
+```
+
 ### Running Foxglove
 1. Due to the way the websocket is set up, we need to export the port to point correctly on the one computer. Open a terminal:
 ```
