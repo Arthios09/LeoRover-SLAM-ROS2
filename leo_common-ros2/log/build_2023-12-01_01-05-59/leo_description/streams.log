@@ -1,0 +1,38 @@
+[6.237s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description -- -j4 -l4
+[14.177s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description -- -j4 -l4
+[15.246s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description
+[15.492s] -- Install configuration: ""
+[15.498s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/config
+[15.501s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/config/controllers.yaml
+[15.515s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/launch
+[15.516s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/launch/state_publisher.launch.xml
+[15.517s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models
+[15.527s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Chassis.dae
+[15.529s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/WheelB.dae
+[15.547s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Rocker.dae
+[15.558s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Antenna.dae
+[15.567s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Wheel_outline.stl
+[15.568s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/WheelA.dae
+[15.570s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Rocker_outline.stl
+[15.590s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Chassis_outline.stl
+[15.598s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf
+[15.598s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/leo.urdf.xacro
+[15.599s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/macros.xacro
+[15.600s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/leo_sim.urdf.xacro
+[15.618s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/gz_sim_resource_path.dsv
+[15.625s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/package_run_dependencies/leo_description
+[15.631s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/parent_prefix_path/leo_description
+[15.632s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/ament_prefix_path.sh
+[15.633s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/ament_prefix_path.dsv
+[15.634s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/path.sh
+[15.635s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/path.dsv
+[15.643s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.bash
+[15.657s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.sh
+[15.659s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.zsh
+[15.665s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.dsv
+[15.666s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.dsv
+[15.667s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/packages/leo_description
+[15.668s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/cmake/leo_descriptionConfig.cmake
+[15.668s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/cmake/leo_descriptionConfig-version.cmake
+[15.669s] -- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.xml
+[17.066s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description

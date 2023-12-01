@@ -1,1 +1,3 @@
-/home/situjet/Desktop/leo_common-ros2/build/leo_msgs/rosidl_cmake/srv/SetImuCalibration_Request.msg
+float64 gyro_bias_x
+float64 gyro_bias_y
+float64 gyro_bias_z

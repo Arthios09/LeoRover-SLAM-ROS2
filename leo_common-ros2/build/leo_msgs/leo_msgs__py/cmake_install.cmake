@@ -1,8 +1,8 @@
-# Install script for directory: /home/situjet/Desktop/leo_common-ros2/build/leo_msgs/leo_msgs__py
+# Install script for directory: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs/leo_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/situjet/Desktop/leo_common-ros2/install/leo_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

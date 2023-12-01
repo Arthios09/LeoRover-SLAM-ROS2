@@ -1,0 +1,515 @@
+[19.194s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[19.195s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa4a510f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa4aa8220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa4aa8220>>)
+[19.924s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[19.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[19.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[19.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[19.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[19.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[19.928s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2'
+[19.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[19.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[19.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[19.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[19.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[19.933s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[19.933s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[19.933s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[19.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[20.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[20.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[20.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[20.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[20.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[20.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[20.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[20.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[20.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[20.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[20.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[20.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[20.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[20.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[20.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[20.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[20.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[20.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[20.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[20.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[20.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[20.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[20.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[20.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[20.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[20.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[20.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[20.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[20.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[20.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[20.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[20.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[20.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[20.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[20.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extensions ['ignore', 'ignore_ament_install']
+[20.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extension 'ignore'
+[20.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extension 'ignore_ament_install'
+[20.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extensions ['colcon_pkg']
+[20.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extension 'colcon_pkg'
+[20.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extensions ['colcon_meta']
+[20.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extension 'colcon_meta'
+[20.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extensions ['ros']
+[20.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo) by extension 'ros'
+[20.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo' with type 'ros.ament_cmake' and name 'leo'
+[20.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extensions ['ignore', 'ignore_ament_install']
+[20.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extension 'ignore'
+[20.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extension 'ignore_ament_install'
+[20.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extensions ['colcon_pkg']
+[20.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extension 'colcon_pkg'
+[20.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extensions ['colcon_meta']
+[20.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extension 'colcon_meta'
+[20.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extensions ['ros']
+[20.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_description) by extension 'ros'
+[20.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_description' with type 'ros.ament_cmake' and name 'leo_description'
+[20.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extensions ['ignore', 'ignore_ament_install']
+[20.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extension 'ignore'
+[20.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extension 'ignore_ament_install'
+[20.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extensions ['colcon_pkg']
+[20.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extension 'colcon_pkg'
+[20.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extensions ['colcon_meta']
+[20.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extension 'colcon_meta'
+[20.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extensions ['ros']
+[20.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_desktop) by extension 'ros'
+[20.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_desktop' with type 'ros.ament_cmake' and name 'leo_desktop'
+[20.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[20.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extension 'ignore'
+[20.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extension 'ignore_ament_install'
+[20.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extensions ['colcon_pkg']
+[20.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extension 'colcon_pkg'
+[20.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extensions ['colcon_meta']
+[20.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extension 'colcon_meta'
+[20.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extensions ['ros']
+[20.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_msgs) by extension 'ros'
+[20.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_msgs' with type 'ros.ament_cmake' and name 'leo_msgs'
+[20.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[20.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extension 'ignore'
+[20.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extension 'ignore_ament_install'
+[20.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extensions ['colcon_pkg']
+[20.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extension 'colcon_pkg'
+[20.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extensions ['colcon_meta']
+[20.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extension 'colcon_meta'
+[20.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extensions ['ros']
+[20.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_teleop) by extension 'ros'
+[20.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_teleop' with type 'ros.ament_cmake' and name 'leo_teleop'
+[20.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extensions ['ignore', 'ignore_ament_install']
+[20.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extension 'ignore'
+[20.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extension 'ignore_ament_install'
+[20.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extensions ['colcon_pkg']
+[20.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extension 'colcon_pkg'
+[20.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extensions ['colcon_meta']
+[20.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extension 'colcon_meta'
+[20.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extensions ['ros']
+[20.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/leo_viz) by extension 'ros'
+[20.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/leo_viz' with type 'ros.ament_cmake' and name 'leo_viz'
+[20.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[20.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[20.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[20.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extensions ['ignore', 'ignore_ament_install']
+[20.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extension 'ignore'
+[20.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extension 'ignore_ament_install'
+[20.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extensions ['colcon_pkg']
+[20.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extension 'colcon_pkg'
+[20.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extensions ['colcon_meta']
+[20.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extension 'colcon_meta'
+[20.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extensions ['ros']
+[20.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/programmed_drive) by extension 'ros'
+[20.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/programmed_drive' with type 'ros.ament_python' and name 'programmed_drive'
+[20.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[20.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[20.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[20.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[20.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[21.926s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_args' from command line to 'None'
+[21.927s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target' from command line to 'None'
+[21.927s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[21.927s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[21.928s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_clean_first' from command line to 'False'
+[21.929s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'cmake_force_configure' from command line to 'False'
+[21.930s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'ament_cmake_args' from command line to 'None'
+[21.931s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[21.931s] Level 5:colcon.colcon_core.verb:set package 'leo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[21.932s] DEBUG:colcon.colcon_core.verb:Building package 'leo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_description', 'symlink_install': False, 'test_result_base': None}
+[22.214s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_args' from command line to 'None'
+[22.215s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target' from command line to 'None'
+[22.215s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[22.215s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[22.216s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[22.216s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[22.216s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[22.216s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[22.216s] Level 5:colcon.colcon_core.verb:set package 'leo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[22.217s] DEBUG:colcon.colcon_core.verb:Building package 'leo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_msgs', 'symlink_install': False, 'test_result_base': None}
+[22.512s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_args' from command line to 'None'
+[22.512s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target' from command line to 'None'
+[22.513s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[22.514s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[22.514s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[22.515s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[22.515s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[22.515s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[22.515s] Level 5:colcon.colcon_core.verb:set package 'leo_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[22.516s] DEBUG:colcon.colcon_core.verb:Building package 'leo_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_teleop', 'symlink_install': False, 'test_result_base': None}
+[22.812s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_args' from command line to 'None'
+[22.813s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target' from command line to 'None'
+[22.813s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[22.814s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[22.815s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_clean_first' from command line to 'False'
+[22.815s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'cmake_force_configure' from command line to 'False'
+[22.816s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'ament_cmake_args' from command line to 'None'
+[22.816s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[22.817s] Level 5:colcon.colcon_core.verb:set package 'programmed_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[22.818s] DEBUG:colcon.colcon_core.verb:Building package 'programmed_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive', 'symlink_install': False, 'test_result_base': None}
+[23.167s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_args' from command line to 'None'
+[23.168s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target' from command line to 'None'
+[23.168s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.168s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_cache' from command line to 'False'
+[23.168s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_clean_first' from command line to 'False'
+[23.169s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'cmake_force_configure' from command line to 'False'
+[23.169s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'ament_cmake_args' from command line to 'None'
+[23.169s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_cmake_args' from command line to 'None'
+[23.170s] Level 5:colcon.colcon_core.verb:set package 'leo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.171s] DEBUG:colcon.colcon_core.verb:Building package 'leo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo', 'symlink_install': False, 'test_result_base': None}
+[23.420s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_args' from command line to 'None'
+[23.420s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_target' from command line to 'None'
+[23.421s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.421s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[23.421s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_clean_first' from command line to 'False'
+[23.421s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'cmake_force_configure' from command line to 'False'
+[23.422s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'ament_cmake_args' from command line to 'None'
+[23.422s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[23.422s] Level 5:colcon.colcon_core.verb:set package 'leo_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.423s] DEBUG:colcon.colcon_core.verb:Building package 'leo_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_viz', 'symlink_install': False, 'test_result_base': None}
+[23.752s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_args' from command line to 'None'
+[23.753s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_target' from command line to 'None'
+[23.755s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[23.756s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_clean_cache' from command line to 'False'
+[23.756s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_clean_first' from command line to 'False'
+[23.757s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'cmake_force_configure' from command line to 'False'
+[23.757s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'ament_cmake_args' from command line to 'None'
+[23.758s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'catkin_cmake_args' from command line to 'None'
+[23.759s] Level 5:colcon.colcon_core.verb:set package 'leo_desktop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[23.760s] DEBUG:colcon.colcon_core.verb:Building package 'leo_desktop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_desktop', 'symlink_install': False, 'test_result_base': None}
+[24.034s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[24.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[24.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_description' with build type 'ament_cmake'
+[24.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_description'
+[24.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[24.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_msgs' with build type 'ament_cmake'
+[25.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_msgs'
+[25.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.047s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_teleop' with build type 'ament_cmake'
+[27.048s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_teleop'
+[27.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.603s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive' with build type 'ament_python'
+[28.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'ament_prefix_path')
+[28.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.ps1'
+[28.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.dsv'
+[28.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/ament_prefix_path.sh'
+[29.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description -- -j4 -l4
+[30.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs -- -j4 -l4
+[30.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop -- -j4 -l4
+[36.644s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive'
+[36.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description -- -j4 -l4
+[38.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop -- -j4 -l4
+[39.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop
+[39.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description
+[39.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[39.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop
+[40.528s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop' for CMake module files
+[40.538s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop' for CMake config files
+[40.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[40.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[40.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[40.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[40.859s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/bin'
+[40.863s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[40.866s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/lib/python3.10/site-packages'
+[40.870s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/bin'
+[41.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.ps1'
+[41.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.dsv'
+[41.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.sh'
+[41.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.bash'
+[41.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.zsh'
+[41.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[41.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[41.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description
+[42.130s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description' for CMake module files
+[42.144s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description' for CMake config files
+[42.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[42.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[42.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[42.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[42.694s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/bin'
+[42.696s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/lib/pkgconfig/leo_description.pc'
+[42.701s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/lib/python3.10/site-packages'
+[42.705s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/bin'
+[43.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.ps1'
+[43.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.dsv'
+[43.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.sh'
+[43.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.bash'
+[43.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.zsh'
+[43.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/colcon-core/packages/leo_description)
+[44.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_teleop)
+[44.564s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop' for CMake module files
+[44.576s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop' for CMake config files
+[44.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_teleop', 'cmake_prefix_path')
+[44.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.ps1'
+[44.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.dsv'
+[44.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/hook/cmake_prefix_path.sh'
+[44.960s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/bin'
+[44.961s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/lib/pkgconfig/leo_teleop.pc'
+[44.965s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/lib/python3.10/site-packages'
+[44.969s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/bin'
+[45.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.ps1'
+[45.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.dsv'
+[45.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.sh'
+[45.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.bash'
+[45.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.zsh'
+[45.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/colcon-core/packages/leo_teleop)
+[45.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_description)
+[46.288s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description' for CMake module files
+[46.308s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description' for CMake config files
+[46.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_description', 'cmake_prefix_path')
+[46.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.ps1'
+[46.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.dsv'
+[46.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/hook/cmake_prefix_path.sh'
+[46.905s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/bin'
+[46.906s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/lib/pkgconfig/leo_description.pc'
+[46.909s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/lib/python3.10/site-packages'
+[46.912s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/bin'
+[47.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.ps1'
+[47.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.dsv'
+[47.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.sh'
+[47.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.bash'
+[47.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.zsh'
+[47.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/colcon-core/packages/leo_description)
+[47.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_viz' with build type 'ament_cmake'
+[47.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_viz'
+[48.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[50.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive': PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/prefix_override:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/programmed_drive build --build-base /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build install --record /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log --single-version-externally-managed
+[50.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs -- -j4 -l4
+[51.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz -- -j4 -l4
+[51.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz -- -j4 -l4
+[52.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz
+[52.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_viz)
+[53.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz
+[53.816s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz' for CMake module files
+[53.843s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz' for CMake config files
+[53.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_viz', 'cmake_prefix_path')
+[54.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.ps1'
+[54.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.dsv'
+[54.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.sh'
+[54.352s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/bin'
+[54.353s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/lib/pkgconfig/leo_viz.pc'
+[54.354s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/lib/python3.10/site-packages'
+[54.360s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/bin'
+[54.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.ps1'
+[54.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.dsv'
+[54.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.sh'
+[54.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.bash'
+[54.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.zsh'
+[54.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/colcon-core/packages/leo_viz)
+[55.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_viz)
+[56.307s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz' for CMake module files
+[56.315s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz' for CMake config files
+[56.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_viz', 'cmake_prefix_path')
+[56.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.ps1'
+[56.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.dsv'
+[56.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/hook/cmake_prefix_path.sh'
+[56.859s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/bin'
+[56.860s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/lib/pkgconfig/leo_viz.pc'
+[56.863s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/lib/python3.10/site-packages'
+[56.866s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/bin'
+[57.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.ps1'
+[57.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.dsv'
+[57.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.sh'
+[57.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.bash'
+[57.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.zsh'
+[57.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/colcon-core/packages/leo_viz)
+[57.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs
+[58.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[58.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs
+[59.183s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs' for CMake module files
+[59.201s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs' for CMake config files
+[59.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[59.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[59.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[59.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[59.858s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib'
+[59.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[60.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[60.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[60.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[60.242s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/bin'
+[60.243s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[60.246s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/python3.10/site-packages'
+[60.249s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/bin'
+[60.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.ps1'
+[60.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.dsv'
+[60.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.sh'
+[60.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.bash'
+[60.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.zsh'
+[60.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[60.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive' returned '0': PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/prefix_override:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/programmed_drive build --build-base /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build install --record /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log --single-version-externally-managed
+[61.149s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive' for CMake module files
+[61.159s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive' for CMake config files
+[61.179s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib'
+[61.180s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/bin'
+[61.188s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/pkgconfig/programmed_drive.pc'
+[61.191s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages'
+[61.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('programmed_drive', 'pythonpath')
+[61.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/pythonpath.ps1'
+[61.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/pythonpath.dsv'
+[61.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/hook/pythonpath.sh'
+[61.588s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/bin'
+[61.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(programmed_drive)
+[62.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/package.ps1'
+[62.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/package.dsv'
+[62.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/package.sh'
+[62.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/package.bash'
+[62.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive/package.zsh'
+[62.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/colcon-core/packages/programmed_drive)
+[64.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_msgs)
+[64.796s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs' for CMake module files
+[64.805s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs' for CMake config files
+[64.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'cmake_prefix_path')
+[65.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.ps1'
+[65.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.dsv'
+[65.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/cmake_prefix_path.sh'
+[65.043s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib'
+[65.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_msgs', 'ld_library_path_lib')
+[65.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.ps1'
+[65.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.dsv'
+[65.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/hook/ld_library_path_lib.sh'
+[65.367s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/bin'
+[65.368s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/pkgconfig/leo_msgs.pc'
+[65.371s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/python3.10/site-packages'
+[65.374s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/bin'
+[65.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.ps1'
+[65.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.dsv'
+[65.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.sh'
+[65.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.bash'
+[65.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.zsh'
+[65.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/colcon-core/packages/leo_msgs)
+[65.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo' with build type 'ament_cmake'
+[65.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo'
+[66.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[66.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo -- -j4 -l4
+[68.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo -- -j4 -l4
+[68.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo
+[68.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[68.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo
+[69.397s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo' for CMake module files
+[69.405s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo' for CMake config files
+[69.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[69.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[69.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[69.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[69.775s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/bin'
+[69.776s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/lib/pkgconfig/leo.pc'
+[69.779s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/lib/python3.10/site-packages'
+[69.782s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/bin'
+[70.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.ps1'
+[70.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.dsv'
+[70.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.sh'
+[70.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.bash'
+[70.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.zsh'
+[70.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/colcon-core/packages/leo)
+[70.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo)
+[71.022s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo' for CMake module files
+[71.027s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo' for CMake config files
+[71.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo', 'cmake_prefix_path')
+[71.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.ps1'
+[71.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.dsv'
+[71.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/hook/cmake_prefix_path.sh'
+[71.503s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/bin'
+[71.505s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/lib/pkgconfig/leo.pc'
+[71.512s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/lib/python3.10/site-packages'
+[71.517s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/bin'
+[71.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.ps1'
+[71.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.dsv'
+[71.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.sh'
+[71.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.bash'
+[71.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.zsh'
+[71.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/colcon-core/packages/leo)
+[71.833s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_desktop' with build type 'ament_cmake'
+[71.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_desktop'
+[72.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[72.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[73.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop -- -j4 -l4
+[74.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop -- -j4 -l4
+[74.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop
+[74.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_desktop)
+[74.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop' returned '0': CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop
+[75.113s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop' for CMake module files
+[75.123s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop' for CMake config files
+[75.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_desktop', 'cmake_prefix_path')
+[75.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.ps1'
+[75.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.dsv'
+[75.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.sh'
+[75.650s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/bin'
+[75.651s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/lib/pkgconfig/leo_desktop.pc'
+[75.654s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/lib/python3.10/site-packages'
+[75.655s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/bin'
+[75.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.ps1'
+[75.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.dsv'
+[75.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.sh'
+[75.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.bash'
+[75.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.zsh'
+[75.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/colcon-core/packages/leo_desktop)
+[76.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(leo_desktop)
+[76.967s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop' for CMake module files
+[76.977s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop' for CMake config files
+[76.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('leo_desktop', 'cmake_prefix_path')
+[77.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.ps1'
+[77.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.dsv'
+[77.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/hook/cmake_prefix_path.sh'
+[77.234s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/bin'
+[77.235s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/lib/pkgconfig/leo_desktop.pc'
+[77.237s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/lib/python3.10/site-packages'
+[77.239s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/bin'
+[77.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.ps1'
+[77.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.dsv'
+[77.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.sh'
+[77.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.bash'
+[77.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.zsh'
+[77.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/colcon-core/packages/leo_desktop)
+[77.507s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[77.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[77.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[77.510s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[78.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[78.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[78.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[78.216s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[78.229s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[78.230s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[78.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/local_setup.ps1'
+[78.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/_local_setup_util_ps1.py'
+[78.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/setup.ps1'
+[79.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/local_setup.sh'
+[79.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/_local_setup_util_sh.py'
+[79.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/setup.sh'
+[80.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/local_setup.bash'
+[80.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/setup.bash'
+[80.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/local_setup.zsh'
+[80.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/setup.zsh'

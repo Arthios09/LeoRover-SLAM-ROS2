@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/programmed_drive/programmed_drive.egg-info
+writing ../../build/programmed_drive/programmed_drive.egg-info/PKG-INFO
+writing dependency_links to ../../build/programmed_drive/programmed_drive.egg-info/dependency_links.txt
+writing entry points to ../../build/programmed_drive/programmed_drive.egg-info/entry_points.txt
+writing requirements to ../../build/programmed_drive/programmed_drive.egg-info/requires.txt
+writing top-level names to ../../build/programmed_drive/programmed_drive.egg-info/top_level.txt
+writing manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+reading manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+writing manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive
+copying programmed_drive/programmed_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive
+copying programmed_drive/__init__.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive
+copying programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive
+copying /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive/programmed_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive
+copying /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive/__init__.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive
+copying /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive
+byte-compiling /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive/programmed_drive.py to programmed_drive.cpython-310.pyc
+byte-compiling /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive/aruco_drive.py to aruco_drive.cpython-310.pyc
+running install_data
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/ament_index
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/ament_index/resource_index
+creating /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/ament_index/resource_index/packages
+copying resource/programmed_drive -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/share/programmed_drive
+running install_egg_info
+Copying ../../build/programmed_drive/programmed_drive.egg-info to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive
+Installing drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive
+writing list of installed files to '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log'

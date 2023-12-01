@@ -1,1 +1,1 @@
-/home/situjet/Desktop/leo_common-ros2/src/leo_description/hooks/gz_sim_resource_path.dsv
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share;

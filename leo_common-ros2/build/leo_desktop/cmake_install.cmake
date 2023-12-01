@@ -1,8 +1,8 @@
-# Install script for directory: /home/situjet/Desktop/leo_common-ros2/src/leo_desktop
+# Install script for directory: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_desktop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/situjet/Desktop/leo_common-ros2/install/leo_desktop")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,8 +37,63 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/situjet/Desktop/leo_common-ros2/build/leo_desktop/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/leo_desktop")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/leo_desktop")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop/environment" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop/environment" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_index/share/ament_index/resource_index/packages/leo_desktop")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop/cmake" TYPE FILE FILES
+    "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_core/leo_desktopConfig.cmake"
+    "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/ament_cmake_core/leo_desktopConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/leo_desktop" TYPE FILE FILES "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_desktop/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +104,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/situjet/Desktop/leo_common-ros2/build/leo_desktop/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,44 @@
+[1.416s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_teleop -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop
+[2.744s] -- The C compiler identification is GNU 11.4.0
+[3.955s] -- The CXX compiler identification is GNU 11.4.0
+[4.096s] -- Detecting C compiler ABI info
+[5.223s] -- Detecting C compiler ABI info - done
+[5.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.391s] -- Detecting C compile features
+[5.392s] -- Detecting C compile features - done
+[5.461s] -- Detecting CXX compiler ABI info
+[6.797s] -- Detecting CXX compiler ABI info - done
+[6.941s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.942s] -- Detecting CXX compile features
+[6.947s] -- Detecting CXX compile features - done
+[7.017s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.422s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.626s] -- Configuring done
+[14.710s] -- Generating done
+[14.719s] -- Build files have been written to: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop
+[14.774s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/leo_teleop -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop
+[14.798s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop -- -j4 -l4
+[15.462s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop -- -j4 -l4
+[15.699s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop
+[15.789s] -- Install configuration: ""
+[15.790s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/config
+[15.797s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/config/joy_config.yaml
+[15.798s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch
+[15.806s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml
+[15.814s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml
+[15.815s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop
+[15.829s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop
+[15.830s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh
+[15.833s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv
+[15.833s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/path.sh
+[15.839s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/path.dsv
+[15.856s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.bash
+[15.857s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.sh
+[15.858s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.zsh
+[15.895s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.dsv
+[15.897s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.dsv
+[15.897s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop
+[15.898s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake
+[15.900s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake
+[15.925s] -- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.xml
+[15.927s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop

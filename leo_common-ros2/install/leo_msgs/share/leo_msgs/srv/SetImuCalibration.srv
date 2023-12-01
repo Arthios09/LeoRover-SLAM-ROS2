@@ -1,1 +1,5 @@
-/home/situjet/Desktop/leo_common-ros2/src/leo_msgs/srv/SetImuCalibration.srv
+float64 gyro_bias_x
+float64 gyro_bias_y
+float64 gyro_bias_z
+---
+bool success

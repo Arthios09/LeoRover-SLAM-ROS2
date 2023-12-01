@@ -1,0 +1,952 @@
+[0.000000] (-) TimerEvent: {}
+[0.012064] (leo_description) JobQueued: {'identifier': 'leo_description', 'dependencies': OrderedDict()}
+[0.012704] (leo_msgs) JobQueued: {'identifier': 'leo_msgs', 'dependencies': OrderedDict()}
+[0.013018] (leo_teleop) JobQueued: {'identifier': 'leo_teleop', 'dependencies': OrderedDict()}
+[0.013376] (programmed_drive) JobQueued: {'identifier': 'programmed_drive', 'dependencies': OrderedDict()}
+[0.013651] (leo) JobQueued: {'identifier': 'leo', 'dependencies': OrderedDict([('leo_description', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description'), ('leo_msgs', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs'), ('leo_teleop', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop')])}
+[0.013989] (leo_viz) JobQueued: {'identifier': 'leo_viz', 'dependencies': OrderedDict([('leo_description', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description')])}
+[0.014257] (leo_desktop) JobQueued: {'identifier': 'leo_desktop', 'dependencies': OrderedDict([('leo_description', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description'), ('leo_msgs', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs'), ('leo_teleop', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop'), ('leo', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo'), ('leo_viz', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz')])}
+[0.014616] (leo_description) JobStarted: {'identifier': 'leo_description'}
+[0.096647] (-) TimerEvent: {}
+[0.198602] (-) TimerEvent: {}
+[0.300905] (-) TimerEvent: {}
+[0.403578] (-) TimerEvent: {}
+[0.509977] (-) TimerEvent: {}
+[0.612494] (-) TimerEvent: {}
+[0.714590] (-) TimerEvent: {}
+[0.816621] (-) TimerEvent: {}
+[0.917999] (-) TimerEvent: {}
+[1.019072] (-) TimerEvent: {}
+[1.120728] (-) TimerEvent: {}
+[1.222543] (-) TimerEvent: {}
+[1.326881] (-) TimerEvent: {}
+[1.345779] (leo_msgs) JobStarted: {'identifier': 'leo_msgs'}
+[1.427158] (-) TimerEvent: {}
+[1.529000] (-) TimerEvent: {}
+[1.631479] (-) TimerEvent: {}
+[1.733164] (-) TimerEvent: {}
+[1.834705] (-) TimerEvent: {}
+[1.936948] (-) TimerEvent: {}
+[2.038644] (-) TimerEvent: {}
+[2.140618] (-) TimerEvent: {}
+[2.246009] (-) TimerEvent: {}
+[2.349890] (-) TimerEvent: {}
+[2.452470] (-) TimerEvent: {}
+[2.553754] (-) TimerEvent: {}
+[2.658076] (-) TimerEvent: {}
+[2.761562] (-) TimerEvent: {}
+[2.796175] (leo_teleop) JobStarted: {'identifier': 'leo_teleop'}
+[2.866610] (-) TimerEvent: {}
+[2.967950] (-) TimerEvent: {}
+[3.071628] (-) TimerEvent: {}
+[3.178831] (-) TimerEvent: {}
+[3.281158] (-) TimerEvent: {}
+[3.383654] (-) TimerEvent: {}
+[3.485736] (-) TimerEvent: {}
+[3.592779] (-) TimerEvent: {}
+[3.694943] (-) TimerEvent: {}
+[3.797216] (-) TimerEvent: {}
+[3.898930] (-) TimerEvent: {}
+[4.000726] (-) TimerEvent: {}
+[4.102891] (-) TimerEvent: {}
+[4.204677] (-) TimerEvent: {}
+[4.306664] (-) TimerEvent: {}
+[4.342993] (programmed_drive) JobStarted: {'identifier': 'programmed_drive'}
+[4.407115] (-) TimerEvent: {}
+[4.508730] (-) TimerEvent: {}
+[4.610891] (-) TimerEvent: {}
+[4.716919] (-) TimerEvent: {}
+[4.819447] (-) TimerEvent: {}
+[4.921055] (-) TimerEvent: {}
+[5.022622] (-) TimerEvent: {}
+[5.124629] (-) TimerEvent: {}
+[5.227908] (-) TimerEvent: {}
+[5.331370] (-) TimerEvent: {}
+[5.434602] (-) TimerEvent: {}
+[5.536974] (-) TimerEvent: {}
+[5.639586] (-) TimerEvent: {}
+[5.742739] (-) TimerEvent: {}
+[5.845353] (-) TimerEvent: {}
+[5.947249] (-) TimerEvent: {}
+[6.050577] (-) TimerEvent: {}
+[6.152463] (-) TimerEvent: {}
+[6.215678] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'cmake'}
+[6.219825] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'build'}
+[6.225268] (leo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[6.254859] (-) TimerEvent: {}
+[6.257368] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'cmake'}
+[6.292845] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'build'}
+[6.293291] (leo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[6.327725] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'cmake'}
+[6.340411] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'build'}
+[6.340795] (leo_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[6.359265] (-) TimerEvent: {}
+[6.464295] (-) TimerEvent: {}
+[6.570267] (-) TimerEvent: {}
+[6.673528] (-) TimerEvent: {}
+[6.780481] (-) TimerEvent: {}
+[6.884065] (-) TimerEvent: {}
+[6.990802] (-) TimerEvent: {}
+[7.101568] (-) TimerEvent: {}
+[7.207631] (-) TimerEvent: {}
+[7.219025] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_generator_c\x1b[0m\n'}
+[7.318190] (-) TimerEvent: {}
+[7.424527] (-) TimerEvent: {}
+[7.472963] (leo_msgs) StdoutLine: {'line': b'[ 11%] Built target leo_msgs__rosidl_generator_c\n'}
+[7.524859] (-) TimerEvent: {}
+[7.627727] (-) TimerEvent: {}
+[7.730669] (-) TimerEvent: {}
+[7.833709] (-) TimerEvent: {}
+[7.937471] (-) TimerEvent: {}
+[8.040936] (-) TimerEvent: {}
+[8.143866] (-) TimerEvent: {}
+[8.248324] (-) TimerEvent: {}
+[8.329488] (leo_msgs) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_leo_msgs\n'}
+[8.348709] (-) TimerEvent: {}
+[8.454993] (-) TimerEvent: {}
+[8.559508] (-) TimerEvent: {}
+[8.662241] (-) TimerEvent: {}
+[8.760969] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.762726] (-) TimerEvent: {}
+[8.864398] (-) TimerEvent: {}
+[8.968463] (-) TimerEvent: {}
+[9.072348] (-) TimerEvent: {}
+[9.176351] (-) TimerEvent: {}
+[9.208524] (leo_msgs) StdoutLine: {'line': b'[ 22%] Built target leo_msgs__rosidl_typesupport_introspection_c\n'}
+[9.280306] (-) TimerEvent: {}
+[9.364437] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[9.380539] (-) TimerEvent: {}
+[9.481566] (-) TimerEvent: {}
+[9.584436] (-) TimerEvent: {}
+[9.592719] (leo_msgs) StdoutLine: {'line': b'[ 33%] Built target leo_msgs__rosidl_typesupport_c\n'}
+[9.685373] (-) TimerEvent: {}
+[9.788065] (-) TimerEvent: {}
+[9.890243] (-) TimerEvent: {}
+[9.991824] (-) TimerEvent: {}
+[10.094102] (-) TimerEvent: {}
+[10.195849] (-) TimerEvent: {}
+[10.297017] (-) TimerEvent: {}
+[10.398650] (-) TimerEvent: {}
+[10.500528] (-) TimerEvent: {}
+[10.602221] (-) TimerEvent: {}
+[10.705120] (-) TimerEvent: {}
+[10.806228] (-) TimerEvent: {}
+[10.912409] (-) TimerEvent: {}
+[11.013784] (-) TimerEvent: {}
+[11.118062] (-) TimerEvent: {}
+[11.219596] (-) TimerEvent: {}
+[11.321392] (-) TimerEvent: {}
+[11.423654] (-) TimerEvent: {}
+[11.525452] (-) TimerEvent: {}
+[11.626553] (-) TimerEvent: {}
+[11.727843] (-) TimerEvent: {}
+[11.829487] (-) TimerEvent: {}
+[11.931201] (-) TimerEvent: {}
+[12.032818] (-) TimerEvent: {}
+[12.134475] (-) TimerEvent: {}
+[12.235553] (-) TimerEvent: {}
+[12.337107] (-) TimerEvent: {}
+[12.441147] (-) TimerEvent: {}
+[12.543145] (-) TimerEvent: {}
+[12.649545] (-) TimerEvent: {}
+[12.751553] (-) TimerEvent: {}
+[12.854577] (-) TimerEvent: {}
+[12.961559] (-) TimerEvent: {}
+[13.063011] (-) TimerEvent: {}
+[13.164319] (-) TimerEvent: {}
+[13.266385] (-) TimerEvent: {}
+[13.367723] (-) TimerEvent: {}
+[13.473538] (-) TimerEvent: {}
+[13.577958] (-) TimerEvent: {}
+[13.679020] (-) TimerEvent: {}
+[13.784856] (-) TimerEvent: {}
+[13.888670] (-) TimerEvent: {}
+[13.990651] (-) TimerEvent: {}
+[14.092308] (-) TimerEvent: {}
+[14.188932] (leo_description) CommandEnded: {'returncode': 0}
+[14.194734] (-) TimerEvent: {}
+[14.234992] (leo_teleop) CommandEnded: {'returncode': 0}
+[14.296816] (-) TimerEvent: {}
+[14.400370] (-) TimerEvent: {}
+[14.503664] (-) TimerEvent: {}
+[14.610589] (-) TimerEvent: {}
+[14.720957] (-) TimerEvent: {}
+[14.824315] (-) TimerEvent: {}
+[14.893194] (leo_teleop) JobProgress: {'identifier': 'leo_teleop', 'progress': 'install'}
+[14.925328] (-) TimerEvent: {}
+[15.028049] (-) TimerEvent: {}
+[15.136502] (-) TimerEvent: {}
+[15.164984] (leo_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[15.223432] (leo_description) JobProgress: {'identifier': 'leo_description', 'progress': 'install'}
+[15.257381] (leo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_description'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[15.262516] (-) TimerEvent: {}
+[15.371055] (-) TimerEvent: {}
+[15.388698] (leo_teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.390047] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/config\n'}
+[15.390772] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/config/joy_config.yaml\n'}
+[15.395673] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch\n'}
+[15.397823] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml\n'}
+[15.399368] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml\n'}
+[15.400669] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop\n'}
+[15.401257] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop\n'}
+[15.401854] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh\n'}
+[15.402515] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv\n'}
+[15.403108] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/path.sh\n'}
+[15.409927] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/environment/path.dsv\n'}
+[15.413619] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.bash\n'}
+[15.419923] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.sh\n'}
+[15.421118] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.zsh\n'}
+[15.422147] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/local_setup.dsv\n'}
+[15.431728] (leo_teleop) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.dsv\n'}
+[15.433286] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop\n'}
+[15.448424] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake\n'}
+[15.452931] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake\n'}
+[15.463889] (leo_teleop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop/share/leo_teleop/package.xml\n'}
+[15.471584] (-) TimerEvent: {}
+[15.495719] (leo_teleop) CommandEnded: {'returncode': 0}
+[15.500869] (leo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.507416] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/config\n'}
+[15.513387] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/config/controllers.yaml\n'}
+[15.516462] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/launch\n'}
+[15.530135] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/launch/state_publisher.launch.xml\n'}
+[15.531174] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models\n'}
+[15.533218] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Chassis.dae\n'}
+[15.542368] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/WheelB.dae\n'}
+[15.543645] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Rocker.dae\n'}
+[15.562212] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Antenna.dae\n'}
+[15.573057] (-) TimerEvent: {}
+[15.574840] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Wheel_outline.stl\n'}
+[15.582029] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/WheelA.dae\n'}
+[15.583649] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Rocker_outline.stl\n'}
+[15.585508] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/models/Chassis_outline.stl\n'}
+[15.605624] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf\n'}
+[15.612531] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/leo.urdf.xacro\n'}
+[15.613270] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/macros.xacro\n'}
+[15.614036] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/urdf/leo_sim.urdf.xacro\n'}
+[15.615618] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/gz_sim_resource_path.dsv\n'}
+[15.632873] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/package_run_dependencies/leo_description\n'}
+[15.644361] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/parent_prefix_path/leo_description\n'}
+[15.646116] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/ament_prefix_path.sh\n'}
+[15.647011] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/ament_prefix_path.dsv\n'}
+[15.647934] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/path.sh\n'}
+[15.649388] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/environment/path.dsv\n'}
+[15.650432] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.bash\n'}
+[15.669900] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.sh\n'}
+[15.671908] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.zsh\n'}
+[15.674799] (-) TimerEvent: {}
+[15.678769] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/local_setup.dsv\n'}
+[15.680532] (leo_description) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.dsv\n'}
+[15.681443] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/ament_index/resource_index/packages/leo_description\n'}
+[15.682094] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/cmake/leo_descriptionConfig.cmake\n'}
+[15.682649] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/cmake/leo_descriptionConfig-version.cmake\n'}
+[15.683437] (leo_description) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share/leo_description/package.xml\n'}
+[15.779665] (-) TimerEvent: {}
+[15.887783] (-) TimerEvent: {}
+[15.990210] (-) TimerEvent: {}
+[16.095392] (-) TimerEvent: {}
+[16.214378] (-) TimerEvent: {}
+[16.322455] (-) TimerEvent: {}
+[16.428665] (-) TimerEvent: {}
+[16.530353] (-) TimerEvent: {}
+[16.635376] (-) TimerEvent: {}
+[16.737884] (-) TimerEvent: {}
+[16.799706] (leo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[16.826382] (leo_msgs) StdoutLine: {'line': b'writing leo_msgs.egg-info/PKG-INFO\n'}
+[16.833876] (leo_msgs) StdoutLine: {'line': b'writing dependency_links to leo_msgs.egg-info/dependency_links.txt\n'}
+[16.838415] (-) TimerEvent: {}
+[16.840821] (leo_msgs) StdoutLine: {'line': b'writing top-level names to leo_msgs.egg-info/top_level.txt\n'}
+[16.906993] (leo_msgs) StdoutLine: {'line': b"reading manifest file 'leo_msgs.egg-info/SOURCES.txt'\n"}
+[16.935545] (leo_msgs) StdoutLine: {'line': b"writing manifest file 'leo_msgs.egg-info/SOURCES.txt'\n"}
+[16.945869] (-) TimerEvent: {}
+[17.058577] (-) TimerEvent: {}
+[17.078897] (leo_description) CommandEnded: {'returncode': 0}
+[17.161008] (-) TimerEvent: {}
+[17.274719] (-) TimerEvent: {}
+[17.380464] (-) TimerEvent: {}
+[17.483866] (-) TimerEvent: {}
+[17.585716] (-) TimerEvent: {}
+[17.691861] (-) TimerEvent: {}
+[17.743962] (leo_msgs) StdoutLine: {'line': b'[ 33%] Built target ament_cmake_python_build_leo_msgs_egg\n'}
+[17.794204] (-) TimerEvent: {}
+[17.895908] (-) TimerEvent: {}
+[17.998425] (-) TimerEvent: {}
+[18.101420] (-) TimerEvent: {}
+[18.180715] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[18.202110] (-) TimerEvent: {}
+[18.311521] (-) TimerEvent: {}
+[18.420073] (-) TimerEvent: {}
+[18.522492] (-) TimerEvent: {}
+[18.525545] (leo_msgs) StdoutLine: {'line': b'[ 44%] Built target leo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[18.623650] (-) TimerEvent: {}
+[18.729091] (-) TimerEvent: {}
+[18.830774] (-) TimerEvent: {}
+[18.936093] (-) TimerEvent: {}
+[18.951381] (leo_msgs) StdoutLine: {'line': b'[ 46%] Built target leo_msgs__cpp\n'}
+[19.042269] (-) TimerEvent: {}
+[19.147491] (-) TimerEvent: {}
+[19.200983] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[19.250717] (-) TimerEvent: {}
+[19.355959] (-) TimerEvent: {}
+[19.475237] (-) TimerEvent: {}
+[19.589915] (-) TimerEvent: {}
+[19.701484] (leo_msgs) StdoutLine: {'line': b'[ 57%] Built target leo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[19.702422] (-) TimerEvent: {}
+[19.803735] (-) TimerEvent: {}
+[19.905721] (-) TimerEvent: {}
+[20.007192] (-) TimerEvent: {}
+[20.051637] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.108349] (-) TimerEvent: {}
+[20.220216] (-) TimerEvent: {}
+[20.322985] (-) TimerEvent: {}
+[20.340877] (leo_msgs) StdoutLine: {'line': b'[ 68%] Built target leo_msgs__rosidl_typesupport_cpp\n'}
+[20.423278] (-) TimerEvent: {}
+[20.514890] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[20.533126] (-) TimerEvent: {}
+[20.639743] (-) TimerEvent: {}
+[20.743120] (-) TimerEvent: {}
+[20.845137] (-) TimerEvent: {}
+[20.947119] (-) TimerEvent: {}
+[20.954127] (leo_teleop) JobEnded: {'identifier': 'leo_teleop', 'rc': 0}
+[21.021775] (leo_msgs) StdoutLine: {'line': b'[ 79%] Built target leo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[21.052644] (-) TimerEvent: {}
+[21.156755] (-) TimerEvent: {}
+[21.264207] (-) TimerEvent: {}
+[21.369897] (-) TimerEvent: {}
+[21.477111] (-) TimerEvent: {}
+[21.589146] (-) TimerEvent: {}
+[21.611494] (leo_msgs) StdoutLine: {'line': b'[ 79%] Built target leo_msgs\n'}
+[21.689449] (-) TimerEvent: {}
+[21.796377] (-) TimerEvent: {}
+[21.898357] (-) TimerEvent: {}
+[22.013081] (-) TimerEvent: {}
+[22.042946] (leo_msgs) StdoutLine: {'line': b'[ 80%] Built target leo_msgs__py\n'}
+[22.113237] (-) TimerEvent: {}
+[22.215121] (-) TimerEvent: {}
+[22.226945] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_generator_py\x1b[0m\n'}
+[22.335985] (-) TimerEvent: {}
+[22.439280] (-) TimerEvent: {}
+[22.551204] (-) TimerEvent: {}
+[22.667907] (-) TimerEvent: {}
+[22.772448] (-) TimerEvent: {}
+[22.884543] (-) TimerEvent: {}
+[22.936756] (leo_msgs) StdoutLine: {'line': b'[ 90%] Built target leo_msgs__rosidl_generator_py\n'}
+[22.994733] (-) TimerEvent: {}
+[23.108371] (-) TimerEvent: {}
+[23.220303] (-) TimerEvent: {}
+[23.252433] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[23.277150] (leo_description) JobEnded: {'identifier': 'leo_description', 'rc': 0}
+[23.291639] (leo_viz) JobStarted: {'identifier': 'leo_viz'}
+[23.333770] (-) TimerEvent: {}
+[23.449771] (-) TimerEvent: {}
+[23.517896] (leo_msgs) StdoutLine: {'line': b'[ 93%] Built target leo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.555099] (-) TimerEvent: {}
+[23.666255] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[23.669700] (-) TimerEvent: {}
+[23.781890] (-) TimerEvent: {}
+[23.890883] (-) TimerEvent: {}
+[23.895732] (leo_msgs) StdoutLine: {'line': b'[ 96%] Built target leo_msgs__rosidl_typesupport_c__pyext\n'}
+[23.998850] (-) TimerEvent: {}
+[24.104088] (-) TimerEvent: {}
+[24.187294] (leo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target leo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[24.203973] (-) TimerEvent: {}
+[24.307357] (-) TimerEvent: {}
+[24.411093] (-) TimerEvent: {}
+[24.511795] (leo_msgs) StdoutLine: {'line': b'[100%] Built target leo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[24.539402] (-) TimerEvent: {}
+[24.654655] (-) TimerEvent: {}
+[24.764901] (-) TimerEvent: {}
+[24.868703] (-) TimerEvent: {}
+[24.970871] (-) TimerEvent: {}
+[25.075085] (-) TimerEvent: {}
+[25.177222] (-) TimerEvent: {}
+[25.279532] (-) TimerEvent: {}
+[25.382034] (-) TimerEvent: {}
+[25.485185] (-) TimerEvent: {}
+[25.602675] (-) TimerEvent: {}
+[25.707936] (-) TimerEvent: {}
+[25.811764] (-) TimerEvent: {}
+[25.917141] (-) TimerEvent: {}
+[26.031741] (-) TimerEvent: {}
+[26.133011] (-) TimerEvent: {}
+[26.236483] (-) TimerEvent: {}
+[26.339705] (-) TimerEvent: {}
+[26.441640] (-) TimerEvent: {}
+[26.544857] (-) TimerEvent: {}
+[26.630871] (programmed_drive) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/programmed_drive', 'build', '--build-base', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build', 'install', '--record', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '10.0.0.137 60386 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share', 'PWD': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive', 'SSH_CONNECTION': '10.0.0.137 60386 10.0.0.1 22', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/prefix_override:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco'}, 'shell': False}
+[26.693694] (-) TimerEvent: {}
+[26.716944] (leo_msgs) CommandEnded: {'returncode': 0}
+[26.744329] (leo_viz) JobProgress: {'identifier': 'leo_viz', 'progress': 'cmake'}
+[26.765021] (leo_viz) JobProgress: {'identifier': 'leo_viz', 'progress': 'build'}
+[26.766623] (leo_viz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[26.813101] (-) TimerEvent: {}
+[26.918774] (-) TimerEvent: {}
+[27.024754] (-) TimerEvent: {}
+[27.127311] (-) TimerEvent: {}
+[27.238891] (-) TimerEvent: {}
+[27.340431] (-) TimerEvent: {}
+[27.442939] (-) TimerEvent: {}
+[27.545462] (-) TimerEvent: {}
+[27.650269] (-) TimerEvent: {}
+[27.704574] (leo_viz) CommandEnded: {'returncode': 0}
+[27.759256] (-) TimerEvent: {}
+[27.860844] (-) TimerEvent: {}
+[27.965640] (-) TimerEvent: {}
+[28.067689] (-) TimerEvent: {}
+[28.171561] (-) TimerEvent: {}
+[28.273521] (-) TimerEvent: {}
+[28.377050] (-) TimerEvent: {}
+[28.399239] (leo_viz) JobProgress: {'identifier': 'leo_viz', 'progress': 'install'}
+[28.420501] (leo_viz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_viz'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[28.477260] (-) TimerEvent: {}
+[28.578266] (-) TimerEvent: {}
+[28.580638] (leo_viz) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.583837] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/launch\n'}
+[28.590328] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/launch/rviz.launch.xml\n'}
+[28.593384] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/launch/view_model.launch.xml\n'}
+[28.602522] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/rviz\n'}
+[28.604022] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/rviz/robot.rviz\n'}
+[28.614017] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/package_run_dependencies/leo_viz\n'}
+[28.615745] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/parent_prefix_path/leo_viz\n'}
+[28.634744] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/environment/ament_prefix_path.sh\n'}
+[28.652459] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/environment/ament_prefix_path.dsv\n'}
+[28.655511] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/environment/path.sh\n'}
+[28.679299] (-) TimerEvent: {}
+[28.689225] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/environment/path.dsv\n'}
+[28.699684] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.bash\n'}
+[28.712430] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.sh\n'}
+[28.721530] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.zsh\n'}
+[28.755795] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/local_setup.dsv\n'}
+[28.769944] (leo_viz) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.dsv\n'}
+[28.771232] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/ament_index/resource_index/packages/leo_viz\n'}
+[28.772173] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/cmake/leo_vizConfig.cmake\n'}
+[28.773089] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/cmake/leo_vizConfig-version.cmake\n'}
+[28.773959] (leo_viz) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz/share/leo_viz/package.xml\n'}
+[28.774834] (leo_viz) CommandEnded: {'returncode': 0}
+[28.801817] (-) TimerEvent: {}
+[28.920045] (-) TimerEvent: {}
+[29.176969] (-) TimerEvent: {}
+[29.284447] (-) TimerEvent: {}
+[29.385935] (-) TimerEvent: {}
+[29.497808] (-) TimerEvent: {}
+[29.599245] (-) TimerEvent: {}
+[29.701699] (-) TimerEvent: {}
+[29.813459] (-) TimerEvent: {}
+[29.921627] (-) TimerEvent: {}
+[30.032431] (-) TimerEvent: {}
+[30.134771] (-) TimerEvent: {}
+[30.237508] (-) TimerEvent: {}
+[30.338989] (-) TimerEvent: {}
+[30.450566] (-) TimerEvent: {}
+[30.558219] (-) TimerEvent: {}
+[30.659631] (-) TimerEvent: {}
+[30.761403] (-) TimerEvent: {}
+[30.867206] (-) TimerEvent: {}
+[30.969653] (-) TimerEvent: {}
+[31.071127] (-) TimerEvent: {}
+[31.172200] (-) TimerEvent: {}
+[31.273244] (-) TimerEvent: {}
+[31.374543] (-) TimerEvent: {}
+[31.475953] (-) TimerEvent: {}
+[31.577484] (-) TimerEvent: {}
+[31.688414] (-) TimerEvent: {}
+[31.790083] (-) TimerEvent: {}
+[31.891907] (-) TimerEvent: {}
+[31.996257] (-) TimerEvent: {}
+[32.099294] (-) TimerEvent: {}
+[32.202952] (-) TimerEvent: {}
+[32.306707] (-) TimerEvent: {}
+[32.408481] (-) TimerEvent: {}
+[32.512651] (-) TimerEvent: {}
+[32.614547] (-) TimerEvent: {}
+[32.716331] (-) TimerEvent: {}
+[32.818146] (-) TimerEvent: {}
+[32.920206] (-) TimerEvent: {}
+[32.942193] (leo_viz) JobEnded: {'identifier': 'leo_viz', 'rc': 0}
+[32.973377] (leo_msgs) JobProgress: {'identifier': 'leo_msgs', 'progress': 'install'}
+[32.979235] (leo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_msgs'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[33.020523] (-) TimerEvent: {}
+[33.043289] (leo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.044179] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/ament_index/resource_index/rosidl_interfaces/leo_msgs\n'}
+[33.046028] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.047241] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.049451] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/imu.h\n'}
+[33.051081] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.051750] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.h\n'}
+[33.052427] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__functions.c\n'}
+[33.054264] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__functions.h\n'}
+[33.064273] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__functions.c\n'}
+[33.065735] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__struct.h\n'}
+[33.075001] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__struct.h\n'}
+[33.076641] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__functions.h\n'}
+[33.083620] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__functions.c\n'}
+[33.084903] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.h\n'}
+[33.086241] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.h\n'}
+[33.096493] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__functions.c\n'}
+[33.105529] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__struct.h\n'}
+[33.106935] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__type_support.h\n'}
+[33.109687] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__functions.h\n'}
+[33.120405] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__functions.h\n'}
+[33.129538] (-) TimerEvent: {}
+[33.134861] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__struct.h\n'}
+[33.140186] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom.h\n'}
+[33.144246] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_states.h\n'}
+[33.145633] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.153279] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom_mecanum.h\n'}
+[33.163631] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.171385] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.175658] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__functions.c\n'}
+[33.187980] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__struct.h\n'}
+[33.189394] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__functions.h\n'}
+[33.190603] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.h\n'}
+[33.191779] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/set_imu_calibration.h\n'}
+[33.193057] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/library_path.sh\n'}
+[33.199109] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/library_path.dsv\n'}
+[33.200314] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_generator_c.so\n'}
+[33.214637] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.215801] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.216913] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.217938] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_fastrtps_c.h\n'}
+[33.219034] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__rosidl_typesupport_fastrtps_c.h\n'}
+[33.222542] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h\n'}
+[33.223775] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[33.236197] (-) TimerEvent: {}
+[33.237882] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.239212] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.240401] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.251155] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_fastrtps_c.h\n'}
+[33.252931] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[33.254669] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.256208] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.257410] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.258704] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_c.h\n'}
+[33.259791] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.c\n'}
+[33.267808] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.c\n'}
+[33.269159] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__rosidl_typesupport_introspection_c.h\n'}
+[33.270310] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__type_support.c\n'}
+[33.280815] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_introspection_c.h\n'}
+[33.282372] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[33.285380] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.c\n'}
+[33.295993] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.297522] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.298736] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.306405] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_introspection_c.h\n'}
+[33.308451] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.c\n'}
+[33.310017] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[33.313499] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_c.so\n'}
+[33.324723] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.327715] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.329172] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom_mecanum.hpp\n'}
+[33.335416] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.336575] (-) TimerEvent: {}
+[33.342234] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__builder.hpp\n'}
+[33.343541] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__traits.hpp\n'}
+[33.344968] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__builder.hpp\n'}
+[33.349138] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__struct.hpp\n'}
+[33.350689] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__struct.hpp\n'}
+[33.358764] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__struct.hpp\n'}
+[33.360305] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__traits.hpp\n'}
+[33.369503] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__builder.hpp\n'}
+[33.370738] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__traits.hpp\n'}
+[33.371806] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__builder.hpp\n'}
+[33.385848] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__struct.hpp\n'}
+[33.387855] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__traits.hpp\n'}
+[33.389816] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_states.hpp\n'}
+[33.390907] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/wheel_odom.hpp\n'}
+[33.394999] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/imu.hpp\n'}
+[33.402720] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.404358] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.406812] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__builder.hpp\n'}
+[33.413713] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__traits.hpp\n'}
+[33.415021] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__struct.hpp\n'}
+[33.416269] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/set_imu_calibration.hpp\n'}
+[33.426834] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.429016] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.430661] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.431743] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.440029] (-) TimerEvent: {}
+[33.441190] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/dds_fastrtps\n'}
+[33.442705] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.452502] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.454420] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.456278] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.457335] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.463032] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.464214] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.465401] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/dds_fastrtps\n'}
+[33.473074] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.474936] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs\n'}
+[33.480594] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg\n'}
+[33.485669] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail\n'}
+[33.487338] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__type_support.cpp\n'}
+[33.495379] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.496699] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.498238] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__type_support.cpp\n'}
+[33.499631] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_odom_mecanum__type_support.cpp\n'}
+[33.503900] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.507838] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.509114] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/msg/detail/imu__type_support.cpp\n'}
+[33.510409] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv\n'}
+[33.511832] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail\n'}
+[33.517942] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__type_support.cpp\n'}
+[33.519166] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/include/leo_msgs/leo_msgs/srv/detail/set_imu_calibration__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.520777] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[33.522538] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_typesupport_cpp.so\n'}
+[33.523740] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/pythonpath.sh\n'}
+[33.530448] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/pythonpath.dsv\n'}
+[33.531954] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info\n'}
+[33.533924] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[33.540466] (-) TimerEvent: {}
+[33.545655] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[33.553825] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/top_level.txt\n'}
+[33.572292] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs-1.1.0-py3.10.egg-info/PKG-INFO\n'}
+[33.588769] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs\n'}
+[33.592650] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.594900] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg\n'}
+[33.598034] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_states_s.c\n'}
+[33.603099] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom_s.c\n'}
+[33.613238] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_imu_s.c\n'}
+[33.614690] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom_mecanum_s.c\n'}
+[33.626325] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_imu.py\n'}
+[33.628058] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_states.py\n'}
+[33.629559] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom_mecanum.py\n'}
+[33.630816] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/__init__.py\n'}
+[33.648860] (-) TimerEvent: {}
+[33.651156] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg/_wheel_odom.py\n'}
+[33.653646] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.660832] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.662300] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/__init__.py\n'}
+[33.663473] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.669402] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[33.670594] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv\n'}
+[33.671659] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/_set_imu_calibration.py\n'}
+[33.679836] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/_set_imu_calibration_s.c\n'}
+[33.686529] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv/__init__.py\n'}
+[33.687778] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/libleo_msgs__rosidl_generator_py.so\n'}
+[33.690865] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[33.749056] (-) TimerEvent: {}
+[33.850158] (-) TimerEvent: {}
+[33.951485] (-) TimerEvent: {}
+[34.052642] (-) TimerEvent: {}
+[34.155574] (-) TimerEvent: {}
+[34.220823] (programmed_drive) StdoutLine: {'line': b'running egg_info\n'}
+[34.241606] (programmed_drive) StdoutLine: {'line': b'writing ../../build/programmed_drive/programmed_drive.egg-info/PKG-INFO\n'}
+[34.248349] (leo_msgs) StdoutLine: {'line': b"Listing '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs'...\n"}
+[34.250309] (leo_msgs) StdoutLine: {'line': b"Listing '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/msg'...\n"}
+[34.252958] (leo_msgs) StdoutLine: {'line': b"Listing '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/srv'...\n"}
+[34.258802] (-) TimerEvent: {}
+[34.260101] (programmed_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/programmed_drive/programmed_drive.egg-info/dependency_links.txt\n'}
+[34.270181] (programmed_drive) StdoutLine: {'line': b'writing entry points to ../../build/programmed_drive/programmed_drive.egg-info/entry_points.txt\n'}
+[34.276514] (programmed_drive) StdoutLine: {'line': b'writing requirements to ../../build/programmed_drive/programmed_drive.egg-info/requires.txt\n'}
+[34.283521] (programmed_drive) StdoutLine: {'line': b'writing top-level names to ../../build/programmed_drive/programmed_drive.egg-info/top_level.txt\n'}
+[34.313974] (programmed_drive) StdoutLine: {'line': b"reading manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'\n"}
+[34.324272] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.332068] (programmed_drive) StdoutLine: {'line': b"writing manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'\n"}
+[34.333510] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.334122] (programmed_drive) StdoutLine: {'line': b'running build\n'}
+[34.334606] (programmed_drive) StdoutLine: {'line': b'running build_py\n'}
+[34.337264] (programmed_drive) StdoutLine: {'line': b'copying programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive\n'}
+[34.338731] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages/leo_msgs/leo_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[34.340215] (programmed_drive) StdoutLine: {'line': b'running install\n'}
+[34.343717] (programmed_drive) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[34.344913] (programmed_drive) StderrLine: {'line': b'  warnings.warn(\n'}
+[34.346766] (programmed_drive) StdoutLine: {'line': b'running install_lib\n'}
+[34.347471] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib/libleo_msgs__rosidl_generator_py.so\n'}
+[34.352564] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/Imu.idl\n'}
+[34.353394] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelOdom.idl\n'}
+[34.354984] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelOdomMecanum.idl\n'}
+[34.355997] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelStates.idl\n'}
+[34.357260] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration.idl\n'}
+[34.370407] (-) TimerEvent: {}
+[34.371473] (programmed_drive) StdoutLine: {'line': b'copying /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive\n'}
+[34.372401] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/Imu.msg\n'}
+[34.373792] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelOdom.msg\n'}
+[34.375233] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelOdomMecanum.msg\n'}
+[34.376054] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/msg/WheelStates.msg\n'}
+[34.377370] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration.srv\n'}
+[34.382660] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration_Request.msg\n'}
+[34.383982] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/srv/SetImuCalibration_Response.msg\n'}
+[34.384677] (programmed_drive) StdoutLine: {'line': b'byte-compiling /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive/aruco_drive.py to aruco_drive.cpython-310.pyc\n'}
+[34.385792] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/ament_index/resource_index/package_run_dependencies/leo_msgs\n'}
+[34.397168] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/ament_index/resource_index/parent_prefix_path/leo_msgs\n'}
+[34.399483] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/ament_prefix_path.sh\n'}
+[34.400359] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/ament_prefix_path.dsv\n'}
+[34.401519] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/path.sh\n'}
+[34.402559] (programmed_drive) StdoutLine: {'line': b'running install_data\n'}
+[34.403277] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/environment/path.dsv\n'}
+[34.403998] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/local_setup.bash\n'}
+[34.405267] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/local_setup.sh\n'}
+[34.406073] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/local_setup.zsh\n'}
+[34.407298] (programmed_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[34.412940] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/local_setup.dsv\n'}
+[34.413740] (leo_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.dsv\n'}
+[34.414698] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/ament_index/resource_index/packages/leo_msgs\n'}
+[34.415466] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cExport.cmake\n'}
+[34.420090] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.421143] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[34.422377] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[34.423680] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.431073] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.432790] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[34.434591] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.442492] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_cppExport.cmake\n'}
+[34.444194] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[34.445279] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[34.454318] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.495242] (-) TimerEvent: {}
+[34.500825] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.502390] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[34.503701] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.522213] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_pyExport.cmake\n'}
+[34.528351] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/export_leo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[34.533584] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[34.539726] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.543967] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.547645] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.557270] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.566852] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.567765] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.576174] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgsConfig.cmake\n'}
+[34.580811] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/cmake/leo_msgsConfig-version.cmake\n'}
+[34.586028] (leo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/share/leo_msgs/package.xml\n'}
+[34.589947] (leo_msgs) CommandEnded: {'returncode': 0}
+[34.600371] (-) TimerEvent: {}
+[34.606276] (programmed_drive) StdoutLine: {'line': b"removing '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[34.613960] (programmed_drive) StdoutLine: {'line': b'Copying ../../build/programmed_drive/programmed_drive.egg-info to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info\n'}
+[34.635499] (programmed_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[34.700645] (-) TimerEvent: {}
+[34.802693] (-) TimerEvent: {}
+[34.910214] (-) TimerEvent: {}
+[34.967122] (programmed_drive) StdoutLine: {'line': b'Installing aruco_drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive\n'}
+[34.971371] (programmed_drive) StdoutLine: {'line': b'Installing drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive\n'}
+[34.973767] (programmed_drive) StdoutLine: {'line': b"writing list of installed files to '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log'\n"}
+[35.018336] (-) TimerEvent: {}
+[35.121325] (-) TimerEvent: {}
+[35.228496] (-) TimerEvent: {}
+[35.331956] (-) TimerEvent: {}
+[35.435785] (-) TimerEvent: {}
+[35.544298] (-) TimerEvent: {}
+[35.656047] (-) TimerEvent: {}
+[35.758381] (-) TimerEvent: {}
+[35.861798] (-) TimerEvent: {}
+[35.963955] (-) TimerEvent: {}
+[36.065453] (-) TimerEvent: {}
+[36.166986] (-) TimerEvent: {}
+[36.269024] (-) TimerEvent: {}
+[36.370698] (-) TimerEvent: {}
+[36.398432] (programmed_drive) CommandEnded: {'returncode': 0}
+[36.476466] (-) TimerEvent: {}
+[36.583631] (-) TimerEvent: {}
+[36.688463] (-) TimerEvent: {}
+[36.789899] (-) TimerEvent: {}
+[36.893111] (-) TimerEvent: {}
+[37.000488] (-) TimerEvent: {}
+[37.105283] (-) TimerEvent: {}
+[37.224553] (-) TimerEvent: {}
+[37.330462] (-) TimerEvent: {}
+[37.432986] (-) TimerEvent: {}
+[37.534194] (-) TimerEvent: {}
+[37.636269] (-) TimerEvent: {}
+[37.744028] (-) TimerEvent: {}
+[37.846001] (-) TimerEvent: {}
+[37.895685] (programmed_drive) JobEnded: {'identifier': 'programmed_drive', 'rc': 0}
+[37.946282] (-) TimerEvent: {}
+[38.047678] (-) TimerEvent: {}
+[38.151777] (-) TimerEvent: {}
+[38.252893] (-) TimerEvent: {}
+[38.354354] (-) TimerEvent: {}
+[38.455876] (-) TimerEvent: {}
+[38.557587] (-) TimerEvent: {}
+[38.658945] (-) TimerEvent: {}
+[38.760699] (-) TimerEvent: {}
+[38.862033] (-) TimerEvent: {}
+[38.963734] (-) TimerEvent: {}
+[39.065141] (-) TimerEvent: {}
+[39.166291] (-) TimerEvent: {}
+[39.268091] (-) TimerEvent: {}
+[39.370564] (-) TimerEvent: {}
+[39.471901] (-) TimerEvent: {}
+[39.573884] (-) TimerEvent: {}
+[39.675506] (-) TimerEvent: {}
+[39.776878] (-) TimerEvent: {}
+[39.878159] (-) TimerEvent: {}
+[39.983245] (-) TimerEvent: {}
+[40.087166] (-) TimerEvent: {}
+[40.189365] (-) TimerEvent: {}
+[40.295327] (-) TimerEvent: {}
+[40.398687] (-) TimerEvent: {}
+[40.499970] (-) TimerEvent: {}
+[40.601719] (-) TimerEvent: {}
+[40.703205] (-) TimerEvent: {}
+[40.804621] (-) TimerEvent: {}
+[40.906637] (-) TimerEvent: {}
+[41.012546] (-) TimerEvent: {}
+[41.113821] (-) TimerEvent: {}
+[41.215018] (-) TimerEvent: {}
+[41.317278] (-) TimerEvent: {}
+[41.419579] (-) TimerEvent: {}
+[41.458188] (leo_msgs) JobEnded: {'identifier': 'leo_msgs', 'rc': 0}
+[41.469102] (leo) JobStarted: {'identifier': 'leo'}
+[41.519883] (-) TimerEvent: {}
+[41.622015] (-) TimerEvent: {}
+[41.725497] (-) TimerEvent: {}
+[41.827074] (-) TimerEvent: {}
+[41.930029] (-) TimerEvent: {}
+[42.041588] (-) TimerEvent: {}
+[42.145055] (-) TimerEvent: {}
+[42.251788] (-) TimerEvent: {}
+[42.360635] (-) TimerEvent: {}
+[42.463924] (-) TimerEvent: {}
+[42.565465] (-) TimerEvent: {}
+[42.666665] (-) TimerEvent: {}
+[42.768850] (-) TimerEvent: {}
+[42.870099] (-) TimerEvent: {}
+[42.972223] (-) TimerEvent: {}
+[43.074402] (-) TimerEvent: {}
+[43.177343] (-) TimerEvent: {}
+[43.277673] (leo) JobProgress: {'identifier': 'leo', 'progress': 'cmake'}
+[43.278116] (-) TimerEvent: {}
+[43.294077] (leo) JobProgress: {'identifier': 'leo', 'progress': 'build'}
+[43.297701] (leo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[43.378467] (-) TimerEvent: {}
+[43.479789] (-) TimerEvent: {}
+[43.581144] (-) TimerEvent: {}
+[43.682381] (-) TimerEvent: {}
+[43.783531] (-) TimerEvent: {}
+[43.886008] (-) TimerEvent: {}
+[43.987396] (-) TimerEvent: {}
+[44.069610] (leo) CommandEnded: {'returncode': 0}
+[44.092999] (-) TimerEvent: {}
+[44.194417] (-) TimerEvent: {}
+[44.295914] (-) TimerEvent: {}
+[44.391026] (leo) JobProgress: {'identifier': 'leo', 'progress': 'install'}
+[44.392949] (leo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[44.406291] (-) TimerEvent: {}
+[44.510825] (-) TimerEvent: {}
+[44.586314] (leo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.591387] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/ament_index/resource_index/package_run_dependencies/leo\n'}
+[44.616974] (-) TimerEvent: {}
+[44.620483] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/ament_index/resource_index/parent_prefix_path/leo\n'}
+[44.628275] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/environment/ament_prefix_path.sh\n'}
+[44.632590] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/environment/ament_prefix_path.dsv\n'}
+[44.636616] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/environment/path.sh\n'}
+[44.638130] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/environment/path.dsv\n'}
+[44.646668] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/local_setup.bash\n'}
+[44.650527] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/local_setup.sh\n'}
+[44.653176] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/local_setup.zsh\n'}
+[44.660583] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/local_setup.dsv\n'}
+[44.669469] (leo) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.dsv\n'}
+[44.672422] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/ament_index/resource_index/packages/leo\n'}
+[44.675502] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/cmake/leoConfig.cmake\n'}
+[44.682182] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/cmake/leoConfig-version.cmake\n'}
+[44.685026] (leo) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo/share/leo/package.xml\n'}
+[44.689080] (leo) CommandEnded: {'returncode': 0}
+[44.712252] (-) TimerEvent: {}
+[44.815132] (-) TimerEvent: {}
+[44.916891] (-) TimerEvent: {}
+[45.020698] (-) TimerEvent: {}
+[45.122074] (-) TimerEvent: {}
+[45.227487] (-) TimerEvent: {}
+[45.330065] (-) TimerEvent: {}
+[45.433658] (-) TimerEvent: {}
+[45.535458] (-) TimerEvent: {}
+[45.636940] (-) TimerEvent: {}
+[45.738768] (-) TimerEvent: {}
+[45.851878] (-) TimerEvent: {}
+[45.956297] (-) TimerEvent: {}
+[46.058724] (-) TimerEvent: {}
+[46.160285] (-) TimerEvent: {}
+[46.261804] (-) TimerEvent: {}
+[46.362857] (-) TimerEvent: {}
+[46.464880] (-) TimerEvent: {}
+[46.572220] (-) TimerEvent: {}
+[46.674356] (-) TimerEvent: {}
+[46.780661] (-) TimerEvent: {}
+[46.883583] (-) TimerEvent: {}
+[46.985020] (-) TimerEvent: {}
+[47.088926] (-) TimerEvent: {}
+[47.195751] (-) TimerEvent: {}
+[47.301364] (-) TimerEvent: {}
+[47.402421] (-) TimerEvent: {}
+[47.504811] (-) TimerEvent: {}
+[47.563664] (leo) JobEnded: {'identifier': 'leo', 'rc': 0}
+[47.577640] (leo_desktop) JobStarted: {'identifier': 'leo_desktop'}
+[47.605137] (-) TimerEvent: {}
+[47.706399] (-) TimerEvent: {}
+[47.809414] (-) TimerEvent: {}
+[47.915227] (-) TimerEvent: {}
+[48.022556] (-) TimerEvent: {}
+[48.125020] (-) TimerEvent: {}
+[48.226588] (-) TimerEvent: {}
+[48.329447] (-) TimerEvent: {}
+[48.432596] (-) TimerEvent: {}
+[48.536561] (-) TimerEvent: {}
+[48.639895] (-) TimerEvent: {}
+[48.741844] (-) TimerEvent: {}
+[48.843338] (-) TimerEvent: {}
+[48.946386] (-) TimerEvent: {}
+[49.049129] (-) TimerEvent: {}
+[49.151999] (-) TimerEvent: {}
+[49.189238] (leo_desktop) JobProgress: {'identifier': 'leo_desktop', 'progress': 'cmake'}
+[49.197230] (leo_desktop) JobProgress: {'identifier': 'leo_desktop', 'progress': 'build'}
+[49.200330] (leo_desktop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[49.252380] (-) TimerEvent: {}
+[49.357974] (-) TimerEvent: {}
+[49.459429] (-) TimerEvent: {}
+[49.560956] (-) TimerEvent: {}
+[49.662709] (-) TimerEvent: {}
+[49.765814] (-) TimerEvent: {}
+[49.868680] (-) TimerEvent: {}
+[49.970132] (-) TimerEvent: {}
+[50.054191] (leo_desktop) CommandEnded: {'returncode': 0}
+[50.079317] (-) TimerEvent: {}
+[50.180473] (-) TimerEvent: {}
+[50.284523] (-) TimerEvent: {}
+[50.351892] (leo_desktop) JobProgress: {'identifier': 'leo_desktop', 'progress': 'install'}
+[50.352674] (leo_desktop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 60386 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description/share'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_desktop'), ('SSH_CONNECTION', '10.0.0.137 60386 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs/local/lib/python3.10/dist-packages:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_viz:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_msgs:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_description:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive:/opt/ros/humble')]), 'shell': False}
+[50.385046] (-) TimerEvent: {}
+[50.487123] (-) TimerEvent: {}
+[50.495682] (leo_desktop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.498123] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/package_run_dependencies/leo_desktop\n'}
+[50.501905] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/parent_prefix_path/leo_desktop\n'}
+[50.504813] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/ament_prefix_path.sh\n'}
+[50.508496] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/ament_prefix_path.dsv\n'}
+[50.513869] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/path.sh\n'}
+[50.515334] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/environment/path.dsv\n'}
+[50.524811] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.bash\n'}
+[50.526225] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.sh\n'}
+[50.531705] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.zsh\n'}
+[50.533173] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/local_setup.dsv\n'}
+[50.534474] (leo_desktop) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.dsv\n'}
+[50.542221] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/ament_index/resource_index/packages/leo_desktop\n'}
+[50.543624] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/cmake/leo_desktopConfig.cmake\n'}
+[50.548481] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/cmake/leo_desktopConfig-version.cmake\n'}
+[50.549904] (leo_desktop) StdoutLine: {'line': b'-- Up-to-date: /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_desktop/share/leo_desktop/package.xml\n'}
+[50.578022] (leo_desktop) CommandEnded: {'returncode': 0}
+[50.587974] (-) TimerEvent: {}
+[50.692250] (-) TimerEvent: {}
+[50.794126] (-) TimerEvent: {}
+[50.903415] (-) TimerEvent: {}
+[51.004815] (-) TimerEvent: {}
+[51.109440] (-) TimerEvent: {}
+[51.211865] (-) TimerEvent: {}
+[51.315296] (-) TimerEvent: {}
+[51.419399] (-) TimerEvent: {}
+[51.524252] (-) TimerEvent: {}
+[51.628685] (-) TimerEvent: {}
+[51.733037] (-) TimerEvent: {}
+[51.835809] (-) TimerEvent: {}
+[51.940408] (-) TimerEvent: {}
+[52.041964] (-) TimerEvent: {}
+[52.143528] (-) TimerEvent: {}
+[52.245555] (-) TimerEvent: {}
+[52.346858] (-) TimerEvent: {}
+[52.450374] (-) TimerEvent: {}
+[52.553510] (-) TimerEvent: {}
+[52.655881] (-) TimerEvent: {}
+[52.759027] (-) TimerEvent: {}
+[52.861010] (-) TimerEvent: {}
+[52.962439] (-) TimerEvent: {}
+[53.064094] (-) TimerEvent: {}
+[53.166376] (-) TimerEvent: {}
+[53.246205] (leo_desktop) JobEnded: {'identifier': 'leo_desktop', 'rc': 0}
+[53.251864] (-) EventReactorShutdown: {}

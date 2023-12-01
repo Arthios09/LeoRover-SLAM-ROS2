@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/situjet/Desktop/leo_common-ros2/install/leo_teleop")
+  set(install_space "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/leo_teleop")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -21,7 +21,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
   list(LENGTH files length)
   if(length EQUAL 0)
     message(STATUS "Uninstalling: ${path}/")
-    execute_process(COMMAND "/home/situjet/.local/lib/python3.10/site-packages/cmake/data/bin/cmake" "-E" "remove_directory" "${path}")
+    execute_process(COMMAND "/usr/bin/cmake" "-E" "remove_directory" "${path}")
     # recursively try to remove parent directories
     get_filename_component(parent_path "${path}" PATH)
     ament_cmake_uninstall_target_remove_empty_directories("${parent_path}")
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/situjet/Desktop/leo_common-ros2/build/leo_teleop/install_manifest.txt")
+set(install_manifest "/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/leo_teleop/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/situjet/Desktop/leo_common-ros2/build/leo_teleop/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

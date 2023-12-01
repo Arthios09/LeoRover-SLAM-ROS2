@@ -1,1 +1,11 @@
-/home/situjet/Desktop/leo_common-ros2/build/leo_msgs/rosidl_generator_cpp/leo_msgs/msg/wheel_odom.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef LEO_MSGS__MSG__WHEEL_ODOM_HPP_
+#define LEO_MSGS__MSG__WHEEL_ODOM_HPP_
+
+#include "leo_msgs/msg/detail/wheel_odom__struct.hpp"
+#include "leo_msgs/msg/detail/wheel_odom__builder.hpp"
+#include "leo_msgs/msg/detail/wheel_odom__traits.hpp"
+
+#endif  // LEO_MSGS__MSG__WHEEL_ODOM_HPP_

@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_drive = programmed_drive.aruco_drive:main
+drive = programmed_drive.programmed_drive:main
+

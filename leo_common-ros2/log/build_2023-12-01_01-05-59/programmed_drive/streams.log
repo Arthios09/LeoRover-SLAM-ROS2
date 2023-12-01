@@ -1,0 +1,27 @@
+[22.340s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive': PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/prefix_override:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/programmed_drive build --build-base /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build install --record /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log --single-version-externally-managed
+[29.877s] running egg_info
+[29.898s] writing ../../build/programmed_drive/programmed_drive.egg-info/PKG-INFO
+[29.925s] writing dependency_links to ../../build/programmed_drive/programmed_drive.egg-info/dependency_links.txt
+[29.927s] writing entry points to ../../build/programmed_drive/programmed_drive.egg-info/entry_points.txt
+[29.937s] writing requirements to ../../build/programmed_drive/programmed_drive.egg-info/requires.txt
+[29.941s] writing top-level names to ../../build/programmed_drive/programmed_drive.egg-info/top_level.txt
+[29.970s] reading manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+[29.989s] writing manifest file '../../build/programmed_drive/programmed_drive.egg-info/SOURCES.txt'
+[29.990s] running build
+[29.990s] running build_py
+[29.993s] copying programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive
+[29.996s] running install
+[30.000s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[30.001s]   warnings.warn(
+[30.002s] running install_lib
+[30.027s] copying /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build/lib/programmed_drive/aruco_drive.py -> /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive
+[30.041s] byte-compiling /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive/aruco_drive.py to aruco_drive.cpython-310.pyc
+[30.058s] running install_data
+[30.068s] running install_egg_info
+[30.262s] removing '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[30.270s] Copying ../../build/programmed_drive/programmed_drive.egg-info to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages/programmed_drive-0.0.0-py3.10.egg-info
+[30.292s] running install_scripts
+[30.623s] Installing aruco_drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive
+[30.627s] Installing drive script to /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/programmed_drive
+[30.630s] writing list of installed files to '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log'
+[32.057s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/src/programmed_drive' returned '0': PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/prefix_override:/home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/install/programmed_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/programmed_drive build --build-base /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/build install --record /home/pi/LeoRover-SLAM-ROS2/leo_common-ros2/build/programmed_drive/install.log --single-version-externally-managed
