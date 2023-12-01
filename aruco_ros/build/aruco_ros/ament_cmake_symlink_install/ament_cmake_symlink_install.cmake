@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_ros/${destination}")
+      set(destination "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -292,7 +292,7 @@ function(_ament_cmake_symlink_install_create_symlink absolute_file symlink)
   endif()
 
   execute_process(
-    COMMAND "/home/situjet/.local/lib/python3.10/site-packages/cmake/data/bin/cmake" "-E" "create_symlink"
+    COMMAND "/usr/bin/cmake" "-E" "create_symlink"
       "${absolute_file}"
       "${symlink}"
   )
@@ -311,55 +311,55 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "aruco_ros_utils" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "marker_publisher" "single" "double" "DESTINATION" "lib/aruco_ros")
-include("/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "etc/" "DESTINATION" "share/aruco_ros/etc")
-ament_cmake_symlink_install_directory("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" DIRECTORY "etc/" "DESTINATION" "share/aruco_ros/etc")
+ament_cmake_symlink_install_directory("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" DIRECTORY "etc/" "DESTINATION" "share/aruco_ros/etc")
 
 # install(DIRECTORY "launch/" "DESTINATION" "share/aruco_ros/launch")
-ament_cmake_symlink_install_directory("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" DIRECTORY "launch/" "DESTINATION" "share/aruco_ros/launch")
+ament_cmake_symlink_install_directory("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" DIRECTORY "launch/" "DESTINATION" "share/aruco_ros/launch")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aruco_ros" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aruco_ros" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_ros/environment")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_ros/environment")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aruco_ros/environment")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_ros/environment")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_ros/environment")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_ros/environment")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aruco_ros/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_ros/environment")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_ros/environment")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aruco_ros/environment")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_ros/environment")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_ros/environment")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_ros/environment")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aruco_ros/environment")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aruco_ros")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aruco_ros")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aruco_ros")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aruco_ros")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aruco_ros")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/packages/aruco_ros" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/packages/aruco_ros" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/packages/aruco_ros" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_index/share/ament_index/resource_index/packages/aruco_ros" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig.cmake" "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig-version.cmake" "DESTINATION" "share/aruco_ros/cmake")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig.cmake" "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig-version.cmake" "DESTINATION" "share/aruco_ros/cmake")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig.cmake" "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig-version.cmake" "DESTINATION" "share/aruco_ros/cmake")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig.cmake" "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros/ament_cmake_core/aruco_rosConfig-version.cmake" "DESTINATION" "share/aruco_ros/cmake")
 
-# install(FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros/package.xml" "DESTINATION" "share/aruco_ros")
-ament_cmake_symlink_install_files("/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros" FILES "/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_ros/package.xml" "DESTINATION" "share/aruco_ros")
+# install(FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros/package.xml" "DESTINATION" "share/aruco_ros")
+ament_cmake_symlink_install_files("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros" FILES "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros/package.xml" "DESTINATION" "share/aruco_ros")

@@ -1,0 +1,2492 @@
+[0.000000] (-) TimerEvent: {}
+[0.003967] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.004460] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.005012] (aruco_ros) JobQueued: {'identifier': 'aruco_ros', 'dependencies': OrderedDict([('aruco', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco'), ('aruco_msgs', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs')])}
+[0.006235] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.099332] (-) TimerEvent: {}
+[0.201909] (-) TimerEvent: {}
+[0.303551] (-) TimerEvent: {}
+[0.342165] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.403936] (-) TimerEvent: {}
+[0.505278] (-) TimerEvent: {}
+[0.607713] (-) TimerEvent: {}
+[0.628307] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.629689] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.655381] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.658957] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.707962] (-) TimerEvent: {}
+[0.809204] (-) TimerEvent: {}
+[0.911236] (-) TimerEvent: {}
+[1.012109] (-) TimerEvent: {}
+[1.112993] (-) TimerEvent: {}
+[1.213869] (-) TimerEvent: {}
+[1.315031] (-) TimerEvent: {}
+[1.415801] (-) TimerEvent: {}
+[1.516586] (-) TimerEvent: {}
+[1.617477] (-) TimerEvent: {}
+[1.718352] (-) TimerEvent: {}
+[1.819325] (-) TimerEvent: {}
+[1.892905] (aruco_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.894126] (aruco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.919544] (-) TimerEvent: {}
+[2.020328] (-) TimerEvent: {}
+[2.121256] (-) TimerEvent: {}
+[2.222408] (-) TimerEvent: {}
+[2.323397] (-) TimerEvent: {}
+[2.424490] (-) TimerEvent: {}
+[2.526119] (-) TimerEvent: {}
+[2.628067] (-) TimerEvent: {}
+[2.730190] (-) TimerEvent: {}
+[2.743608] (aruco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.749056] (aruco_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.805204] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.806253] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.830521] (-) TimerEvent: {}
+[2.932083] (-) TimerEvent: {}
+[3.034231] (-) TimerEvent: {}
+[3.135257] (-) TimerEvent: {}
+[3.236217] (-) TimerEvent: {}
+[3.274446] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.286507] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.305798] (aruco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.308130] (aruco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.312146] (aruco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.321874] (aruco_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.322919] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.324826] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.332024] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.336401] (-) TimerEvent: {}
+[3.343294] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.436581] (-) TimerEvent: {}
+[3.537455] (-) TimerEvent: {}
+[3.638652] (-) TimerEvent: {}
+[3.740198] (-) TimerEvent: {}
+[3.825719] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.829776] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.840377] (-) TimerEvent: {}
+[3.861472] (aruco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.864204] (aruco_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.865509] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.867768] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.870257] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.873012] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.914906] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.915765] (aruco) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.940560] (-) TimerEvent: {}
+[4.041442] (-) TimerEvent: {}
+[4.142364] (-) TimerEvent: {}
+[4.243218] (-) TimerEvent: {}
+[4.344297] (-) TimerEvent: {}
+[4.446840] (-) TimerEvent: {}
+[4.547792] (-) TimerEvent: {}
+[4.649527] (-) TimerEvent: {}
+[4.750561] (-) TimerEvent: {}
+[4.851765] (-) TimerEvent: {}
+[4.953928] (-) TimerEvent: {}
+[5.054924] (-) TimerEvent: {}
+[5.156104] (-) TimerEvent: {}
+[5.190068] (aruco_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.256614] (aruco) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.257504] (-) TimerEvent: {}
+[5.359732] (-) TimerEvent: {}
+[5.460977] (-) TimerEvent: {}
+[5.562131] (-) TimerEvent: {}
+[5.663704] (-) TimerEvent: {}
+[5.688532] (aruco_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.702877] (aruco) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.763959] (-) TimerEvent: {}
+[5.866298] (-) TimerEvent: {}
+[5.967715] (-) TimerEvent: {}
+[6.069158] (-) TimerEvent: {}
+[6.122051] (aruco_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[6.169340] (-) TimerEvent: {}
+[6.270330] (-) TimerEvent: {}
+[6.303169] (aruco) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.2.0") \n'}
+[6.370555] (-) TimerEvent: {}
+[6.471846] (-) TimerEvent: {}
+[6.572662] (-) TimerEvent: {}
+[6.586139] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.671885] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.672782] (-) TimerEvent: {}
+[6.773934] (-) TimerEvent: {}
+[6.787583] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.874157] (-) TimerEvent: {}
+[6.901146] (aruco) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.949771] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.973957] (aruco) StdoutLine: {'line': b'-- Generating done\n'}
+[6.974663] (-) TimerEvent: {}
+[6.976390] (aruco) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco\n'}
+[6.995901] (aruco) CommandEnded: {'returncode': 0}
+[7.006567] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'build'}
+[7.006747] (aruco) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.074903] (-) TimerEvent: {}
+[7.170776] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.175106] (-) TimerEvent: {}
+[7.264866] (aruco) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o\x1b[0m\n'}
+[7.275417] (-) TimerEvent: {}
+[7.287261] (aruco) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o\x1b[0m\n'}
+[7.299270] (aruco) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o\x1b[0m\n'}
+[7.305821] (aruco) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o\x1b[0m\n'}
+[7.376023] (-) TimerEvent: {}
+[7.477699] (-) TimerEvent: {}
+[7.578859] (-) TimerEvent: {}
+[7.679908] (-) TimerEvent: {}
+[7.780925] (-) TimerEvent: {}
+[7.882047] (-) TimerEvent: {}
+[7.921920] (aruco_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.982910] (-) TimerEvent: {}
+[8.083866] (-) TimerEvent: {}
+[8.185513] (-) TimerEvent: {}
+[8.287179] (-) TimerEvent: {}
+[8.367878] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.387364] (-) TimerEvent: {}
+[8.489651] (-) TimerEvent: {}
+[8.591028] (-) TimerEvent: {}
+[8.692177] (-) TimerEvent: {}
+[8.794937] (-) TimerEvent: {}
+[8.903555] (-) TimerEvent: {}
+[9.005962] (-) TimerEvent: {}
+[9.107071] (-) TimerEvent: {}
+[9.208030] (-) TimerEvent: {}
+[9.313994] (-) TimerEvent: {}
+[9.415147] (-) TimerEvent: {}
+[9.517451] (-) TimerEvent: {}
+[9.619953] (-) TimerEvent: {}
+[9.721493] (-) TimerEvent: {}
+[9.823099] (-) TimerEvent: {}
+[9.940234] (-) TimerEvent: {}
+[10.043090] (-) TimerEvent: {}
+[10.145285] (-) TimerEvent: {}
+[10.248507] (-) TimerEvent: {}
+[10.350691] (-) TimerEvent: {}
+[10.453272] (-) TimerEvent: {}
+[10.556248] (-) TimerEvent: {}
+[10.662459] (-) TimerEvent: {}
+[10.772394] (-) TimerEvent: {}
+[10.875664] (-) TimerEvent: {}
+[10.977106] (-) TimerEvent: {}
+[11.080862] (-) TimerEvent: {}
+[11.183272] (-) TimerEvent: {}
+[11.284386] (-) TimerEvent: {}
+[11.388950] (-) TimerEvent: {}
+[11.491749] (-) TimerEvent: {}
+[11.594244] (-) TimerEvent: {}
+[11.695542] (-) TimerEvent: {}
+[11.734629] (aruco) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o\x1b[0m\n'}
+[11.798017] (-) TimerEvent: {}
+[11.906679] (-) TimerEvent: {}
+[12.007978] (-) TimerEvent: {}
+[12.110036] (-) TimerEvent: {}
+[12.213799] (-) TimerEvent: {}
+[12.314783] (-) TimerEvent: {}
+[12.415870] (-) TimerEvent: {}
+[12.517167] (-) TimerEvent: {}
+[12.620646] (-) TimerEvent: {}
+[12.723151] (-) TimerEvent: {}
+[12.828890] (-) TimerEvent: {}
+[12.930126] (-) TimerEvent: {}
+[13.032124] (-) TimerEvent: {}
+[13.133912] (-) TimerEvent: {}
+[13.235734] (-) TimerEvent: {}
+[13.341706] (-) TimerEvent: {}
+[13.388875] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[13.441864] (-) TimerEvent: {}
+[13.543835] (-) TimerEvent: {}
+[13.645680] (-) TimerEvent: {}
+[13.749842] (-) TimerEvent: {}
+[13.852833] (-) TimerEvent: {}
+[13.956481] (-) TimerEvent: {}
+[14.068813] (-) TimerEvent: {}
+[14.171097] (-) TimerEvent: {}
+[14.274370] (-) TimerEvent: {}
+[14.376811] (-) TimerEvent: {}
+[14.481532] (-) TimerEvent: {}
+[14.584072] (-) TimerEvent: {}
+[14.685497] (-) TimerEvent: {}
+[14.786693] (-) TimerEvent: {}
+[14.891102] (-) TimerEvent: {}
+[15.016440] (-) TimerEvent: {}
+[15.117789] (-) TimerEvent: {}
+[15.220724] (-) TimerEvent: {}
+[15.322183] (-) TimerEvent: {}
+[15.425431] (-) TimerEvent: {}
+[15.527360] (-) TimerEvent: {}
+[15.630370] (-) TimerEvent: {}
+[15.734850] (-) TimerEvent: {}
+[15.839907] (-) TimerEvent: {}
+[15.943139] (-) TimerEvent: {}
+[16.045932] (-) TimerEvent: {}
+[16.147650] (-) TimerEvent: {}
+[16.251363] (-) TimerEvent: {}
+[16.353820] (-) TimerEvent: {}
+[16.460133] (-) TimerEvent: {}
+[16.563470] (-) TimerEvent: {}
+[16.665145] (-) TimerEvent: {}
+[16.767326] (-) TimerEvent: {}
+[16.868837] (-) TimerEvent: {}
+[16.970531] (-) TimerEvent: {}
+[17.071841] (-) TimerEvent: {}
+[17.173469] (-) TimerEvent: {}
+[17.274625] (-) TimerEvent: {}
+[17.376122] (-) TimerEvent: {}
+[17.485031] (-) TimerEvent: {}
+[17.586665] (-) TimerEvent: {}
+[17.692717] (-) TimerEvent: {}
+[17.794345] (-) TimerEvent: {}
+[17.898715] (-) TimerEvent: {}
+[18.003670] (-) TimerEvent: {}
+[18.105335] (-) TimerEvent: {}
+[18.206530] (-) TimerEvent: {}
+[18.307554] (-) TimerEvent: {}
+[18.409095] (-) TimerEvent: {}
+[18.510146] (-) TimerEvent: {}
+[18.611313] (-) TimerEvent: {}
+[18.712425] (-) TimerEvent: {}
+[18.814532] (-) TimerEvent: {}
+[18.915881] (-) TimerEvent: {}
+[19.018807] (-) TimerEvent: {}
+[19.120416] (-) TimerEvent: {}
+[19.225898] (-) TimerEvent: {}
+[19.329213] (-) TimerEvent: {}
+[19.433208] (-) TimerEvent: {}
+[19.534587] (-) TimerEvent: {}
+[19.639503] (-) TimerEvent: {}
+[19.741256] (-) TimerEvent: {}
+[19.842581] (-) TimerEvent: {}
+[19.943710] (-) TimerEvent: {}
+[20.074308] (-) TimerEvent: {}
+[20.175806] (-) TimerEvent: {}
+[20.277068] (-) TimerEvent: {}
+[20.383628] (-) TimerEvent: {}
+[20.485914] (-) TimerEvent: {}
+[20.587267] (-) TimerEvent: {}
+[20.691407] (-) TimerEvent: {}
+[20.793884] (-) TimerEvent: {}
+[20.897498] (-) TimerEvent: {}
+[21.000180] (-) TimerEvent: {}
+[21.102244] (-) TimerEvent: {}
+[21.229907] (-) TimerEvent: {}
+[21.273402] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.330335] (-) TimerEvent: {}
+[21.432471] (-) TimerEvent: {}
+[21.534308] (-) TimerEvent: {}
+[21.636352] (-) TimerEvent: {}
+[21.739797] (-) TimerEvent: {}
+[21.842101] (-) TimerEvent: {}
+[21.947341] (-) TimerEvent: {}
+[22.039641] (aruco) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o\x1b[0m\n'}
+[22.048534] (-) TimerEvent: {}
+[22.152169] (-) TimerEvent: {}
+[22.255400] (-) TimerEvent: {}
+[22.291788] (aruco) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o\x1b[0m\n'}
+[22.355699] (-) TimerEvent: {}
+[22.464440] (-) TimerEvent: {}
+[22.567006] (-) TimerEvent: {}
+[22.672010] (-) TimerEvent: {}
+[22.778096] (-) TimerEvent: {}
+[22.881272] (-) TimerEvent: {}
+[22.983745] (-) TimerEvent: {}
+[23.096814] (-) TimerEvent: {}
+[23.198564] (-) TimerEvent: {}
+[23.301802] (-) TimerEvent: {}
+[23.403219] (-) TimerEvent: {}
+[23.504461] (-) TimerEvent: {}
+[23.605680] (-) TimerEvent: {}
+[23.707019] (-) TimerEvent: {}
+[23.808181] (-) TimerEvent: {}
+[23.909320] (-) TimerEvent: {}
+[24.025771] (-) TimerEvent: {}
+[24.127646] (-) TimerEvent: {}
+[24.233507] (-) TimerEvent: {}
+[24.268929] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.333827] (-) TimerEvent: {}
+[24.436584] (-) TimerEvent: {}
+[24.538538] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[24.540117] (-) TimerEvent: {}
+[24.581114] (aruco_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[24.640391] (-) TimerEvent: {}
+[24.742635] (-) TimerEvent: {}
+[24.844329] (-) TimerEvent: {}
+[24.946462] (-) TimerEvent: {}
+[25.059500] (-) TimerEvent: {}
+[25.167452] (-) TimerEvent: {}
+[25.171507] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[25.172445] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.173215] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[25.174120] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[25.268141] (-) TimerEvent: {}
+[25.370497] (-) TimerEvent: {}
+[25.472003] (-) TimerEvent: {}
+[25.546302] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[25.572247] (-) TimerEvent: {}
+[25.673622] (-) TimerEvent: {}
+[25.774596] (-) TimerEvent: {}
+[25.790677] (aruco) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o\x1b[0m\n'}
+[25.874931] (-) TimerEvent: {}
+[25.976179] (-) TimerEvent: {}
+[26.077761] (-) TimerEvent: {}
+[26.181851] (-) TimerEvent: {}
+[26.283147] (-) TimerEvent: {}
+[26.387412] (-) TimerEvent: {}
+[26.470177] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[26.488373] (-) TimerEvent: {}
+[26.592654] (-) TimerEvent: {}
+[26.699325] (-) TimerEvent: {}
+[26.806400] (-) TimerEvent: {}
+[26.909999] (-) TimerEvent: {}
+[27.011384] (-) TimerEvent: {}
+[27.116388] (-) TimerEvent: {}
+[27.228304] (-) TimerEvent: {}
+[27.289815] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[27.329795] (-) TimerEvent: {}
+[27.338679] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[27.395429] (aruco_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[27.431632] (-) TimerEvent: {}
+[27.483163] (aruco_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.531948] (-) TimerEvent: {}
+[27.634601] (-) TimerEvent: {}
+[27.737493] (-) TimerEvent: {}
+[27.840240] (-) TimerEvent: {}
+[27.942513] (-) TimerEvent: {}
+[28.045931] (-) TimerEvent: {}
+[28.118957] (aruco_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[28.146215] (-) TimerEvent: {}
+[28.152681] (aruco_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs\n'}
+[28.231892] (aruco_msgs) CommandEnded: {'returncode': 0}
+[28.252742] (-) TimerEvent: {}
+[28.261510] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'build'}
+[28.271170] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[28.353110] (-) TimerEvent: {}
+[28.456816] (-) TimerEvent: {}
+[28.567192] (-) TimerEvent: {}
+[28.669197] (-) TimerEvent: {}
+[28.770570] (-) TimerEvent: {}
+[28.871767] (-) TimerEvent: {}
+[28.895042] (aruco_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[28.972071] (-) TimerEvent: {}
+[29.073137] (-) TimerEvent: {}
+[29.174106] (-) TimerEvent: {}
+[29.275538] (-) TimerEvent: {}
+[29.377236] (-) TimerEvent: {}
+[29.478779] (-) TimerEvent: {}
+[29.585179] (-) TimerEvent: {}
+[29.686259] (-) TimerEvent: {}
+[29.787397] (-) TimerEvent: {}
+[29.888910] (-) TimerEvent: {}
+[29.989961] (-) TimerEvent: {}
+[30.122034] (-) TimerEvent: {}
+[30.223244] (-) TimerEvent: {}
+[30.327478] (-) TimerEvent: {}
+[30.431177] (-) TimerEvent: {}
+[30.533400] (-) TimerEvent: {}
+[30.636452] (-) TimerEvent: {}
+[30.737669] (-) TimerEvent: {}
+[30.839818] (-) TimerEvent: {}
+[30.941674] (-) TimerEvent: {}
+[31.045270] (-) TimerEvent: {}
+[31.146407] (-) TimerEvent: {}
+[31.247743] (-) TimerEvent: {}
+[31.355748] (-) TimerEvent: {}
+[31.460785] (-) TimerEvent: {}
+[31.561811] (-) TimerEvent: {}
+[31.662999] (-) TimerEvent: {}
+[31.765238] (-) TimerEvent: {}
+[31.867162] (-) TimerEvent: {}
+[31.968291] (-) TimerEvent: {}
+[32.069277] (-) TimerEvent: {}
+[32.170311] (-) TimerEvent: {}
+[32.272723] (-) TimerEvent: {}
+[32.374372] (-) TimerEvent: {}
+[32.379447] (aruco_msgs) StdoutLine: {'line': b'[  2%] Built target aruco_msgs__cpp\n'}
+[32.474722] (-) TimerEvent: {}
+[32.576148] (-) TimerEvent: {}
+[32.631940] (aruco_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_aruco_msgs\n'}
+[32.676446] (-) TimerEvent: {}
+[32.736372] (aruco_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.776811] (-) TimerEvent: {}
+[32.879010] (-) TimerEvent: {}
+[32.981896] (-) TimerEvent: {}
+[33.083334] (-) TimerEvent: {}
+[33.184723] (-) TimerEvent: {}
+[33.286053] (-) TimerEvent: {}
+[33.387386] (-) TimerEvent: {}
+[33.491047] (-) TimerEvent: {}
+[33.594997] (-) TimerEvent: {}
+[33.698615] (-) TimerEvent: {}
+[33.801516] (-) TimerEvent: {}
+[33.902943] (-) TimerEvent: {}
+[34.004084] (-) TimerEvent: {}
+[34.105358] (-) TimerEvent: {}
+[34.206626] (-) TimerEvent: {}
+[34.310151] (-) TimerEvent: {}
+[34.415130] (-) TimerEvent: {}
+[34.516301] (-) TimerEvent: {}
+[34.617704] (-) TimerEvent: {}
+[34.719007] (-) TimerEvent: {}
+[34.820124] (-) TimerEvent: {}
+[34.921278] (-) TimerEvent: {}
+[35.023379] (-) TimerEvent: {}
+[36.316740] (-) TimerEvent: {}
+[36.417871] (-) TimerEvent: {}
+[36.518915] (-) TimerEvent: {}
+[36.620294] (-) TimerEvent: {}
+[36.722826] (-) TimerEvent: {}
+[36.824164] (-) TimerEvent: {}
+[36.925400] (-) TimerEvent: {}
+[37.026729] (-) TimerEvent: {}
+[37.128379] (-) TimerEvent: {}
+[37.223953] (aruco_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o\x1b[0m\n'}
+[37.229510] (-) TimerEvent: {}
+[37.332792] (-) TimerEvent: {}
+[37.434849] (-) TimerEvent: {}
+[37.536079] (-) TimerEvent: {}
+[37.637763] (-) TimerEvent: {}
+[37.740207] (-) TimerEvent: {}
+[37.844813] (-) TimerEvent: {}
+[37.946462] (-) TimerEvent: {}
+[38.048834] (-) TimerEvent: {}
+[38.153831] (-) TimerEvent: {}
+[38.242474] (aruco) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o\x1b[0m\n'}
+[38.254041] (-) TimerEvent: {}
+[38.354918] (-) TimerEvent: {}
+[38.455888] (-) TimerEvent: {}
+[38.556841] (-) TimerEvent: {}
+[38.657889] (-) TimerEvent: {}
+[38.758809] (-) TimerEvent: {}
+[38.859874] (-) TimerEvent: {}
+[38.963602] (-) TimerEvent: {}
+[39.064533] (-) TimerEvent: {}
+[39.165518] (-) TimerEvent: {}
+[39.266552] (-) TimerEvent: {}
+[39.367520] (-) TimerEvent: {}
+[39.468699] (-) TimerEvent: {}
+[39.570003] (-) TimerEvent: {}
+[39.671483] (-) TimerEvent: {}
+[39.773746] (-) TimerEvent: {}
+[39.874779] (-) TimerEvent: {}
+[39.976108] (-) TimerEvent: {}
+[40.083547] (-) TimerEvent: {}
+[40.086321] (aruco_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o\x1b[0m\n'}
+[40.184165] (-) TimerEvent: {}
+[40.286826] (-) TimerEvent: {}
+[40.387681] (-) TimerEvent: {}
+[40.488569] (-) TimerEvent: {}
+[40.589435] (-) TimerEvent: {}
+[40.690413] (-) TimerEvent: {}
+[40.791544] (-) TimerEvent: {}
+[40.892578] (-) TimerEvent: {}
+[40.994051] (-) TimerEvent: {}
+[41.094988] (-) TimerEvent: {}
+[41.196029] (-) TimerEvent: {}
+[41.296952] (-) TimerEvent: {}
+[41.397905] (-) TimerEvent: {}
+[41.498812] (-) TimerEvent: {}
+[41.599806] (-) TimerEvent: {}
+[41.700970] (-) TimerEvent: {}
+[41.802061] (-) TimerEvent: {}
+[41.903592] (-) TimerEvent: {}
+[42.005795] (-) TimerEvent: {}
+[42.106679] (-) TimerEvent: {}
+[42.212575] (-) TimerEvent: {}
+[42.314245] (-) TimerEvent: {}
+[42.415409] (-) TimerEvent: {}
+[42.516554] (-) TimerEvent: {}
+[42.617816] (-) TimerEvent: {}
+[42.720010] (-) TimerEvent: {}
+[42.821159] (-) TimerEvent: {}
+[42.923964] (-) TimerEvent: {}
+[43.025410] (-) TimerEvent: {}
+[43.127320] (-) TimerEvent: {}
+[43.228160] (-) TimerEvent: {}
+[43.328987] (-) TimerEvent: {}
+[43.429844] (-) TimerEvent: {}
+[43.530748] (-) TimerEvent: {}
+[43.631551] (-) TimerEvent: {}
+[43.732378] (-) TimerEvent: {}
+[43.833199] (-) TimerEvent: {}
+[43.934211] (-) TimerEvent: {}
+[44.035216] (-) TimerEvent: {}
+[44.136404] (-) TimerEvent: {}
+[44.162458] (aruco_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[44.221777] (aruco) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o\x1b[0m\n'}
+[44.236591] (-) TimerEvent: {}
+[44.337847] (-) TimerEvent: {}
+[44.439784] (-) TimerEvent: {}
+[44.540890] (-) TimerEvent: {}
+[44.613711] (aruco_msgs) StdoutLine: {'line': b'[ 12%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[44.642652] (-) TimerEvent: {}
+[44.677529] (aruco_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[44.742900] (-) TimerEvent: {}
+[44.844185] (-) TimerEvent: {}
+[44.945489] (-) TimerEvent: {}
+[45.047176] (-) TimerEvent: {}
+[45.148123] (-) TimerEvent: {}
+[45.248937] (-) TimerEvent: {}
+[45.349836] (-) TimerEvent: {}
+[45.450690] (-) TimerEvent: {}
+[45.551626] (-) TimerEvent: {}
+[45.652457] (-) TimerEvent: {}
+[45.753294] (-) TimerEvent: {}
+[45.854196] (-) TimerEvent: {}
+[45.955017] (-) TimerEvent: {}
+[46.056107] (-) TimerEvent: {}
+[46.158245] (-) TimerEvent: {}
+[46.259789] (-) TimerEvent: {}
+[46.360799] (-) TimerEvent: {}
+[46.410235] (aruco_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker__type_support.cpp.o\x1b[0m\n'}
+[46.461009] (-) TimerEvent: {}
+[46.561938] (-) TimerEvent: {}
+[46.662807] (-) TimerEvent: {}
+[46.763910] (-) TimerEvent: {}
+[46.864912] (-) TimerEvent: {}
+[46.966454] (-) TimerEvent: {}
+[47.067968] (-) TimerEvent: {}
+[47.169332] (-) TimerEvent: {}
+[47.270623] (-) TimerEvent: {}
+[47.373823] (-) TimerEvent: {}
+[47.475390] (-) TimerEvent: {}
+[47.578052] (-) TimerEvent: {}
+[47.679061] (-) TimerEvent: {}
+[47.780030] (-) TimerEvent: {}
+[47.881056] (-) TimerEvent: {}
+[47.982071] (-) TimerEvent: {}
+[48.083188] (-) TimerEvent: {}
+[48.184238] (-) TimerEvent: {}
+[48.285820] (-) TimerEvent: {}
+[48.386837] (-) TimerEvent: {}
+[48.487934] (-) TimerEvent: {}
+[48.589450] (-) TimerEvent: {}
+[48.690580] (-) TimerEvent: {}
+[48.791532] (-) TimerEvent: {}
+[48.892903] (-) TimerEvent: {}
+[48.993871] (-) TimerEvent: {}
+[49.025858] (aruco_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/marker_array__type_support.cpp.o\x1b[0m\n'}
+[49.094070] (-) TimerEvent: {}
+[49.195080] (-) TimerEvent: {}
+[49.296021] (-) TimerEvent: {}
+[49.396845] (-) TimerEvent: {}
+[49.497864] (-) TimerEvent: {}
+[49.598899] (-) TimerEvent: {}
+[49.700539] (-) TimerEvent: {}
+[49.801913] (-) TimerEvent: {}
+[49.902878] (-) TimerEvent: {}
+[50.003873] (-) TimerEvent: {}
+[50.105080] (-) TimerEvent: {}
+[50.212895] (-) TimerEvent: {}
+[50.314313] (-) TimerEvent: {}
+[50.416002] (-) TimerEvent: {}
+[50.516901] (-) TimerEvent: {}
+[50.618023] (-) TimerEvent: {}
+[50.718974] (-) TimerEvent: {}
+[50.820121] (-) TimerEvent: {}
+[50.921736] (-) TimerEvent: {}
+[51.022886] (-) TimerEvent: {}
+[51.123801] (-) TimerEvent: {}
+[51.224767] (-) TimerEvent: {}
+[51.325763] (-) TimerEvent: {}
+[51.426702] (-) TimerEvent: {}
+[51.527780] (-) TimerEvent: {}
+[51.628854] (-) TimerEvent: {}
+[51.730150] (-) TimerEvent: {}
+[51.831775] (-) TimerEvent: {}
+[51.854534] (aruco_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[51.932005] (-) TimerEvent: {}
+[52.033513] (-) TimerEvent: {}
+[52.134761] (-) TimerEvent: {}
+[52.236193] (-) TimerEvent: {}
+[52.308979] (aruco_msgs) StdoutLine: {'line': b'[ 23%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp\n'}
+[52.337117] (-) TimerEvent: {}
+[52.446292] (-) TimerEvent: {}
+[52.547223] (-) TimerEvent: {}
+[52.648078] (-) TimerEvent: {}
+[52.748945] (-) TimerEvent: {}
+[52.849940] (-) TimerEvent: {}
+[52.950787] (-) TimerEvent: {}
+[53.051806] (-) TimerEvent: {}
+[53.152651] (-) TimerEvent: {}
+[53.253850] (-) TimerEvent: {}
+[53.341061] (aruco) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o\x1b[0m\n'}
+[53.354026] (-) TimerEvent: {}
+[53.454863] (-) TimerEvent: {}
+[53.555637] (-) TimerEvent: {}
+[53.657104] (-) TimerEvent: {}
+[53.757921] (-) TimerEvent: {}
+[53.858731] (-) TimerEvent: {}
+[53.959577] (-) TimerEvent: {}
+[54.060406] (-) TimerEvent: {}
+[54.161493] (-) TimerEvent: {}
+[54.262432] (-) TimerEvent: {}
+[54.364490] (-) TimerEvent: {}
+[54.370099] (aruco_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[54.374419] (aruco_msgs) StdoutLine: {'line': b'creating aruco_msgs.egg-info\n'}
+[54.376251] (aruco_msgs) StdoutLine: {'line': b'writing aruco_msgs.egg-info/PKG-INFO\n'}
+[54.378311] (aruco_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_msgs.egg-info/dependency_links.txt\n'}
+[54.379509] (aruco_msgs) StdoutLine: {'line': b'writing top-level names to aruco_msgs.egg-info/top_level.txt\n'}
+[54.380842] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[54.464704] (-) TimerEvent: {}
+[54.565702] (-) TimerEvent: {}
+[54.667200] (-) TimerEvent: {}
+[54.768300] (-) TimerEvent: {}
+[54.869451] (-) TimerEvent: {}
+[54.970816] (-) TimerEvent: {}
+[55.072509] (-) TimerEvent: {}
+[55.173653] (-) TimerEvent: {}
+[55.275127] (-) TimerEvent: {}
+[55.668895] (aruco_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[55.669879] (-) TimerEvent: {}
+[55.670698] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[55.770274] (-) TimerEvent: {}
+[55.871937] (-) TimerEvent: {}
+[55.924968] (aruco_msgs) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_aruco_msgs_egg\n'}
+[55.972109] (-) TimerEvent: {}
+[55.977024] (aruco_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[56.072314] (-) TimerEvent: {}
+[56.173481] (-) TimerEvent: {}
+[56.275094] (-) TimerEvent: {}
+[56.376141] (-) TimerEvent: {}
+[56.476930] (-) TimerEvent: {}
+[56.577832] (-) TimerEvent: {}
+[56.680012] (-) TimerEvent: {}
+[56.780833] (-) TimerEvent: {}
+[56.881714] (-) TimerEvent: {}
+[56.982798] (-) TimerEvent: {}
+[57.085378] (-) TimerEvent: {}
+[57.186219] (-) TimerEvent: {}
+[57.287180] (-) TimerEvent: {}
+[57.388227] (-) TimerEvent: {}
+[57.479250] (aruco_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[57.488468] (-) TimerEvent: {}
+[57.589822] (-) TimerEvent: {}
+[57.691665] (-) TimerEvent: {}
+[57.792511] (-) TimerEvent: {}
+[57.893502] (-) TimerEvent: {}
+[57.994990] (-) TimerEvent: {}
+[58.098228] (-) TimerEvent: {}
+[58.200421] (-) TimerEvent: {}
+[58.304862] (-) TimerEvent: {}
+[58.406465] (-) TimerEvent: {}
+[58.507754] (-) TimerEvent: {}
+[58.609059] (-) TimerEvent: {}
+[58.710039] (-) TimerEvent: {}
+[58.811751] (-) TimerEvent: {}
+[58.912601] (-) TimerEvent: {}
+[59.013701] (-) TimerEvent: {}
+[59.114868] (-) TimerEvent: {}
+[59.215867] (-) TimerEvent: {}
+[59.317351] (-) TimerEvent: {}
+[59.418366] (-) TimerEvent: {}
+[59.420326] (aruco_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/marker_array__type_support.cpp.o\x1b[0m\n'}
+[59.518578] (-) TimerEvent: {}
+[59.619527] (-) TimerEvent: {}
+[59.735699] (-) TimerEvent: {}
+[59.920528] (-) TimerEvent: {}
+[60.022579] (-) TimerEvent: {}
+[60.123561] (-) TimerEvent: {}
+[60.224717] (-) TimerEvent: {}
+[60.325960] (-) TimerEvent: {}
+[60.428746] (-) TimerEvent: {}
+[60.529933] (-) TimerEvent: {}
+[60.631827] (-) TimerEvent: {}
+[60.733032] (-) TimerEvent: {}
+[60.834994] (-) TimerEvent: {}
+[60.937776] (-) TimerEvent: {}
+[61.039262] (-) TimerEvent: {}
+[61.140347] (-) TimerEvent: {}
+[61.241322] (-) TimerEvent: {}
+[61.343420] (-) TimerEvent: {}
+[61.357932] (aruco_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[61.444114] (-) TimerEvent: {}
+[61.545213] (-) TimerEvent: {}
+[61.610537] (aruco_msgs) StdoutLine: {'line': b'[ 33%] Built target aruco_msgs__rosidl_typesupport_cpp\n'}
+[61.645456] (-) TimerEvent: {}
+[61.676350] (aruco_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[61.745692] (-) TimerEvent: {}
+[61.846576] (-) TimerEvent: {}
+[61.947693] (-) TimerEvent: {}
+[62.049344] (-) TimerEvent: {}
+[62.150361] (-) TimerEvent: {}
+[62.252205] (-) TimerEvent: {}
+[62.353157] (-) TimerEvent: {}
+[62.454090] (-) TimerEvent: {}
+[62.555019] (-) TimerEvent: {}
+[62.655831] (-) TimerEvent: {}
+[62.756674] (-) TimerEvent: {}
+[62.858838] (-) TimerEvent: {}
+[62.960251] (-) TimerEvent: {}
+[63.061247] (-) TimerEvent: {}
+[63.162212] (-) TimerEvent: {}
+[63.263462] (-) TimerEvent: {}
+[63.364356] (-) TimerEvent: {}
+[63.465618] (-) TimerEvent: {}
+[63.567864] (-) TimerEvent: {}
+[63.669178] (-) TimerEvent: {}
+[63.772353] (-) TimerEvent: {}
+[63.874562] (-) TimerEvent: {}
+[63.975652] (-) TimerEvent: {}
+[64.040831] (aruco_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[64.075872] (-) TimerEvent: {}
+[64.177040] (-) TimerEvent: {}
+[64.277998] (-) TimerEvent: {}
+[64.379130] (-) TimerEvent: {}
+[64.473049] (aruco_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/marker_array__functions.c.o\x1b[0m\n'}
+[64.479366] (-) TimerEvent: {}
+[64.582567] (-) TimerEvent: {}
+[64.683516] (-) TimerEvent: {}
+[64.784447] (-) TimerEvent: {}
+[64.833216] (aruco_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libaruco_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[64.884650] (-) TimerEvent: {}
+[64.986632] (-) TimerEvent: {}
+[65.082713] (aruco_msgs) StdoutLine: {'line': b'[ 43%] Built target aruco_msgs__rosidl_generator_c\n'}
+[65.086790] (-) TimerEvent: {}
+[65.141504] (aruco_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[65.186998] (-) TimerEvent: {}
+[65.287908] (-) TimerEvent: {}
+[65.388807] (-) TimerEvent: {}
+[65.490003] (-) TimerEvent: {}
+[65.591482] (-) TimerEvent: {}
+[65.692647] (-) TimerEvent: {}
+[65.793981] (-) TimerEvent: {}
+[65.895600] (-) TimerEvent: {}
+[65.996840] (-) TimerEvent: {}
+[66.097770] (-) TimerEvent: {}
+[66.198722] (-) TimerEvent: {}
+[66.299855] (-) TimerEvent: {}
+[66.400801] (-) TimerEvent: {}
+[66.501656] (-) TimerEvent: {}
+[66.602539] (-) TimerEvent: {}
+[66.703659] (-) TimerEvent: {}
+[66.804771] (-) TimerEvent: {}
+[66.906460] (-) TimerEvent: {}
+[66.949604] (aruco_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__type_support_c.cpp.o\x1b[0m\n'}
+[67.006675] (-) TimerEvent: {}
+[67.107569] (-) TimerEvent: {}
+[67.208424] (-) TimerEvent: {}
+[67.309352] (-) TimerEvent: {}
+[67.410399] (-) TimerEvent: {}
+[67.511386] (-) TimerEvent: {}
+[67.612864] (-) TimerEvent: {}
+[67.713928] (-) TimerEvent: {}
+[67.814974] (-) TimerEvent: {}
+[67.916053] (-) TimerEvent: {}
+[68.016982] (-) TimerEvent: {}
+[68.118109] (-) TimerEvent: {}
+[68.219073] (-) TimerEvent: {}
+[68.320009] (-) TimerEvent: {}
+[68.421066] (-) TimerEvent: {}
+[68.522638] (-) TimerEvent: {}
+[68.626975] (-) TimerEvent: {}
+[68.728051] (-) TimerEvent: {}
+[68.830863] (-) TimerEvent: {}
+[68.931840] (-) TimerEvent: {}
+[69.032818] (-) TimerEvent: {}
+[69.135800] (-) TimerEvent: {}
+[69.236823] (-) TimerEvent: {}
+[69.286512] (aruco_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker_array__type_support_c.cpp.o\x1b[0m\n'}
+[69.337078] (-) TimerEvent: {}
+[69.438039] (-) TimerEvent: {}
+[69.538966] (-) TimerEvent: {}
+[69.639813] (-) TimerEvent: {}
+[69.740701] (-) TimerEvent: {}
+[69.841549] (-) TimerEvent: {}
+[69.942639] (-) TimerEvent: {}
+[70.043953] (-) TimerEvent: {}
+[70.145702] (-) TimerEvent: {}
+[70.246693] (-) TimerEvent: {}
+[70.348282] (-) TimerEvent: {}
+[70.449270] (-) TimerEvent: {}
+[70.550228] (-) TimerEvent: {}
+[70.651172] (-) TimerEvent: {}
+[70.752209] (-) TimerEvent: {}
+[70.853495] (-) TimerEvent: {}
+[70.955911] (-) TimerEvent: {}
+[71.056950] (-) TimerEvent: {}
+[71.158067] (-) TimerEvent: {}
+[71.260809] (-) TimerEvent: {}
+[71.364661] (-) TimerEvent: {}
+[71.465631] (-) TimerEvent: {}
+[71.541503] (aruco_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[71.565826] (-) TimerEvent: {}
+[71.669366] (-) TimerEvent: {}
+[71.773019] (-) TimerEvent: {}
+[71.874204] (-) TimerEvent: {}
+[71.977107] (-) TimerEvent: {}
+[72.000815] (aruco_msgs) StdoutLine: {'line': b'[ 53%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c\n'}
+[72.065222] (aruco_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[72.077358] (-) TimerEvent: {}
+[72.178867] (-) TimerEvent: {}
+[72.279708] (-) TimerEvent: {}
+[72.380712] (-) TimerEvent: {}
+[72.481629] (-) TimerEvent: {}
+[72.582501] (-) TimerEvent: {}
+[72.683305] (-) TimerEvent: {}
+[72.784185] (-) TimerEvent: {}
+[72.885100] (-) TimerEvent: {}
+[72.987002] (-) TimerEvent: {}
+[73.087976] (-) TimerEvent: {}
+[73.188887] (-) TimerEvent: {}
+[73.289735] (-) TimerEvent: {}
+[73.390760] (-) TimerEvent: {}
+[73.493663] (-) TimerEvent: {}
+[73.596109] (-) TimerEvent: {}
+[73.600276] (aruco_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker__type_support.cpp.o\x1b[0m\n'}
+[73.696619] (-) TimerEvent: {}
+[73.798721] (-) TimerEvent: {}
+[73.816986] (aruco_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/marker_array__type_support.cpp.o\x1b[0m\n'}
+[73.898955] (-) TimerEvent: {}
+[73.999917] (-) TimerEvent: {}
+[74.022161] (aruco_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[74.100340] (-) TimerEvent: {}
+[74.202349] (-) TimerEvent: {}
+[74.247385] (aruco_msgs) StdoutLine: {'line': b'[ 64%] Built target aruco_msgs__rosidl_typesupport_c\n'}
+[74.302572] (-) TimerEvent: {}
+[74.306516] (aruco_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[74.402809] (-) TimerEvent: {}
+[74.503761] (-) TimerEvent: {}
+[74.604641] (-) TimerEvent: {}
+[74.705600] (-) TimerEvent: {}
+[74.808304] (-) TimerEvent: {}
+[74.909182] (-) TimerEvent: {}
+[75.010107] (-) TimerEvent: {}
+[75.111008] (-) TimerEvent: {}
+[75.211874] (-) TimerEvent: {}
+[75.312790] (-) TimerEvent: {}
+[75.413697] (-) TimerEvent: {}
+[75.514615] (-) TimerEvent: {}
+[75.616065] (-) TimerEvent: {}
+[75.719460] (-) TimerEvent: {}
+[75.832101] (-) TimerEvent: {}
+[75.933954] (-) TimerEvent: {}
+[76.036225] (-) TimerEvent: {}
+[76.138747] (-) TimerEvent: {}
+[76.240069] (-) TimerEvent: {}
+[76.319306] (aruco_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[76.340617] (-) TimerEvent: {}
+[76.441981] (-) TimerEvent: {}
+[76.542986] (-) TimerEvent: {}
+[76.632076] (aruco_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__type_support.c.o\x1b[0m\n'}
+[76.643208] (-) TimerEvent: {}
+[76.744164] (-) TimerEvent: {}
+[76.845048] (-) TimerEvent: {}
+[76.933098] (aruco_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libaruco_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[76.945323] (-) TimerEvent: {}
+[77.046402] (-) TimerEvent: {}
+[77.147857] (-) TimerEvent: {}
+[77.198248] (aruco_msgs) StdoutLine: {'line': b'[ 74%] Built target aruco_msgs__rosidl_typesupport_introspection_c\n'}
+[77.248151] (-) TimerEvent: {}
+[77.317847] (aruco_msgs) StdoutLine: {'line': b'[ 74%] Built target aruco_msgs\n'}
+[77.348415] (-) TimerEvent: {}
+[77.442830] (aruco_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[77.448619] (-) TimerEvent: {}
+[77.550405] (-) TimerEvent: {}
+[77.652119] (-) TimerEvent: {}
+[77.753301] (-) TimerEvent: {}
+[77.854429] (-) TimerEvent: {}
+[77.956081] (-) TimerEvent: {}
+[78.057042] (-) TimerEvent: {}
+[78.159695] (-) TimerEvent: {}
+[78.262399] (-) TimerEvent: {}
+[78.363534] (-) TimerEvent: {}
+[78.464371] (-) TimerEvent: {}
+[78.565399] (-) TimerEvent: {}
+[78.666978] (-) TimerEvent: {}
+[78.767839] (-) TimerEvent: {}
+[78.868677] (-) TimerEvent: {}
+[78.969490] (-) TimerEvent: {}
+[79.070597] (-) TimerEvent: {}
+[79.171505] (-) TimerEvent: {}
+[79.272879] (-) TimerEvent: {}
+[79.373755] (-) TimerEvent: {}
+[79.474604] (-) TimerEvent: {}
+[79.575494] (-) TimerEvent: {}
+[79.676530] (-) TimerEvent: {}
+[79.778205] (-) TimerEvent: {}
+[79.879437] (-) TimerEvent: {}
+[79.980392] (-) TimerEvent: {}
+[80.081892] (-) TimerEvent: {}
+[80.100964] (aruco_msgs) StdoutLine: {'line': b'[ 76%] Built target aruco_msgs__py\n'}
+[80.182147] (-) TimerEvent: {}
+[80.240684] (aruco_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_msgs/msg/_marker_s.c.o\x1b[0m\n'}
+[80.282370] (-) TimerEvent: {}
+[80.383625] (-) TimerEvent: {}
+[80.485315] (-) TimerEvent: {}
+[80.586648] (-) TimerEvent: {}
+[80.687693] (-) TimerEvent: {}
+[80.789071] (-) TimerEvent: {}
+[80.939311] (-) TimerEvent: {}
+[81.040260] (-) TimerEvent: {}
+[81.141210] (-) TimerEvent: {}
+[81.242374] (-) TimerEvent: {}
+[81.268342] (aruco_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_msgs/msg/_marker_array_s.c.o\x1b[0m\n'}
+[81.342592] (-) TimerEvent: {}
+[81.444346] (-) TimerEvent: {}
+[81.545761] (-) TimerEvent: {}
+[81.646758] (-) TimerEvent: {}
+[81.749309] (-) TimerEvent: {}
+[81.850347] (-) TimerEvent: {}
+[81.953027] (-) TimerEvent: {}
+[81.960764] (aruco_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/libaruco_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[82.053470] (-) TimerEvent: {}
+[82.154833] (-) TimerEvent: {}
+[82.245596] (aruco_msgs) StdoutLine: {'line': b'[ 84%] Built target aruco_msgs__rosidl_generator_py\n'}
+[82.255465] (-) TimerEvent: {}
+[82.357049] (aruco_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[82.358565] (-) TimerEvent: {}
+[82.460142] (-) TimerEvent: {}
+[82.562647] (-) TimerEvent: {}
+[82.663522] (-) TimerEvent: {}
+[82.764517] (-) TimerEvent: {}
+[82.865504] (-) TimerEvent: {}
+[82.966538] (-) TimerEvent: {}
+[83.067460] (-) TimerEvent: {}
+[83.118812] (aruco_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[83.167690] (-) TimerEvent: {}
+[83.268860] (-) TimerEvent: {}
+[83.370490] (-) TimerEvent: {}
+[83.424060] (aruco) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o\x1b[0m\n'}
+[83.434945] (aruco_msgs) StdoutLine: {'line': b'[ 89%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[83.470782] (-) TimerEvent: {}
+[83.571873] (-) TimerEvent: {}
+[83.600908] (aruco_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[83.672182] (-) TimerEvent: {}
+[83.773213] (-) TimerEvent: {}
+[83.874507] (-) TimerEvent: {}
+[83.985118] (-) TimerEvent: {}
+[84.098001] (-) TimerEvent: {}
+[84.198989] (-) TimerEvent: {}
+[84.299887] (-) TimerEvent: {}
+[84.400966] (-) TimerEvent: {}
+[84.502043] (-) TimerEvent: {}
+[84.603722] (-) TimerEvent: {}
+[84.605144] (aruco_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[84.703960] (-) TimerEvent: {}
+[84.804995] (-) TimerEvent: {}
+[84.906223] (-) TimerEvent: {}
+[85.007714] (-) TimerEvent: {}
+[85.034002] (aruco_msgs) StdoutLine: {'line': b'[ 94%] Built target aruco_msgs__rosidl_typesupport_c__pyext\n'}
+[85.107953] (-) TimerEvent: {}
+[85.189527] (aruco_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[85.208227] (-) TimerEvent: {}
+[85.310670] (-) TimerEvent: {}
+[85.411928] (-) TimerEvent: {}
+[85.513507] (-) TimerEvent: {}
+[85.550535] (aruco) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o\x1b[0m\n'}
+[85.614878] (-) TimerEvent: {}
+[85.716172] (-) TimerEvent: {}
+[85.820088] (-) TimerEvent: {}
+[85.921911] (-) TimerEvent: {}
+[86.027645] (-) TimerEvent: {}
+[86.130242] (-) TimerEvent: {}
+[86.232941] (-) TimerEvent: {}
+[86.336003] (-) TimerEvent: {}
+[86.437506] (-) TimerEvent: {}
+[86.541362] (-) TimerEvent: {}
+[86.596486] (aruco_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[86.641665] (-) TimerEvent: {}
+[86.742735] (-) TimerEvent: {}
+[86.845440] (-) TimerEvent: {}
+[86.947288] (-) TimerEvent: {}
+[87.049323] (-) TimerEvent: {}
+[87.059389] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[87.149760] (-) TimerEvent: {}
+[87.165328] (aruco_msgs) CommandEnded: {'returncode': 0}
+[87.250125] (-) TimerEvent: {}
+[87.351498] (-) TimerEvent: {}
+[87.453537] (-) TimerEvent: {}
+[87.555526] (-) TimerEvent: {}
+[87.631491] (aruco) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o\x1b[0m\n'}
+[87.655747] (-) TimerEvent: {}
+[87.757024] (-) TimerEvent: {}
+[87.859101] (-) TimerEvent: {}
+[87.960383] (-) TimerEvent: {}
+[88.061598] (-) TimerEvent: {}
+[88.162865] (-) TimerEvent: {}
+[88.269001] (-) TimerEvent: {}
+[88.370286] (-) TimerEvent: {}
+[88.455320] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'install'}
+[88.471235] (-) TimerEvent: {}
+[88.559920] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[88.571493] (-) TimerEvent: {}
+[88.672658] (-) TimerEvent: {}
+[88.774572] (-) TimerEvent: {}
+[88.875902] (-) TimerEvent: {}
+[88.977284] (-) TimerEvent: {}
+[89.078824] (-) TimerEvent: {}
+[89.172493] (aruco_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[89.177077] (aruco_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[89.179069] (-) TimerEvent: {}
+[89.181671] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs\n'}
+[89.279356] (-) TimerEvent: {}
+[89.324879] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h\n'}
+[89.379685] (-) TimerEvent: {}
+[89.431734] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h\n'}
+[89.480943] (-) TimerEvent: {}
+[89.539882] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h\n'}
+[89.580624] (-) TimerEvent: {}
+[89.630836] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h\n'}
+[89.680974] (-) TimerEvent: {}
+[89.697967] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h\n'}
+[89.762887] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h\n'}
+[89.781775] (-) TimerEvent: {}
+[89.834648] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h\n'}
+[89.882203] (-) TimerEvent: {}
+[89.905814] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h\n'}
+[89.982421] (-) TimerEvent: {}
+[90.014374] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[90.082701] (-) TimerEvent: {}
+[90.096653] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh\n'}
+[90.177667] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv\n'}
+[90.183188] (-) TimerEvent: {}
+[90.292907] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h\n'}
+[90.294330] (-) TimerEvent: {}
+[90.395843] (-) TimerEvent: {}
+[90.425743] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h\n'}
+[90.496035] (-) TimerEvent: {}
+[90.598144] (-) TimerEvent: {}
+[90.621974] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[90.698442] (-) TimerEvent: {}
+[90.787489] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp\n'}
+[90.798840] (-) TimerEvent: {}
+[90.930701] (-) TimerEvent: {}
+[90.938898] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp\n'}
+[91.030869] (-) TimerEvent: {}
+[91.057391] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp\n'}
+[91.131642] (-) TimerEvent: {}
+[91.172397] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp\n'}
+[91.233084] (-) TimerEvent: {}
+[91.328102] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp\n'}
+[91.333309] (-) TimerEvent: {}
+[91.435916] (-) TimerEvent: {}
+[91.471810] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp\n'}
+[91.536214] (-) TimerEvent: {}
+[91.608448] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp\n'}
+[91.638000] (-) TimerEvent: {}
+[91.714172] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp\n'}
+[91.738316] (-) TimerEvent: {}
+[91.839501] (-) TimerEvent: {}
+[91.856163] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[91.939788] (-) TimerEvent: {}
+[91.987559] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[92.040131] (-) TimerEvent: {}
+[92.129958] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[92.140502] (-) TimerEvent: {}
+[92.242358] (-) TimerEvent: {}
+[92.286702] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h\n'}
+[92.342627] (-) TimerEvent: {}
+[92.433139] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h\n'}
+[92.443471] (-) TimerEvent: {}
+[92.510058] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[92.543633] (-) TimerEvent: {}
+[92.605341] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[92.643866] (-) TimerEvent: {}
+[92.685218] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[92.745086] (-) TimerEvent: {}
+[92.762531] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh\n'}
+[92.840059] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv\n'}
+[92.846108] (-) TimerEvent: {}
+[92.919380] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/PKG-INFO\n'}
+[92.947061] (-) TimerEvent: {}
+[92.998493] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/SOURCES.txt\n'}
+[93.047443] (-) TimerEvent: {}
+[93.081644] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/dependency_links.txt\n'}
+[93.149800] (-) TimerEvent: {}
+[93.171197] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.3-py3.10.egg-info/top_level.txt\n'}
+[93.250374] (-) TimerEvent: {}
+[93.275807] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py\n'}
+[93.349013] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[93.350519] (-) TimerEvent: {}
+[93.428813] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[93.453617] (-) TimerEvent: {}
+[93.495042] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[93.555953] (-) TimerEvent: {}
+[93.582642] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[93.652295] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[93.657536] (-) TimerEvent: {}
+[93.736882] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[93.757726] (-) TimerEvent: {}
+[93.814380] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so\n'}
+[93.858070] (-) TimerEvent: {}
+[93.890014] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py\n'}
+[93.949670] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py\n'}
+[93.958225] (-) TimerEvent: {}
+[94.020804] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py\n'}
+[94.058536] (-) TimerEvent: {}
+[94.094148] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c\n'}
+[94.153327] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c\n'}
+[94.159760] (-) TimerEvent: {}
+[94.243724] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[94.251361] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[94.270018] (-) TimerEvent: {}
+[94.272639] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[94.280622] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl\n'}
+[94.370360] (-) TimerEvent: {}
+[94.371578] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl\n'}
+[94.459646] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg\n'}
+[94.470640] (-) TimerEvent: {}
+[94.571970] (-) TimerEvent: {}
+[94.579990] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg\n'}
+[94.673799] (-) TimerEvent: {}
+[94.679111] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs\n'}
+[94.775496] (-) TimerEvent: {}
+[94.785161] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs\n'}
+[94.875870] (-) TimerEvent: {}
+[94.889995] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh\n'}
+[94.976182] (-) TimerEvent: {}
+[94.990276] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv\n'}
+[95.076429] (-) TimerEvent: {}
+[95.097534] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/path.sh\n'}
+[95.176915] (-) TimerEvent: {}
+[95.202374] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/environment/path.dsv\n'}
+[95.277218] (-) TimerEvent: {}
+[95.302516] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.bash\n'}
+[95.377816] (-) TimerEvent: {}
+[95.399783] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.sh\n'}
+[95.478267] (-) TimerEvent: {}
+[95.497892] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.zsh\n'}
+[95.578815] (-) TimerEvent: {}
+[95.603142] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/local_setup.dsv\n'}
+[95.679165] (-) TimerEvent: {}
+[95.702273] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.dsv\n'}
+[95.779491] (-) TimerEvent: {}
+[95.830380] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs\n'}
+[95.881503] (-) TimerEvent: {}
+[95.937497] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[95.981890] (-) TimerEvent: {}
+[96.059339] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[96.083078] (-) TimerEvent: {}
+[96.159732] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[96.183484] (-) TimerEvent: {}
+[96.248967] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[96.283785] (-) TimerEvent: {}
+[96.332205] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[96.385276] (-) TimerEvent: {}
+[96.408155] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[96.474744] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[96.486794] (-) TimerEvent: {}
+[96.547230] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake\n'}
+[96.587138] (-) TimerEvent: {}
+[96.627802] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake\n'}
+[96.688983] (-) TimerEvent: {}
+[96.696257] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.xml\n'}
+[96.789210] (-) TimerEvent: {}
+[96.890205] (-) TimerEvent: {}
+[96.991157] (-) TimerEvent: {}
+[97.092506] (-) TimerEvent: {}
+[97.193482] (-) TimerEvent: {}
+[97.294740] (-) TimerEvent: {}
+[97.396407] (-) TimerEvent: {}
+[97.486886] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so\n'}
+[97.497226] (-) TimerEvent: {}
+[97.510369] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so" to ""\n'}
+[97.511425] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[97.523490] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[97.525864] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[97.530354] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[97.531352] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so\n'}
+[97.536598] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[97.537626] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so\n'}
+[97.541518] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so" to ""\n'}
+[97.543787] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[97.554318] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[97.556110] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so\n'}
+[97.559331] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[97.596952] (-) TimerEvent: {}
+[97.698167] (-) TimerEvent: {}
+[97.799322] (-) TimerEvent: {}
+[97.900209] (-) TimerEvent: {}
+[97.960800] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...\n"}
+[97.963324] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py'...\n"}
+[97.977813] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...\n"}
+[97.979051] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py'...\n"}
+[97.980650] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py'...\n"}
+[97.988786] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py'...\n"}
+[98.000454] (-) TimerEvent: {}
+[98.056227] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so\n'}
+[98.060426] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so" to ""\n'}
+[98.064017] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake\n'}
+[98.070561] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[98.071979] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[98.077750] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[98.088636] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake\n'}
+[98.093050] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[98.096637] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[98.099114] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[98.100666] (-) TimerEvent: {}
+[98.102686] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[98.107031] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake\n'}
+[98.116769] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[98.125043] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[98.128818] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[98.131143] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[98.133218] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[98.136340] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake\n'}
+[98.140037] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[98.163224] (aruco_msgs) CommandEnded: {'returncode': 0}
+[98.201307] (-) TimerEvent: {}
+[98.304113] (-) TimerEvent: {}
+[98.407398] (-) TimerEvent: {}
+[98.524075] (-) TimerEvent: {}
+[98.626220] (-) TimerEvent: {}
+[98.727671] (-) TimerEvent: {}
+[98.830238] (-) TimerEvent: {}
+[98.931314] (-) TimerEvent: {}
+[99.032284] (-) TimerEvent: {}
+[99.133515] (-) TimerEvent: {}
+[99.234458] (-) TimerEvent: {}
+[99.335426] (-) TimerEvent: {}
+[99.436726] (-) TimerEvent: {}
+[99.538293] (-) TimerEvent: {}
+[99.640366] (-) TimerEvent: {}
+[99.742056] (-) TimerEvent: {}
+[99.847510] (-) TimerEvent: {}
+[99.949017] (-) TimerEvent: {}
+[100.051153] (-) TimerEvent: {}
+[100.152226] (-) TimerEvent: {}
+[100.254127] (-) TimerEvent: {}
+[100.327782] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 0}
+[100.354299] (-) TimerEvent: {}
+[100.455172] (-) TimerEvent: {}
+[100.555942] (-) TimerEvent: {}
+[100.656753] (-) TimerEvent: {}
+[100.757623] (-) TimerEvent: {}
+[100.858407] (-) TimerEvent: {}
+[100.959343] (-) TimerEvent: {}
+[101.060381] (-) TimerEvent: {}
+[101.161442] (-) TimerEvent: {}
+[101.262489] (-) TimerEvent: {}
+[101.363870] (-) TimerEvent: {}
+[101.464748] (-) TimerEvent: {}
+[101.565718] (-) TimerEvent: {}
+[101.666496] (-) TimerEvent: {}
+[101.767309] (-) TimerEvent: {}
+[101.868159] (-) TimerEvent: {}
+[101.968929] (-) TimerEvent: {}
+[102.069955] (-) TimerEvent: {}
+[102.171155] (-) TimerEvent: {}
+[102.272096] (-) TimerEvent: {}
+[102.373052] (-) TimerEvent: {}
+[102.473972] (-) TimerEvent: {}
+[102.574920] (-) TimerEvent: {}
+[102.675920] (-) TimerEvent: {}
+[102.777429] (-) TimerEvent: {}
+[102.878595] (-) TimerEvent: {}
+[102.980984] (-) TimerEvent: {}
+[103.081806] (-) TimerEvent: {}
+[103.182624] (-) TimerEvent: {}
+[103.283417] (-) TimerEvent: {}
+[103.384223] (-) TimerEvent: {}
+[103.485009] (-) TimerEvent: {}
+[103.585918] (-) TimerEvent: {}
+[103.686686] (-) TimerEvent: {}
+[103.787511] (-) TimerEvent: {}
+[103.888296] (-) TimerEvent: {}
+[103.989118] (-) TimerEvent: {}
+[104.089921] (-) TimerEvent: {}
+[104.190736] (-) TimerEvent: {}
+[104.291710] (-) TimerEvent: {}
+[104.392890] (-) TimerEvent: {}
+[104.493756] (-) TimerEvent: {}
+[104.594528] (-) TimerEvent: {}
+[104.695305] (-) TimerEvent: {}
+[104.796094] (-) TimerEvent: {}
+[104.896885] (-) TimerEvent: {}
+[104.997732] (-) TimerEvent: {}
+[105.098520] (-) TimerEvent: {}
+[105.199312] (-) TimerEvent: {}
+[105.300110] (-) TimerEvent: {}
+[105.401246] (-) TimerEvent: {}
+[105.502689] (-) TimerEvent: {}
+[105.603435] (-) TimerEvent: {}
+[105.704351] (-) TimerEvent: {}
+[105.805274] (-) TimerEvent: {}
+[105.906234] (-) TimerEvent: {}
+[106.007327] (-) TimerEvent: {}
+[106.108691] (-) TimerEvent: {}
+[106.209896] (-) TimerEvent: {}
+[106.276567] (aruco) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o\x1b[0m\n'}
+[106.310293] (-) TimerEvent: {}
+[106.411148] (-) TimerEvent: {}
+[106.511891] (-) TimerEvent: {}
+[106.612898] (-) TimerEvent: {}
+[106.713669] (-) TimerEvent: {}
+[106.814563] (-) TimerEvent: {}
+[106.915303] (-) TimerEvent: {}
+[107.016105] (-) TimerEvent: {}
+[107.116893] (-) TimerEvent: {}
+[107.217730] (-) TimerEvent: {}
+[107.318580] (-) TimerEvent: {}
+[107.419443] (-) TimerEvent: {}
+[107.520203] (-) TimerEvent: {}
+[107.620974] (-) TimerEvent: {}
+[107.721846] (-) TimerEvent: {}
+[107.822707] (-) TimerEvent: {}
+[107.923857] (-) TimerEvent: {}
+[108.024696] (-) TimerEvent: {}
+[108.125501] (-) TimerEvent: {}
+[108.226383] (-) TimerEvent: {}
+[108.327185] (-) TimerEvent: {}
+[108.427954] (-) TimerEvent: {}
+[108.528833] (-) TimerEvent: {}
+[108.629652] (-) TimerEvent: {}
+[108.730489] (-) TimerEvent: {}
+[108.831244] (-) TimerEvent: {}
+[108.932100] (-) TimerEvent: {}
+[109.033233] (-) TimerEvent: {}
+[109.134479] (-) TimerEvent: {}
+[109.235334] (-) TimerEvent: {}
+[109.336269] (-) TimerEvent: {}
+[109.437138] (-) TimerEvent: {}
+[109.538432] (-) TimerEvent: {}
+[109.641433] (-) TimerEvent: {}
+[109.742874] (-) TimerEvent: {}
+[109.844460] (-) TimerEvent: {}
+[109.945344] (-) TimerEvent: {}
+[110.046523] (-) TimerEvent: {}
+[110.147304] (-) TimerEvent: {}
+[110.248156] (-) TimerEvent: {}
+[110.348966] (-) TimerEvent: {}
+[110.449887] (-) TimerEvent: {}
+[110.550725] (-) TimerEvent: {}
+[110.651549] (-) TimerEvent: {}
+[110.752306] (-) TimerEvent: {}
+[110.853085] (-) TimerEvent: {}
+[110.954017] (-) TimerEvent: {}
+[111.055076] (-) TimerEvent: {}
+[111.156129] (-) TimerEvent: {}
+[111.257003] (-) TimerEvent: {}
+[111.357843] (-) TimerEvent: {}
+[111.458651] (-) TimerEvent: {}
+[111.559584] (-) TimerEvent: {}
+[111.660357] (-) TimerEvent: {}
+[111.761327] (-) TimerEvent: {}
+[111.862210] (-) TimerEvent: {}
+[111.963059] (-) TimerEvent: {}
+[112.064450] (-) TimerEvent: {}
+[112.165357] (-) TimerEvent: {}
+[112.266266] (-) TimerEvent: {}
+[112.367018] (-) TimerEvent: {}
+[112.468246] (-) TimerEvent: {}
+[112.569528] (-) TimerEvent: {}
+[112.671113] (-) TimerEvent: {}
+[112.772052] (-) TimerEvent: {}
+[112.873185] (-) TimerEvent: {}
+[112.974144] (-) TimerEvent: {}
+[113.075163] (-) TimerEvent: {}
+[113.176289] (-) TimerEvent: {}
+[113.277130] (-) TimerEvent: {}
+[113.377998] (-) TimerEvent: {}
+[113.478774] (-) TimerEvent: {}
+[113.579573] (-) TimerEvent: {}
+[113.680356] (-) TimerEvent: {}
+[113.781114] (-) TimerEvent: {}
+[113.881969] (-) TimerEvent: {}
+[113.982769] (-) TimerEvent: {}
+[114.083574] (-) TimerEvent: {}
+[114.184395] (-) TimerEvent: {}
+[114.285234] (-) TimerEvent: {}
+[114.386188] (-) TimerEvent: {}
+[114.487418] (-) TimerEvent: {}
+[114.588188] (-) TimerEvent: {}
+[114.689003] (-) TimerEvent: {}
+[114.789856] (-) TimerEvent: {}
+[114.890629] (-) TimerEvent: {}
+[114.991386] (-) TimerEvent: {}
+[115.092147] (-) TimerEvent: {}
+[115.192913] (-) TimerEvent: {}
+[115.293752] (-) TimerEvent: {}
+[115.394634] (-) TimerEvent: {}
+[115.495463] (-) TimerEvent: {}
+[115.596656] (-) TimerEvent: {}
+[115.697740] (-) TimerEvent: {}
+[115.798608] (-) TimerEvent: {}
+[115.899706] (-) TimerEvent: {}
+[116.000937] (-) TimerEvent: {}
+[116.102055] (-) TimerEvent: {}
+[116.203220] (-) TimerEvent: {}
+[116.304271] (-) TimerEvent: {}
+[116.405163] (-) TimerEvent: {}
+[116.506365] (-) TimerEvent: {}
+[116.607205] (-) TimerEvent: {}
+[116.707989] (-) TimerEvent: {}
+[116.808951] (-) TimerEvent: {}
+[116.910086] (-) TimerEvent: {}
+[117.010855] (-) TimerEvent: {}
+[117.111670] (-) TimerEvent: {}
+[117.212480] (-) TimerEvent: {}
+[117.313343] (-) TimerEvent: {}
+[117.414415] (-) TimerEvent: {}
+[117.515298] (-) TimerEvent: {}
+[117.616141] (-) TimerEvent: {}
+[117.717131] (-) TimerEvent: {}
+[117.818873] (-) TimerEvent: {}
+[117.919794] (-) TimerEvent: {}
+[118.020634] (-) TimerEvent: {}
+[118.121461] (-) TimerEvent: {}
+[118.222274] (-) TimerEvent: {}
+[118.323068] (-) TimerEvent: {}
+[118.423954] (-) TimerEvent: {}
+[118.524927] (-) TimerEvent: {}
+[118.625817] (-) TimerEvent: {}
+[118.726655] (-) TimerEvent: {}
+[118.827583] (-) TimerEvent: {}
+[118.928762] (-) TimerEvent: {}
+[119.029660] (-) TimerEvent: {}
+[119.130654] (-) TimerEvent: {}
+[119.231577] (-) TimerEvent: {}
+[119.332704] (-) TimerEvent: {}
+[119.433879] (-) TimerEvent: {}
+[119.535472] (-) TimerEvent: {}
+[119.636681] (-) TimerEvent: {}
+[119.738209] (-) TimerEvent: {}
+[119.839779] (-) TimerEvent: {}
+[119.940664] (-) TimerEvent: {}
+[120.041510] (-) TimerEvent: {}
+[120.142346] (-) TimerEvent: {}
+[120.243132] (-) TimerEvent: {}
+[120.343966] (-) TimerEvent: {}
+[120.444780] (-) TimerEvent: {}
+[120.545553] (-) TimerEvent: {}
+[120.646391] (-) TimerEvent: {}
+[120.747557] (-) TimerEvent: {}
+[120.848391] (-) TimerEvent: {}
+[120.949264] (-) TimerEvent: {}
+[121.050562] (-) TimerEvent: {}
+[121.151326] (-) TimerEvent: {}
+[121.252149] (-) TimerEvent: {}
+[121.352879] (-) TimerEvent: {}
+[121.495259] (-) TimerEvent: {}
+[121.596560] (-) TimerEvent: {}
+[121.697764] (-) TimerEvent: {}
+[121.798918] (-) TimerEvent: {}
+[121.900601] (-) TimerEvent: {}
+[122.001652] (-) TimerEvent: {}
+[122.102991] (-) TimerEvent: {}
+[122.203846] (-) TimerEvent: {}
+[122.212716] (aruco) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o\x1b[0m\n'}
+[122.304045] (-) TimerEvent: {}
+[122.404801] (-) TimerEvent: {}
+[122.505615] (-) TimerEvent: {}
+[122.606462] (-) TimerEvent: {}
+[122.707311] (-) TimerEvent: {}
+[122.808094] (-) TimerEvent: {}
+[122.908862] (-) TimerEvent: {}
+[123.009671] (-) TimerEvent: {}
+[123.110450] (-) TimerEvent: {}
+[123.211262] (-) TimerEvent: {}
+[123.312025] (-) TimerEvent: {}
+[123.412818] (-) TimerEvent: {}
+[123.513719] (-) TimerEvent: {}
+[123.614587] (-) TimerEvent: {}
+[123.715787] (-) TimerEvent: {}
+[123.816616] (-) TimerEvent: {}
+[123.917464] (-) TimerEvent: {}
+[124.018362] (-) TimerEvent: {}
+[124.119129] (-) TimerEvent: {}
+[124.219965] (-) TimerEvent: {}
+[124.321146] (-) TimerEvent: {}
+[124.423095] (-) TimerEvent: {}
+[124.523911] (-) TimerEvent: {}
+[124.624991] (-) TimerEvent: {}
+[124.726209] (-) TimerEvent: {}
+[124.827297] (-) TimerEvent: {}
+[124.928449] (-) TimerEvent: {}
+[125.029281] (-) TimerEvent: {}
+[125.130528] (-) TimerEvent: {}
+[125.231945] (-) TimerEvent: {}
+[125.333478] (-) TimerEvent: {}
+[125.434944] (-) TimerEvent: {}
+[125.535858] (-) TimerEvent: {}
+[125.637087] (-) TimerEvent: {}
+[125.738152] (-) TimerEvent: {}
+[125.839155] (-) TimerEvent: {}
+[125.940044] (-) TimerEvent: {}
+[126.040893] (-) TimerEvent: {}
+[126.141742] (-) TimerEvent: {}
+[126.242560] (-) TimerEvent: {}
+[126.343413] (-) TimerEvent: {}
+[126.444274] (-) TimerEvent: {}
+[126.545216] (-) TimerEvent: {}
+[126.646251] (-) TimerEvent: {}
+[126.747563] (-) TimerEvent: {}
+[126.848336] (-) TimerEvent: {}
+[126.949124] (-) TimerEvent: {}
+[127.049945] (-) TimerEvent: {}
+[127.150721] (-) TimerEvent: {}
+[127.251505] (-) TimerEvent: {}
+[127.352315] (-) TimerEvent: {}
+[127.453118] (-) TimerEvent: {}
+[127.553949] (-) TimerEvent: {}
+[127.654801] (-) TimerEvent: {}
+[127.755975] (-) TimerEvent: {}
+[127.857167] (-) TimerEvent: {}
+[127.958244] (-) TimerEvent: {}
+[128.059197] (-) TimerEvent: {}
+[128.160215] (-) TimerEvent: {}
+[128.261147] (-) TimerEvent: {}
+[128.362733] (-) TimerEvent: {}
+[128.464108] (-) TimerEvent: {}
+[128.565430] (-) TimerEvent: {}
+[128.666393] (-) TimerEvent: {}
+[128.767189] (-) TimerEvent: {}
+[128.867979] (-) TimerEvent: {}
+[128.968758] (-) TimerEvent: {}
+[129.069710] (-) TimerEvent: {}
+[129.170570] (-) TimerEvent: {}
+[129.271388] (-) TimerEvent: {}
+[129.372204] (-) TimerEvent: {}
+[129.472986] (-) TimerEvent: {}
+[129.573843] (-) TimerEvent: {}
+[129.674643] (-) TimerEvent: {}
+[129.775441] (-) TimerEvent: {}
+[129.876212] (-) TimerEvent: {}
+[129.977143] (-) TimerEvent: {}
+[130.078465] (-) TimerEvent: {}
+[130.179342] (-) TimerEvent: {}
+[130.280180] (-) TimerEvent: {}
+[130.380936] (-) TimerEvent: {}
+[130.481717] (-) TimerEvent: {}
+[130.582726] (-) TimerEvent: {}
+[130.684442] (-) TimerEvent: {}
+[130.717379] (aruco) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o\x1b[0m\n'}
+[130.784649] (-) TimerEvent: {}
+[130.885384] (-) TimerEvent: {}
+[130.986183] (-) TimerEvent: {}
+[131.086997] (-) TimerEvent: {}
+[131.188056] (-) TimerEvent: {}
+[131.289078] (-) TimerEvent: {}
+[131.389937] (-) TimerEvent: {}
+[131.490950] (-) TimerEvent: {}
+[131.591764] (-) TimerEvent: {}
+[131.692892] (-) TimerEvent: {}
+[131.794416] (-) TimerEvent: {}
+[131.895591] (-) TimerEvent: {}
+[131.996568] (-) TimerEvent: {}
+[132.097999] (-) TimerEvent: {}
+[132.198848] (-) TimerEvent: {}
+[132.299645] (-) TimerEvent: {}
+[132.400485] (-) TimerEvent: {}
+[132.501281] (-) TimerEvent: {}
+[132.602134] (-) TimerEvent: {}
+[132.702934] (-) TimerEvent: {}
+[132.803816] (-) TimerEvent: {}
+[132.904708] (-) TimerEvent: {}
+[133.005542] (-) TimerEvent: {}
+[133.106345] (-) TimerEvent: {}
+[133.207186] (-) TimerEvent: {}
+[133.308091] (-) TimerEvent: {}
+[133.408962] (-) TimerEvent: {}
+[133.510239] (-) TimerEvent: {}
+[133.611272] (-) TimerEvent: {}
+[133.712066] (-) TimerEvent: {}
+[133.812844] (-) TimerEvent: {}
+[133.913695] (-) TimerEvent: {}
+[134.014487] (-) TimerEvent: {}
+[134.115285] (-) TimerEvent: {}
+[134.216036] (-) TimerEvent: {}
+[134.316823] (-) TimerEvent: {}
+[134.417651] (-) TimerEvent: {}
+[134.518581] (-) TimerEvent: {}
+[134.619633] (-) TimerEvent: {}
+[134.720801] (-) TimerEvent: {}
+[134.821839] (-) TimerEvent: {}
+[134.923143] (-) TimerEvent: {}
+[135.024013] (-) TimerEvent: {}
+[135.125300] (-) TimerEvent: {}
+[135.226654] (-) TimerEvent: {}
+[135.327657] (-) TimerEvent: {}
+[135.428530] (-) TimerEvent: {}
+[135.529353] (-) TimerEvent: {}
+[135.630253] (-) TimerEvent: {}
+[135.731081] (-) TimerEvent: {}
+[135.831982] (-) TimerEvent: {}
+[135.932857] (-) TimerEvent: {}
+[135.985671] (aruco) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaruco.so\x1b[0m\n'}
+[136.033297] (-) TimerEvent: {}
+[136.134311] (-) TimerEvent: {}
+[136.235161] (-) TimerEvent: {}
+[136.336029] (-) TimerEvent: {}
+[136.436936] (-) TimerEvent: {}
+[136.538449] (-) TimerEvent: {}
+[136.639858] (-) TimerEvent: {}
+[136.741193] (-) TimerEvent: {}
+[136.843003] (-) TimerEvent: {}
+[136.944089] (-) TimerEvent: {}
+[137.045408] (-) TimerEvent: {}
+[137.146362] (-) TimerEvent: {}
+[137.247220] (-) TimerEvent: {}
+[137.348091] (-) TimerEvent: {}
+[137.448802] (-) TimerEvent: {}
+[137.549640] (-) TimerEvent: {}
+[137.650794] (-) TimerEvent: {}
+[137.751593] (-) TimerEvent: {}
+[137.852562] (-) TimerEvent: {}
+[137.953310] (-) TimerEvent: {}
+[138.054666] (-) TimerEvent: {}
+[138.156372] (-) TimerEvent: {}
+[138.257877] (-) TimerEvent: {}
+[138.358999] (-) TimerEvent: {}
+[138.460013] (-) TimerEvent: {}
+[138.506995] (aruco) StdoutLine: {'line': b'[100%] Built target aruco\n'}
+[138.560470] (-) TimerEvent: {}
+[138.565201] (aruco) CommandEnded: {'returncode': 0}
+[138.661110] (-) TimerEvent: {}
+[138.762591] (-) TimerEvent: {}
+[138.863353] (-) TimerEvent: {}
+[138.964383] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'install'}
+[138.964621] (-) TimerEvent: {}
+[138.966949] (aruco) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[139.004059] (aruco) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[139.007440] (aruco) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[139.010148] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/libaruco.so\n'}
+[139.055901] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco.h\n'}
+[139.064898] (-) TimerEvent: {}
+[139.097151] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco_cvversioning.h\n'}
+[139.135800] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco_export.h\n'}
+[139.165088] (-) TimerEvent: {}
+[139.174600] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/cameraparameters.h\n'}
+[139.214058] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/cvdrawingutils.h\n'}
+[139.253455] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/debug.h\n'}
+[139.265328] (-) TimerEvent: {}
+[139.295100] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/dictionary.h\n'}
+[139.333821] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/dictionary_based.h\n'}
+[139.365529] (-) TimerEvent: {}
+[139.372482] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractaldetector.h\n'}
+[139.411589] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractallabeler.h\n'}
+[139.450505] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalmarker.h\n'}
+[139.465767] (-) TimerEvent: {}
+[139.491586] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h\n'}
+[139.529245] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalposetracker.h\n'}
+[139.565973] (-) TimerEvent: {}
+[139.567121] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/ippe.h\n'}
+[139.604472] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/levmarq.h\n'}
+[139.642751] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/marker.h\n'}
+[139.666166] (-) TimerEvent: {}
+[139.680805] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerdetector.h\n'}
+[139.718949] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerdetector_impl.h\n'}
+[139.760880] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerlabeler.h\n'}
+[139.766373] (-) TimerEvent: {}
+[139.800748] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markermap.h\n'}
+[139.840636] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/picoflann.h\n'}
+[139.866579] (-) TimerEvent: {}
+[139.879851] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/posetracker.h\n'}
+[139.919766] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/timers.h\n'}
+[139.961279] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/library_path.sh\n'}
+[139.966767] (-) TimerEvent: {}
+[139.999980] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/library_path.dsv\n'}
+[140.039688] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco\n'}
+[140.067012] (-) TimerEvent: {}
+[140.079445] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco\n'}
+[140.118550] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/ament_prefix_path.sh\n'}
+[140.161802] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/ament_prefix_path.dsv\n'}
+[140.167175] (-) TimerEvent: {}
+[140.204383] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/path.sh\n'}
+[140.243958] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/path.dsv\n'}
+[140.267349] (-) TimerEvent: {}
+[140.284623] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.bash\n'}
+[140.324375] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.sh\n'}
+[140.362446] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.zsh\n'}
+[140.367538] (-) TimerEvent: {}
+[140.401720] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.dsv\n'}
+[140.441088] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.dsv\n'}
+[140.467788] (-) TimerEvent: {}
+[140.480116] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/packages/aruco\n'}
+[140.521209] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[140.562559] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[140.567967] (-) TimerEvent: {}
+[140.602648] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/arucoConfig.cmake\n'}
+[140.641121] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/arucoConfig-version.cmake\n'}
+[140.668176] (-) TimerEvent: {}
+[140.679765] (aruco) StdoutLine: {'line': b'-- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.xml\n'}
+[140.731099] (aruco) CommandEnded: {'returncode': 0}
+[140.768729] (-) TimerEvent: {}
+[140.869645] (-) TimerEvent: {}
+[140.971721] (-) TimerEvent: {}
+[141.073114] (-) TimerEvent: {}
+[141.174483] (-) TimerEvent: {}
+[141.275608] (-) TimerEvent: {}
+[141.376354] (-) TimerEvent: {}
+[141.477208] (-) TimerEvent: {}
+[141.578052] (-) TimerEvent: {}
+[141.679321] (-) TimerEvent: {}
+[141.780740] (-) TimerEvent: {}
+[141.881598] (-) TimerEvent: {}
+[141.983558] (-) TimerEvent: {}
+[142.033643] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 0}
+[142.036605] (aruco_ros) JobStarted: {'identifier': 'aruco_ros'}
+[142.084013] (-) TimerEvent: {}
+[142.185085] (-) TimerEvent: {}
+[142.286458] (-) TimerEvent: {}
+[142.368498] (aruco_ros) JobProgress: {'identifier': 'aruco_ros', 'progress': 'cmake'}
+[142.369509] (aruco_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble')]), 'shell': False}
+[142.386862] (-) TimerEvent: {}
+[142.488077] (-) TimerEvent: {}
+[142.593111] (-) TimerEvent: {}
+[142.695295] (-) TimerEvent: {}
+[142.725001] (aruco_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[142.795505] (-) TimerEvent: {}
+[142.896375] (-) TimerEvent: {}
+[142.997255] (-) TimerEvent: {}
+[143.053459] (aruco_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[143.095313] (aruco_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[143.097408] (-) TimerEvent: {}
+[143.198251] (-) TimerEvent: {}
+[143.299139] (-) TimerEvent: {}
+[143.399921] (-) TimerEvent: {}
+[143.500924] (aruco_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[143.501459] (-) TimerEvent: {}
+[143.531192] (aruco_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[143.532856] (aruco_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[143.534504] (aruco_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[143.548741] (aruco_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[143.601748] (-) TimerEvent: {}
+[143.702588] (-) TimerEvent: {}
+[143.803500] (-) TimerEvent: {}
+[143.904713] (-) TimerEvent: {}
+[143.994327] (aruco_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[144.004868] (-) TimerEvent: {}
+[144.026098] (aruco_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[144.027291] (aruco_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[144.029208] (aruco_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[144.064073] (aruco_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[144.105049] (-) TimerEvent: {}
+[144.206058] (-) TimerEvent: {}
+[144.306778] (-) TimerEvent: {}
+[144.407477] (-) TimerEvent: {}
+[144.508148] (-) TimerEvent: {}
+[144.608885] (-) TimerEvent: {}
+[144.709785] (-) TimerEvent: {}
+[144.810858] (-) TimerEvent: {}
+[144.911574] (-) TimerEvent: {}
+[145.012531] (-) TimerEvent: {}
+[145.113716] (-) TimerEvent: {}
+[145.192165] (aruco_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[145.213996] (-) TimerEvent: {}
+[145.315118] (-) TimerEvent: {}
+[145.415880] (-) TimerEvent: {}
+[145.517190] (-) TimerEvent: {}
+[145.576059] (aruco_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[145.617366] (-) TimerEvent: {}
+[145.718341] (-) TimerEvent: {}
+[145.819380] (-) TimerEvent: {}
+[145.920702] (-) TimerEvent: {}
+[146.022056] (-) TimerEvent: {}
+[146.061891] (aruco_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[146.090820] (aruco_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[146.124107] (-) TimerEvent: {}
+[146.224940] (-) TimerEvent: {}
+[146.326090] (-) TimerEvent: {}
+[146.426817] (-) TimerEvent: {}
+[146.527639] (-) TimerEvent: {}
+[146.587463] (aruco_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[146.627802] (-) TimerEvent: {}
+[146.658331] (aruco_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[146.728015] (-) TimerEvent: {}
+[146.757410] (aruco_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[146.828198] (-) TimerEvent: {}
+[146.884455] (aruco_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[146.928396] (-) TimerEvent: {}
+[147.029198] (-) TimerEvent: {}
+[147.061853] (aruco_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[147.129386] (-) TimerEvent: {}
+[147.230157] (-) TimerEvent: {}
+[147.330912] (-) TimerEvent: {}
+[147.431638] (-) TimerEvent: {}
+[147.532378] (-) TimerEvent: {}
+[147.633104] (-) TimerEvent: {}
+[147.733898] (-) TimerEvent: {}
+[147.834679] (-) TimerEvent: {}
+[147.935697] (-) TimerEvent: {}
+[148.036406] (-) TimerEvent: {}
+[148.137119] (-) TimerEvent: {}
+[148.237945] (-) TimerEvent: {}
+[148.291480] (aruco_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[148.338128] (-) TimerEvent: {}
+[148.438924] (-) TimerEvent: {}
+[148.539668] (-) TimerEvent: {}
+[148.640400] (-) TimerEvent: {}
+[148.741163] (-) TimerEvent: {}
+[148.842034] (-) TimerEvent: {}
+[148.942788] (-) TimerEvent: {}
+[148.943884] (aruco_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[148.987811] (aruco_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[149.042947] (-) TimerEvent: {}
+[149.143682] (-) TimerEvent: {}
+[149.244470] (-) TimerEvent: {}
+[149.345219] (-) TimerEvent: {}
+[149.446023] (-) TimerEvent: {}
+[149.546791] (-) TimerEvent: {}
+[149.647756] (-) TimerEvent: {}
+[149.748845] (-) TimerEvent: {}
+[149.847929] (aruco_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[149.849035] (-) TimerEvent: {}
+[149.950737] (-) TimerEvent: {}
+[150.051582] (-) TimerEvent: {}
+[150.152510] (-) TimerEvent: {}
+[150.161917] (aruco_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[150.252695] (-) TimerEvent: {}
+[150.353522] (-) TimerEvent: {}
+[150.455206] (-) TimerEvent: {}
+[150.556365] (-) TimerEvent: {}
+[150.657134] (-) TimerEvent: {}
+[150.677924] (aruco_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[150.757378] (-) TimerEvent: {}
+[150.816789] (aruco_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[150.857655] (-) TimerEvent: {}
+[150.958439] (-) TimerEvent: {}
+[151.059320] (-) TimerEvent: {}
+[151.160453] (-) TimerEvent: {}
+[151.241457] (aruco_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[151.243040] (aruco_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[151.260654] (-) TimerEvent: {}
+[151.361515] (-) TimerEvent: {}
+[151.462424] (-) TimerEvent: {}
+[151.563132] (-) TimerEvent: {}
+[151.663980] (aruco_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[151.664565] (-) TimerEvent: {}
+[151.669009] (aruco_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[151.764794] (-) TimerEvent: {}
+[151.865753] (-) TimerEvent: {}
+[151.966831] (-) TimerEvent: {}
+[152.067734] (-) TimerEvent: {}
+[152.168466] (-) TimerEvent: {}
+[152.269492] (-) TimerEvent: {}
+[152.370514] (-) TimerEvent: {}
+[152.471357] (-) TimerEvent: {}
+[152.572079] (-) TimerEvent: {}
+[152.672814] (-) TimerEvent: {}
+[152.773529] (-) TimerEvent: {}
+[152.874298] (-) TimerEvent: {}
+[152.974985] (-) TimerEvent: {}
+[153.026437] (aruco_ros) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[153.075231] (-) TimerEvent: {}
+[153.176306] (-) TimerEvent: {}
+[153.246330] (aruco_ros) StdoutLine: {'line': b'-- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)\n'}
+[153.276474] (-) TimerEvent: {}
+[153.321469] (aruco_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[153.376783] (-) TimerEvent: {}
+[153.477760] (-) TimerEvent: {}
+[153.578749] (-) TimerEvent: {}
+[153.679747] (-) TimerEvent: {}
+[153.780599] (-) TimerEvent: {}
+[153.881675] (-) TimerEvent: {}
+[153.982585] (-) TimerEvent: {}
+[154.083665] (-) TimerEvent: {}
+[154.184896] (-) TimerEvent: {}
+[154.286259] (-) TimerEvent: {}
+[154.387602] (-) TimerEvent: {}
+[154.488694] (-) TimerEvent: {}
+[154.589640] (-) TimerEvent: {}
+[154.690602] (-) TimerEvent: {}
+[154.791484] (-) TimerEvent: {}
+[154.892402] (-) TimerEvent: {}
+[154.993237] (-) TimerEvent: {}
+[155.094002] (-) TimerEvent: {}
+[155.194732] (-) TimerEvent: {}
+[155.295546] (-) TimerEvent: {}
+[155.396328] (-) TimerEvent: {}
+[155.497178] (-) TimerEvent: {}
+[155.598026] (-) TimerEvent: {}
+[155.698851] (-) TimerEvent: {}
+[155.799585] (-) TimerEvent: {}
+[155.900279] (-) TimerEvent: {}
+[156.000994] (-) TimerEvent: {}
+[156.101715] (-) TimerEvent: {}
+[156.202398] (-) TimerEvent: {}
+[156.303141] (-) TimerEvent: {}
+[156.403855] (-) TimerEvent: {}
+[156.504588] (-) TimerEvent: {}
+[156.605306] (-) TimerEvent: {}
+[156.706061] (-) TimerEvent: {}
+[156.806868] (-) TimerEvent: {}
+[156.907909] (-) TimerEvent: {}
+[157.008925] (-) TimerEvent: {}
+[157.109708] (-) TimerEvent: {}
+[157.210901] (-) TimerEvent: {}
+[157.311676] (-) TimerEvent: {}
+[157.413061] (-) TimerEvent: {}
+[157.414798] (aruco_ros) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[157.513377] (-) TimerEvent: {}
+[157.614466] (-) TimerEvent: {}
+[157.640739] (aruco_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[157.651628] (aruco_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[157.652597] (aruco_ros) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[157.698981] (aruco_ros) StdoutLine: {'line': b'-- Found aruco: 5.0.3 (/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake)\n'}
+[157.709778] (aruco_ros) StdoutLine: {'line': b'-- Found aruco_msgs: 5.0.3 (/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/cmake)\n'}
+[157.714993] (-) TimerEvent: {}
+[157.815971] (-) TimerEvent: {}
+[157.916964] (-) TimerEvent: {}
+[158.017770] (-) TimerEvent: {}
+[158.058977] (aruco_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[158.117942] (-) TimerEvent: {}
+[158.218658] (-) TimerEvent: {}
+[158.319397] (-) TimerEvent: {}
+[158.420173] (-) TimerEvent: {}
+[158.520968] (-) TimerEvent: {}
+[158.621727] (-) TimerEvent: {}
+[158.722536] (-) TimerEvent: {}
+[158.730713] (aruco_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[158.822949] (-) TimerEvent: {}
+[158.924153] (-) TimerEvent: {}
+[159.024983] (-) TimerEvent: {}
+[159.125805] (-) TimerEvent: {}
+[159.226624] (-) TimerEvent: {}
+[159.327561] (-) TimerEvent: {}
+[159.428374] (-) TimerEvent: {}
+[159.529348] (-) TimerEvent: {}
+[159.555943] (aruco_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[159.558334] (aruco_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros/include\n'}
+[159.558934] (aruco_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[159.577847] (aruco_ros) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[159.579576] (aruco_ros) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[159.584304] (aruco_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[159.591032] (aruco_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[159.595778] (aruco_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[159.615721] (aruco_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[159.616763] (aruco_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[159.621759] (aruco_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[159.629556] (-) TimerEvent: {}
+[159.632151] (aruco_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[159.729754] (-) TimerEvent: {}
+[159.830478] (-) TimerEvent: {}
+[159.931185] (-) TimerEvent: {}
+[159.996453] (aruco_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[160.007866] (aruco_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros\n'}
+[160.031484] (-) TimerEvent: {}
+[160.075178] (aruco_ros) CommandEnded: {'returncode': 0}
+[160.078159] (aruco_ros) JobProgress: {'identifier': 'aruco_ros', 'progress': 'build'}
+[160.086012] (aruco_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros', '--', '-j4', '-l4'], 'cwd': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '10.0.0.137 58833 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/LeoRover-SLAM-ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros'), ('SSH_CONNECTION', '10.0.0.137 58833 10.0.0.1 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble')]), 'shell': False}
+[160.131698] (-) TimerEvent: {}
+[160.232602] (-) TimerEvent: {}
+[160.335433] (-) TimerEvent: {}
+[160.398086] (aruco_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o\x1b[0m\n'}
+[160.431917] (aruco_ros) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o\x1b[0m\n'}
+[160.435705] (-) TimerEvent: {}
+[160.437026] (aruco_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/single.dir/src/simple_single.cpp.o\x1b[0m\n'}
+[160.438058] (aruco_ros) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/double.dir/src/simple_double.cpp.o\x1b[0m\n'}
+[160.535949] (-) TimerEvent: {}
+[160.636708] (-) TimerEvent: {}
+[160.737438] (-) TimerEvent: {}
+[160.838365] (-) TimerEvent: {}
+[160.939259] (-) TimerEvent: {}
+[161.040330] (-) TimerEvent: {}
+[161.141220] (-) TimerEvent: {}
+[161.242597] (-) TimerEvent: {}
+[161.346034] (-) TimerEvent: {}
+[161.450758] (-) TimerEvent: {}
+[161.555499] (-) TimerEvent: {}
+[161.656271] (-) TimerEvent: {}
+[161.757158] (-) TimerEvent: {}
+[161.858689] (-) TimerEvent: {}
+[161.975183] (-) TimerEvent: {}
+[162.076081] (-) TimerEvent: {}
+[162.177255] (-) TimerEvent: {}
+[162.278520] (-) TimerEvent: {}
+[162.385784] (-) TimerEvent: {}
+[162.487011] (-) TimerEvent: {}
+[162.590555] (-) TimerEvent: {}
+[162.691348] (-) TimerEvent: {}
+[162.792209] (-) TimerEvent: {}
+[162.893523] (-) TimerEvent: {}
+[162.995410] (-) TimerEvent: {}
+[163.096186] (-) TimerEvent: {}
+[163.196909] (-) TimerEvent: {}
+[163.298198] (-) TimerEvent: {}
+[163.398972] (-) TimerEvent: {}
+[163.499737] (-) TimerEvent: {}
+[163.600636] (-) TimerEvent: {}
+[163.702102] (-) TimerEvent: {}
+[163.804349] (-) TimerEvent: {}
+[163.905834] (-) TimerEvent: {}
+[164.006861] (-) TimerEvent: {}
+[164.109504] (-) TimerEvent: {}
+[164.211076] (-) TimerEvent: {}
+[164.312513] (-) TimerEvent: {}
+[164.413657] (-) TimerEvent: {}
+[164.515497] (-) TimerEvent: {}
+[164.617037] (-) TimerEvent: {}
+[164.719884] (-) TimerEvent: {}
+[164.825876] (-) TimerEvent: {}
+[164.928451] (-) TimerEvent: {}
+[165.032106] (-) TimerEvent: {}
+[165.134187] (-) TimerEvent: {}
+[165.237885] (-) TimerEvent: {}
+[165.345110] (-) TimerEvent: {}
+[165.446644] (-) TimerEvent: {}
+[165.547571] (-) TimerEvent: {}
+[165.649332] (-) TimerEvent: {}
+[165.750741] (-) TimerEvent: {}
+[165.852046] (-) TimerEvent: {}
+[165.952959] (-) TimerEvent: {}
+[166.054502] (-) TimerEvent: {}
+[166.156712] (-) TimerEvent: {}
+[166.257818] (-) TimerEvent: {}
+[166.359398] (-) TimerEvent: {}
+[166.460404] (-) TimerEvent: {}
+[166.561505] (-) TimerEvent: {}
+[166.662912] (-) TimerEvent: {}
+[166.764020] (-) TimerEvent: {}
+[166.865271] (-) TimerEvent: {}
+[166.969046] (-) TimerEvent: {}
+[167.070575] (-) TimerEvent: {}
+[167.171881] (-) TimerEvent: {}
+[167.273390] (-) TimerEvent: {}
+[167.374446] (-) TimerEvent: {}
+[167.475502] (-) TimerEvent: {}
+[167.577205] (-) TimerEvent: {}
+[167.678762] (-) TimerEvent: {}
+[167.780037] (-) TimerEvent: {}
+[167.880887] (-) TimerEvent: {}
+[167.982115] (-) TimerEvent: {}
+[168.083515] (-) TimerEvent: {}
+[168.184688] (-) TimerEvent: {}
+[168.286154] (-) TimerEvent: {}
+[168.387140] (-) TimerEvent: {}
+[168.488115] (-) TimerEvent: {}
+[168.589303] (-) TimerEvent: {}
+[168.690554] (-) TimerEvent: {}
+[168.792049] (-) TimerEvent: {}
+[168.893068] (-) TimerEvent: {}
+[168.994120] (-) TimerEvent: {}
+[169.095142] (-) TimerEvent: {}
+[169.196349] (-) TimerEvent: {}
+[169.297369] (-) TimerEvent: {}
+[169.398458] (-) TimerEvent: {}
+[169.499599] (-) TimerEvent: {}
+[169.601955] (-) TimerEvent: {}
+[169.703770] (-) TimerEvent: {}
+[169.804747] (-) TimerEvent: {}
+[169.906157] (-) TimerEvent: {}
+[170.007858] (-) TimerEvent: {}
+[170.109305] (-) TimerEvent: {}
+[170.210448] (-) TimerEvent: {}
+[170.311621] (-) TimerEvent: {}
+[170.412671] (-) TimerEvent: {}
+[170.513764] (-) TimerEvent: {}
+[170.614777] (-) TimerEvent: {}
+[170.715743] (-) TimerEvent: {}
+[170.816735] (-) TimerEvent: {}
+[170.917752] (-) TimerEvent: {}
+[171.018652] (-) TimerEvent: {}
+[171.119653] (-) TimerEvent: {}
+[171.220773] (-) TimerEvent: {}
+[171.321968] (-) TimerEvent: {}
+[171.423759] (-) TimerEvent: {}
+[171.524817] (-) TimerEvent: {}
+[171.625825] (-) TimerEvent: {}
+[171.727084] (-) TimerEvent: {}
+[171.828428] (-) TimerEvent: {}
+[171.929664] (-) TimerEvent: {}
+[172.032851] (-) TimerEvent: {}
+[172.134637] (-) TimerEvent: {}
+[172.236278] (-) TimerEvent: {}
+[172.338042] (-) TimerEvent: {}
+[172.440184] (-) TimerEvent: {}
+[172.541385] (-) TimerEvent: {}
+[172.642693] (-) TimerEvent: {}
+[172.744024] (-) TimerEvent: {}
+[172.845310] (-) TimerEvent: {}
+[172.951449] (-) TimerEvent: {}
+[173.052615] (-) TimerEvent: {}
+[173.153867] (-) TimerEvent: {}
+[173.255345] (-) TimerEvent: {}
+[173.356747] (-) TimerEvent: {}
+[173.458117] (-) TimerEvent: {}
+[173.561496] (-) TimerEvent: {}
+[173.663199] (-) TimerEvent: {}
+[173.764840] (-) TimerEvent: {}
+[173.867072] (-) TimerEvent: {}
+[173.968913] (-) TimerEvent: {}
+[174.070951] (-) TimerEvent: {}
+[174.173373] (-) TimerEvent: {}
+[174.274574] (-) TimerEvent: {}
+[174.376516] (-) TimerEvent: {}
+[174.477605] (-) TimerEvent: {}
+[174.582733] (-) TimerEvent: {}
+[174.683646] (-) TimerEvent: {}
+[174.784742] (-) TimerEvent: {}
+[174.885845] (-) TimerEvent: {}
+[174.987250] (-) TimerEvent: {}
+[175.089270] (-) TimerEvent: {}
+[175.190430] (-) TimerEvent: {}
+[175.291490] (-) TimerEvent: {}
+[175.392571] (-) TimerEvent: {}
+[175.493799] (-) TimerEvent: {}
+[175.594869] (-) TimerEvent: {}
+[175.696002] (-) TimerEvent: {}
+[175.797839] (-) TimerEvent: {}
+[175.899479] (-) TimerEvent: {}
+[176.000877] (-) TimerEvent: {}
+[176.101980] (-) TimerEvent: {}
+[176.203008] (-) TimerEvent: {}
+[176.304424] (-) TimerEvent: {}
+[176.405996] (-) TimerEvent: {}
+[176.506970] (-) TimerEvent: {}
+[176.608082] (-) TimerEvent: {}
+[176.709250] (-) TimerEvent: {}
+[176.810642] (-) TimerEvent: {}
+[176.911702] (-) TimerEvent: {}
+[177.012761] (-) TimerEvent: {}
+[177.121455] (-) TimerEvent: {}
+[177.222609] (-) TimerEvent: {}
+[177.323669] (-) TimerEvent: {}
+[177.424799] (-) TimerEvent: {}
+[177.525929] (-) TimerEvent: {}
+[177.626973] (-) TimerEvent: {}
+[177.728132] (-) TimerEvent: {}
+[177.829520] (-) TimerEvent: {}
+[177.931363] (-) TimerEvent: {}
+[178.032508] (-) TimerEvent: {}
+[178.133954] (-) TimerEvent: {}
+[178.235966] (-) TimerEvent: {}
+[178.337116] (-) TimerEvent: {}
+[178.438124] (-) TimerEvent: {}
+[178.539824] (-) TimerEvent: {}
+[178.645613] (-) TimerEvent: {}
+[178.746812] (-) TimerEvent: {}
+[178.847990] (-) TimerEvent: {}
+[178.948878] (-) TimerEvent: {}
+[179.050300] (-) TimerEvent: {}
+[179.153341] (-) TimerEvent: {}
+[179.254734] (-) TimerEvent: {}
+[179.355953] (-) TimerEvent: {}
+[179.457030] (-) TimerEvent: {}
+[179.558276] (-) TimerEvent: {}
+[179.659427] (-) TimerEvent: {}
+[179.760587] (-) TimerEvent: {}
+[179.861831] (-) TimerEvent: {}
+[179.964662] (-) TimerEvent: {}
+[180.067735] (-) TimerEvent: {}
+[180.170928] (-) TimerEvent: {}
+[180.273767] (-) TimerEvent: {}
+[180.375191] (-) TimerEvent: {}
+[180.478117] (-) TimerEvent: {}
+[180.579074] (-) TimerEvent: {}
+[180.680071] (-) TimerEvent: {}
+[180.784265] (-) TimerEvent: {}
+[180.885961] (-) TimerEvent: {}
+[180.987181] (-) TimerEvent: {}
+[181.089170] (-) TimerEvent: {}
+[181.190685] (-) TimerEvent: {}
+[181.292206] (-) TimerEvent: {}
+[181.393201] (-) TimerEvent: {}
+[181.494982] (-) TimerEvent: {}
+[181.596609] (-) TimerEvent: {}
+[181.698303] (-) TimerEvent: {}
+[181.800113] (-) TimerEvent: {}
+[181.901797] (-) TimerEvent: {}
+[182.004960] (-) TimerEvent: {}
+[182.101157] (aruco_ros) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_ros_utils.so\x1b[0m\n'}
+[182.147372] (-) TimerEvent: {}
+[182.249839] (-) TimerEvent: {}
+[182.352374] (-) TimerEvent: {}
+[182.453493] (-) TimerEvent: {}
+[182.554609] (-) TimerEvent: {}
+[182.656515] (-) TimerEvent: {}
+[182.758634] (-) TimerEvent: {}
+[182.863087] (-) TimerEvent: {}
+[182.970882] (-) TimerEvent: {}
+[183.078213] (-) TimerEvent: {}
+[183.180205] (-) TimerEvent: {}
+[183.285787] (-) TimerEvent: {}
+[183.386976] (-) TimerEvent: {}
+[183.489083] (-) TimerEvent: {}
+[183.590808] (-) TimerEvent: {}
+[183.692651] (-) TimerEvent: {}
+[183.794275] (-) TimerEvent: {}
+[183.895591] (-) TimerEvent: {}
+[183.999683] (-) TimerEvent: {}
+[184.105363] (-) TimerEvent: {}
+[184.221605] (-) TimerEvent: {}
+[184.323621] (-) TimerEvent: {}
+[184.428591] (-) TimerEvent: {}
+[184.535566] (-) TimerEvent: {}
+[184.638017] (-) TimerEvent: {}
+[184.741242] (-) TimerEvent: {}
+[184.845822] (-) TimerEvent: {}
+[184.950271] (-) TimerEvent: {}
+[185.053377] (-) TimerEvent: {}
+[185.155056] (-) TimerEvent: {}
+[185.256430] (-) TimerEvent: {}
+[185.359218] (-) TimerEvent: {}
+[185.464561] (-) TimerEvent: {}
+[185.572751] (-) TimerEvent: {}
+[185.676578] (-) TimerEvent: {}
+[185.780766] (-) TimerEvent: {}
+[185.883139] (-) TimerEvent: {}
+[185.986327] (-) TimerEvent: {}
+[186.090899] (-) TimerEvent: {}
+[186.192421] (-) TimerEvent: {}
+[186.295453] (-) TimerEvent: {}
+[186.396469] (-) TimerEvent: {}
+[186.506218] (-) TimerEvent: {}
+[186.608915] (-) TimerEvent: {}
+[186.710852] (-) TimerEvent: {}
+[186.814006] (-) TimerEvent: {}
+[186.916333] (-) TimerEvent: {}
+[187.018658] (-) TimerEvent: {}
+[187.120730] (-) TimerEvent: {}
+[187.230584] (-) TimerEvent: {}
+[187.343029] (-) TimerEvent: {}
+[187.446433] (-) TimerEvent: {}
+[187.549478] (-) TimerEvent: {}
+[187.651303] (-) TimerEvent: {}
+[187.752870] (-) TimerEvent: {}
+[187.854924] (-) TimerEvent: {}
+[187.956031] (-) TimerEvent: {}
+[188.064375] (-) TimerEvent: {}
+[188.169920] (-) TimerEvent: {}
+[188.188807] (aruco_ros) StdoutLine: {'line': b'[ 45%] Built target aruco_ros_utils\n'}
+[188.270372] (-) TimerEvent: {}
+[188.376038] (-) TimerEvent: {}
+[188.479199] (-) TimerEvent: {}
+[188.583069] (-) TimerEvent: {}
+[188.684980] (-) TimerEvent: {}
+[188.787434] (-) TimerEvent: {}
+[188.888377] (-) TimerEvent: {}
+[188.991522] (-) TimerEvent: {}
+[189.096271] (-) TimerEvent: {}
+[189.199237] (-) TimerEvent: {}
+[189.304876] (-) TimerEvent: {}
+[189.406074] (-) TimerEvent: {}
+[189.508121] (-) TimerEvent: {}
+[189.609170] (-) TimerEvent: {}
+[189.714004] (-) TimerEvent: {}
+[189.821456] (-) TimerEvent: {}
+[189.924717] (-) TimerEvent: {}
+[190.029076] (-) TimerEvent: {}
+[190.140278] (-) TimerEvent: {}
+[190.244326] (-) TimerEvent: {}
+[190.373708] (-) TimerEvent: {}
+[190.475203] (-) TimerEvent: {}
+[190.576274] (-) TimerEvent: {}
+[190.682067] (-) TimerEvent: {}
+[190.790116] (-) TimerEvent: {}
+[190.893752] (-) TimerEvent: {}
+[190.997105] (-) TimerEvent: {}
+[191.098265] (-) TimerEvent: {}
+[191.200657] (-) TimerEvent: {}
+[191.301691] (-) TimerEvent: {}
+[191.403838] (-) TimerEvent: {}
+[191.510070] (-) TimerEvent: {}
+[191.613885] (-) TimerEvent: {}
+[191.715739] (-) TimerEvent: {}
+[191.817371] (-) TimerEvent: {}
+[191.918482] (-) TimerEvent: {}
+[192.019791] (-) TimerEvent: {}
+[192.123896] (-) TimerEvent: {}
+[192.234031] (-) TimerEvent: {}
+[192.336159] (-) TimerEvent: {}
+[192.437322] (-) TimerEvent: {}
+[192.538847] (-) TimerEvent: {}
+[192.640068] (-) TimerEvent: {}
+[192.741459] (-) TimerEvent: {}
+[192.850097] (-) TimerEvent: {}
+[192.953966] (-) TimerEvent: {}
+[193.057550] (-) TimerEvent: {}
+[193.161976] (-) TimerEvent: {}
+[193.265843] (-) TimerEvent: {}
+[193.371960] (-) TimerEvent: {}
+[193.478362] (-) TimerEvent: {}
+[193.579817] (-) TimerEvent: {}
+[193.680974] (-) TimerEvent: {}
+[193.781885] (-) TimerEvent: {}
+[193.882806] (-) TimerEvent: {}
+[193.983796] (-) TimerEvent: {}
+[194.084890] (-) TimerEvent: {}
+[194.187586] (-) TimerEvent: {}
+[194.289907] (-) TimerEvent: {}
+[194.393783] (-) TimerEvent: {}
+[194.497915] (-) TimerEvent: {}
+[194.602274] (-) TimerEvent: {}
+[194.703233] (-) TimerEvent: {}
+[194.805996] (-) TimerEvent: {}
+[194.908114] (-) TimerEvent: {}
+[195.010262] (-) TimerEvent: {}
+[195.112425] (-) TimerEvent: {}
+[195.216258] (-) TimerEvent: {}
+[195.318905] (-) TimerEvent: {}
+[195.423767] (-) TimerEvent: {}
+[195.525777] (-) TimerEvent: {}
+[195.627585] (-) TimerEvent: {}
+[195.729844] (-) TimerEvent: {}
+[195.831916] (-) TimerEvent: {}
+[195.934431] (-) TimerEvent: {}
+[196.038833] (-) TimerEvent: {}
+[196.146037] (-) TimerEvent: {}
+[196.248169] (-) TimerEvent: {}
+[196.350038] (-) TimerEvent: {}
+[196.451969] (-) TimerEvent: {}
+[196.554334] (-) TimerEvent: {}
+[196.657277] (-) TimerEvent: {}
+[196.762200] (-) TimerEvent: {}
+[196.865292] (-) TimerEvent: {}
+[196.970054] (-) TimerEvent: {}
+[197.071911] (-) TimerEvent: {}
+[197.173959] (-) TimerEvent: {}
+[197.275372] (-) TimerEvent: {}
+[197.377719] (-) TimerEvent: {}
+[197.482449] (-) TimerEvent: {}
+[197.586501] (-) TimerEvent: {}
+[197.689492] (-) TimerEvent: {}
+[197.796977] (-) TimerEvent: {}
+[197.899397] (-) TimerEvent: {}
+[198.002095] (-) TimerEvent: {}
+[198.105885] (-) TimerEvent: {}
+[198.219432] (-) TimerEvent: {}
+[198.327187] (-) TimerEvent: {}
+[198.430511] (-) TimerEvent: {}
+[198.540157] (-) TimerEvent: {}
+[198.644444] (-) TimerEvent: {}
+[198.746723] (-) TimerEvent: {}
+[198.851925] (-) TimerEvent: {}
+[198.958538] (-) TimerEvent: {}
+[199.067639] (-) TimerEvent: {}
+[199.168813] (-) TimerEvent: {}
+[199.271682] (-) TimerEvent: {}
+[199.379863] (-) TimerEvent: {}
+[199.485139] (-) TimerEvent: {}
+[199.587187] (-) TimerEvent: {}
+[199.692339] (-) TimerEvent: {}
+[199.800832] (-) TimerEvent: {}
+[199.902166] (-) TimerEvent: {}
+[200.004548] (-) TimerEvent: {}
+[200.110619] (-) TimerEvent: {}
+[200.218840] (-) TimerEvent: {}
+[200.320194] (-) TimerEvent: {}
+[200.433492] (-) TimerEvent: {}
+[200.541678] (-) TimerEvent: {}
+[200.643645] (-) TimerEvent: {}
+[200.748156] (-) TimerEvent: {}
+[200.851054] (-) TimerEvent: {}
+[200.955612] (-) TimerEvent: {}
+[201.070825] (-) TimerEvent: {}
+[201.172492] (-) TimerEvent: {}
+[201.274285] (-) TimerEvent: {}
+[201.375647] (-) TimerEvent: {}
+[201.482158] (-) TimerEvent: {}
+[201.586321] (-) TimerEvent: {}
+[201.694053] (-) TimerEvent: {}
+[201.798189] (-) TimerEvent: {}
+[201.903146] (-) TimerEvent: {}
+[202.014052] (-) TimerEvent: {}
+[202.145683] (-) TimerEvent: {}
+[202.266049] (-) TimerEvent: {}
+[202.367272] (-) TimerEvent: {}
+[202.475508] (-) TimerEvent: {}
+[202.577108] (-) TimerEvent: {}
+[202.679840] (-) TimerEvent: {}
+[202.783409] (-) TimerEvent: {}
+[202.885900] (-) TimerEvent: {}
+[202.994544] (-) TimerEvent: {}
+[203.095939] (-) TimerEvent: {}
+[203.198100] (-) TimerEvent: {}
+[203.300346] (-) TimerEvent: {}
+[203.401720] (-) TimerEvent: {}
+[203.503115] (-) TimerEvent: {}
+[203.604436] (-) TimerEvent: {}
+[203.706362] (-) TimerEvent: {}
+[203.807683] (-) TimerEvent: {}
+[203.908830] (-) TimerEvent: {}
+[204.014753] (-) TimerEvent: {}
+[204.117618] (-) TimerEvent: {}
+[204.222044] (-) TimerEvent: {}
+[204.330613] (-) TimerEvent: {}
+[204.431886] (-) TimerEvent: {}
+[204.533047] (-) TimerEvent: {}
+[204.634190] (-) TimerEvent: {}
+[204.735409] (-) TimerEvent: {}
+[204.837598] (-) TimerEvent: {}
+[204.939673] (-) TimerEvent: {}
+[205.040712] (-) TimerEvent: {}
+[205.142203] (-) TimerEvent: {}
+[205.246751] (-) TimerEvent: {}
+[205.348333] (-) TimerEvent: {}
+[205.451081] (-) TimerEvent: {}
+[205.556347] (-) TimerEvent: {}
+[205.660014] (-) TimerEvent: {}
+[205.764413] (-) TimerEvent: {}
+[205.870410] (-) TimerEvent: {}
+[205.973669] (-) TimerEvent: {}
+[206.077629] (-) TimerEvent: {}
+[206.179049] (-) TimerEvent: {}
+[206.280473] (-) TimerEvent: {}
+[206.382365] (-) TimerEvent: {}
+[206.488921] (-) TimerEvent: {}
+[206.592738] (-) TimerEvent: {}
+[206.701632] (-) TimerEvent: {}
+[206.805177] (-) TimerEvent: {}
+[206.907475] (-) TimerEvent: {}
+[207.010732] (-) TimerEvent: {}
+[207.111655] (-) TimerEvent: {}
+[207.212537] (-) TimerEvent: {}
+[207.317298] (-) TimerEvent: {}
+[207.421486] (-) TimerEvent: {}
+[207.529892] (-) TimerEvent: {}
+[207.632252] (-) TimerEvent: {}
+[207.734101] (-) TimerEvent: {}
+[207.839096] (-) TimerEvent: {}
+[207.942218] (-) TimerEvent: {}
+[208.045834] (-) TimerEvent: {}
+[208.150284] (-) TimerEvent: {}
+[208.255768] (-) TimerEvent: {}
+[208.358553] (-) TimerEvent: {}
+[208.462465] (-) TimerEvent: {}
+[208.563744] (-) TimerEvent: {}
+[208.664997] (-) TimerEvent: {}
+[208.770422] (-) TimerEvent: {}
+[208.873360] (-) TimerEvent: {}
+[208.975654] (-) TimerEvent: {}
+[209.082029] (-) TimerEvent: {}
+[209.183699] (-) TimerEvent: {}
+[209.285864] (-) TimerEvent: {}
+[209.393993] (-) TimerEvent: {}
+[209.495266] (-) TimerEvent: {}
+[209.596701] (-) TimerEvent: {}
+[209.698168] (-) TimerEvent: {}
+[209.809988] (-) TimerEvent: {}
+[209.911234] (-) TimerEvent: {}
+[210.014032] (-) TimerEvent: {}
+[210.117952] (-) TimerEvent: {}
+[210.220645] (-) TimerEvent: {}
+[210.323174] (-) TimerEvent: {}
+[210.424611] (-) TimerEvent: {}
+[210.531998] (-) TimerEvent: {}
+[210.637826] (-) TimerEvent: {}
+[210.740753] (-) TimerEvent: {}
+[210.846068] (-) TimerEvent: {}
+[210.948016] (-) TimerEvent: {}
+[211.056212] (-) TimerEvent: {}
+[211.157714] (-) TimerEvent: {}
+[211.260166] (-) TimerEvent: {}
+[211.361519] (-) TimerEvent: {}
+[211.464097] (-) TimerEvent: {}
+[211.566705] (-) TimerEvent: {}
+[211.667941] (-) TimerEvent: {}
+[211.769504] (-) TimerEvent: {}
+[211.870774] (-) TimerEvent: {}
+[211.971783] (-) TimerEvent: {}
+[212.075874] (-) TimerEvent: {}
+[212.177362] (-) TimerEvent: {}
+[212.280749] (-) TimerEvent: {}
+[212.391297] (-) TimerEvent: {}
+[212.492675] (-) TimerEvent: {}
+[212.595088] (-) TimerEvent: {}
+[212.698226] (-) TimerEvent: {}
+[212.801639] (-) TimerEvent: {}
+[212.905243] (-) TimerEvent: {}
+[213.007815] (-) TimerEvent: {}
+[213.109664] (-) TimerEvent: {}
+[213.212389] (-) TimerEvent: {}
+[213.314183] (-) TimerEvent: {}
+[213.416117] (-) TimerEvent: {}
+[213.518685] (-) TimerEvent: {}
+[213.623113] (-) TimerEvent: {}
+[213.727705] (-) TimerEvent: {}
+[213.829456] (-) TimerEvent: {}
+[213.930596] (-) TimerEvent: {}
+[214.551460] (-) TimerEvent: {}
+[215.531591] (-) TimerEvent: {}
+[216.672321] (-) TimerEvent: {}
+[217.425319] (-) TimerEvent: {}
+[219.409639] (-) TimerEvent: {}
+[220.230219] (-) TimerEvent: {}
+[221.052222] (-) TimerEvent: {}

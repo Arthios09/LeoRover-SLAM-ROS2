@@ -1,8 +1,8 @@
-# Install script for directory: /home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/aruco_msgs__py
+# Install script for directory: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/aruco_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

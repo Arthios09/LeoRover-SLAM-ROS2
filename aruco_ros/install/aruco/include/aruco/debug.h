@@ -1,1 +1,1 @@
-/home/situjet/Desktop/aruco_ros/aruco_ros/aruco/include/aruco/debug.h
+/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco/include/aruco/debug.h

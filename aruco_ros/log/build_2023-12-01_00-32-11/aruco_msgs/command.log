@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs -- -j4 -l4
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs -- -j4 -l4
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs

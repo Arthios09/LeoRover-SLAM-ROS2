@@ -14,18 +14,27 @@ $ ros2 run leo_bringup leo_system
 $ source /opt/ros/humble/setup.bash
 $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
-
-### Setting up the control computer
-1. In order to get the Laserscan topic to appear correctly, we need to tie it to the correct frame. Open a terminal on the local computer and type:
+3. In order to get the Laserscan topic to appear correctly, we need to tie it to the correct frame. Open a terminal on the local com>
 ```
 $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.1415926 0 0 base_link laser
 ```
-2. Now, open a separate terminal within this folder so that we can visualize the system.
+
+### Setting up a control computer and using RVIZ
+Requirements: Ubuntu 22.04 ROS2 Humble
+1. Pull this repository to your local computer, build, and install any required dependencies.
+```
+$ git pull https://github.com/situjet/LeoRover-SLAM-ROS2.git
+$ rosdep update
+$ rosdep install --from-paths src -y --ignore-src
+$ colcon build --symlink-install
+```
+2. Open a terminal within this folder so that we can visualize the system.
 ```
 $ source install/setup.bash
 $ ros2 launch leo_viz rviz.launch.xml
 ```
+Note: All required packages are already on-board the Leo Rover.
 
 ### Launching Aruco ROS
 1. Make sure to be in the aruco_ros folder before executing
@@ -38,12 +47,12 @@ $ ros2 launch ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=
 1. To run preprogrammed commands, modify commands.txt and run the following program:
 ```
 $ source install/setup.bash
-$ ros2 run preprogrammed_drive drive
+$ ros2 run programmed_drive drive
 ```
 2. To run the Aruco follow command
 ```
 $ source install/setup.bash
-$ ros2 run preprogrammed_drive aruco_drive
+$ ros2 run programmed_drive aruco_drive
 ```
 
 ### Running Foxglove

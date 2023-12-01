@@ -1,10 +1,10 @@
 {
   "package_name": "aruco_msgs",
-  "output_dir": "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_typesupport_fastrtps_cpp/aruco_msgs",
+  "output_dir": "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_typesupport_fastrtps_cpp/aruco_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/Marker.idl",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/MarkerArray.idl"
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/Marker.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/MarkerArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -78,8 +78,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/Marker.idl",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/MarkerArray.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/Marker.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/MarkerArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

@@ -1,1 +1,1 @@
-/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/ament_cmake_core/arucoConfig.cmake
+/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco/ament_cmake_core/arucoConfig.cmake

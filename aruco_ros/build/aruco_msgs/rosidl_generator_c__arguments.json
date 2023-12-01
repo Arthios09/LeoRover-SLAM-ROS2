@@ -1,10 +1,10 @@
 {
   "package_name": "aruco_msgs",
-  "output_dir": "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_generator_c/aruco_msgs",
+  "output_dir": "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_generator_c/aruco_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/Marker.idl",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/MarkerArray.idl"
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/Marker.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs:msg/MarkerArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -83,8 +83,8 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/Marker.idl",
-    "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/MarkerArray.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/Marker.idl",
+    "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs/rosidl_adapter/aruco_msgs/msg/MarkerArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

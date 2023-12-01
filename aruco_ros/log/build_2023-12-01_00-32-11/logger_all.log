@@ -1,0 +1,282 @@
+[9.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[9.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa8fbf730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9ac1f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9ac1f30>>)
+[9.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.912s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros'
+[9.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.916s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.917s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.918s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.919s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.095s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extensions ['ignore', 'ignore_ament_install']
+[10.095s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extension 'ignore'
+[10.096s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extension 'ignore_ament_install'
+[10.096s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extensions ['colcon_pkg']
+[10.096s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extension 'colcon_pkg'
+[10.097s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extensions ['colcon_meta']
+[10.097s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extension 'colcon_meta'
+[10.097s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extensions ['ros']
+[10.097s] Level 1:colcon.colcon_core.package_identification:_identify(aruco) by extension 'ros'
+[10.142s] DEBUG:colcon.colcon_core.package_identification:Package 'aruco' with type 'ros.ament_cmake' and name 'aruco'
+[10.144s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extensions ['ignore', 'ignore_ament_install']
+[10.145s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extension 'ignore'
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extension 'ignore_ament_install'
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extensions ['colcon_pkg']
+[10.147s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extension 'colcon_pkg'
+[10.148s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extensions ['colcon_meta']
+[10.148s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extension 'colcon_meta'
+[10.149s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extensions ['ros']
+[10.149s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_msgs) by extension 'ros'
+[10.157s] DEBUG:colcon.colcon_core.package_identification:Package 'aruco_msgs' with type 'ros.ament_cmake' and name 'aruco_msgs'
+[10.159s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extensions ['ignore', 'ignore_ament_install']
+[10.160s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extension 'ignore'
+[10.160s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extension 'ignore_ament_install'
+[10.160s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extensions ['colcon_pkg']
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extension 'colcon_pkg'
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extensions ['colcon_meta']
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extension 'colcon_meta'
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extensions ['ros']
+[10.162s] Level 1:colcon.colcon_core.package_identification:_identify(aruco_ros) by extension 'ros'
+[10.170s] DEBUG:colcon.colcon_core.package_identification:Package 'aruco_ros' with type 'ros.ament_cmake' and name 'aruco_ros'
+[10.170s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.006s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_args' from command line to 'None'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target' from command line to 'None'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_first' from command line to 'False'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_force_configure' from command line to 'False'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'ament_cmake_args' from command line to 'None'
+[11.007s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[11.008s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.008s] DEBUG:colcon.colcon_core.verb:Building package 'aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco', 'symlink_install': False, 'test_result_base': None}
+[11.122s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_args' from command line to 'None'
+[11.123s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target' from command line to 'None'
+[11.124s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.124s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[11.124s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[11.125s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[11.125s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[11.125s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[11.125s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.126s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs', 'symlink_install': False, 'test_result_base': None}
+[11.251s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_args' from command line to 'None'
+[11.252s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_target' from command line to 'None'
+[11.252s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[11.253s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[11.254s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_clean_first' from command line to 'False'
+[11.254s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_force_configure' from command line to 'False'
+[11.255s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'ament_cmake_args' from command line to 'None'
+[11.255s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[11.255s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[11.256s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros', 'merge_install': False, 'path': '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros', 'symlink_install': False, 'test_result_base': None}
+[11.372s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[11.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[11.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco' with build type 'ament_cmake'
+[11.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco'
+[11.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.974s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs' with build type 'ament_cmake'
+[11.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs'
+[12.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+[12.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs
+[15.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+[15.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+[16.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+[16.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
+[17.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco)
+[17.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
+[17.420s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco' for CMake module files
+[17.425s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco' for CMake config files
+[17.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco', 'cmake_prefix_path')
+[17.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.ps1'
+[17.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.dsv'
+[17.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.sh'
+[17.631s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib'
+[17.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco', 'ld_library_path_lib')
+[17.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.ps1'
+[17.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.dsv'
+[17.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.sh'
+[17.840s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/bin'
+[17.841s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/pkgconfig/aruco.pc'
+[17.854s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/python3.10/site-packages'
+[17.858s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/bin'
+[18.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.ps1'
+[18.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.dsv'
+[18.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.sh'
+[18.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.bash'
+[18.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.zsh'
+[18.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/colcon-core/packages/aruco)
+[18.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco)
+[19.187s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco' for CMake module files
+[19.193s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco' for CMake config files
+[19.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco', 'cmake_prefix_path')
+[19.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.ps1'
+[19.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.dsv'
+[19.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/cmake_prefix_path.sh'
+[19.392s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib'
+[19.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco', 'ld_library_path_lib')
+[19.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.ps1'
+[19.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.dsv'
+[19.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/hook/ld_library_path_lib.sh'
+[19.564s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/bin'
+[19.565s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/pkgconfig/aruco.pc'
+[19.567s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/python3.10/site-packages'
+[19.569s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/bin'
+[19.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.ps1'
+[19.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.dsv'
+[19.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.sh'
+[19.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.bash'
+[19.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.zsh'
+[19.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/colcon-core/packages/aruco)
+[24.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs
+[25.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs -- -j4 -l4
+[28.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs -- -j4 -l4
+[29.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs
+[30.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_msgs)
+[30.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_msgs
+[31.073s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs' for CMake module files
+[31.081s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs' for CMake config files
+[31.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'cmake_prefix_path')
+[31.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.ps1'
+[31.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.dsv'
+[31.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.sh'
+[31.221s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib'
+[31.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'ld_library_path_lib')
+[31.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.ps1'
+[31.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.dsv'
+[31.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.sh'
+[31.355s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/bin'
+[31.356s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/pkgconfig/aruco_msgs.pc'
+[31.357s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/python3.10/site-packages'
+[31.359s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/bin'
+[31.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.ps1'
+[31.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.dsv'
+[31.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.sh'
+[31.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.bash'
+[31.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.zsh'
+[31.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/colcon-core/packages/aruco_msgs)
+[32.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_msgs)
+[32.379s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs' for CMake module files
+[32.386s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs' for CMake config files
+[32.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'cmake_prefix_path')
+[32.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.ps1'
+[32.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.dsv'
+[32.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/cmake_prefix_path.sh'
+[32.520s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib'
+[32.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_msgs', 'ld_library_path_lib')
+[32.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.ps1'
+[32.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.dsv'
+[32.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/hook/ld_library_path_lib.sh'
+[32.658s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/bin'
+[32.659s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/pkgconfig/aruco_msgs.pc'
+[32.660s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib/python3.10/site-packages'
+[32.661s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/bin'
+[32.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.ps1'
+[32.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.dsv'
+[32.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.sh'
+[32.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.bash'
+[32.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/aruco_msgs/package.zsh'
+[32.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/share/colcon-core/packages/aruco_msgs)
+[32.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros' with build type 'ament_cmake'
+[32.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros'
+[32.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros
+[43.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_ros -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros
+[43.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros -- -j4 -l4
+[322.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros -- -j4 -l4
+[322.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros
+[324.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_ros)
+[324.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros' returned '0': AMENT_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/lib:/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco_ros
+[324.607s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros' for CMake module files
+[324.611s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros' for CMake config files
+[324.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_ros', 'cmake_prefix_path')
+[324.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.ps1'
+[324.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.dsv'
+[324.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.sh'
+[324.722s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib'
+[324.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_ros', 'ld_library_path_lib')
+[324.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.ps1'
+[324.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.dsv'
+[324.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.sh'
+[324.819s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/bin'
+[324.820s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib/pkgconfig/aruco_ros.pc'
+[324.824s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib/python3.10/site-packages'
+[324.826s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/bin'
+[324.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.ps1'
+[324.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.dsv'
+[324.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.sh'
+[324.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.bash'
+[324.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.zsh'
+[324.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/colcon-core/packages/aruco_ros)
+[325.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_ros)
+[325.316s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros' for CMake module files
+[325.321s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros' for CMake config files
+[325.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_ros', 'cmake_prefix_path')
+[325.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.ps1'
+[325.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.dsv'
+[325.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/cmake_prefix_path.sh'
+[325.417s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib'
+[325.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_ros', 'ld_library_path_lib')
+[325.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.ps1'
+[325.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.dsv'
+[325.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/hook/ld_library_path_lib.sh'
+[325.513s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/bin'
+[325.513s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib/pkgconfig/aruco_ros.pc'
+[325.514s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/lib/python3.10/site-packages'
+[325.516s] Level 1:colcon.colcon_core.environment:checking '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/bin'
+[325.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.ps1'
+[325.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.dsv'
+[325.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.sh'
+[325.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.bash'
+[325.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/aruco_ros/package.zsh'
+[325.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco_ros/share/colcon-core/packages/aruco_ros)
+[325.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[325.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[325.628s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[325.630s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[325.827s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[325.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[325.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[325.828s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[325.835s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[325.836s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[325.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/local_setup.ps1'
+[325.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/_local_setup_util_ps1.py'
+[325.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/setup.ps1'
+[326.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/local_setup.sh'
+[326.036s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/_local_setup_util_sh.py'
+[326.039s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/setup.sh'
+[326.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/local_setup.bash'
+[326.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/setup.bash'
+[326.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/local_setup.zsh'
+[326.230s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/setup.zsh'

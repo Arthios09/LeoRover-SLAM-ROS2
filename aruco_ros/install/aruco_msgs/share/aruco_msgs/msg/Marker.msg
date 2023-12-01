@@ -1,1 +1,1 @@
-/home/situjet/Desktop/aruco_ros/aruco_ros/aruco_msgs/msg/Marker.msg
+/home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco_msgs/msg/Marker.msg

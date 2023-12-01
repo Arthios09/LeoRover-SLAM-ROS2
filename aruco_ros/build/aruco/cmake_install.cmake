@@ -1,8 +1,8 @@
-# Install script for directory: /home/situjet/Desktop/aruco_ros/aruco_ros/aruco
+# Install script for directory: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/situjet/Desktop/aruco_ros/aruco_ros/install/aruco")
+  set(CMAKE_INSTALL_PREFIX "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

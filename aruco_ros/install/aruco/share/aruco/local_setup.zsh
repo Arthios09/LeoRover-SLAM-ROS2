@@ -1,1 +1,1 @@
-/home/situjet/Desktop/aruco_ros/aruco_ros/build/aruco/ament_cmake_environment_hooks/local_setup.zsh
+/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,89 @@
+[0.632s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+[1.888s] -- The C compiler identification is GNU 11.4.0
+[2.737s] -- The CXX compiler identification is GNU 11.4.0
+[2.800s] -- Detecting C compiler ABI info
+[3.268s] -- Detecting C compiler ABI info - done
+[3.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.302s] -- Detecting C compile features
+[3.306s] -- Detecting C compile features - done
+[3.326s] -- Detecting CXX compiler ABI info
+[3.820s] -- Detecting CXX compiler ABI info - done
+[3.855s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.860s] -- Detecting CXX compile features
+[3.862s] -- Detecting CXX compile features - done
+[3.910s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.250s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.297s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.2.0") 
+[6.895s] -- Configuring done
+[6.968s] -- Generating done
+[6.970s] -- Build files have been written to: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
+[6.991s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+[7.001s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+[7.264s] [  5%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o[0m
+[7.282s] [ 11%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o[0m
+[7.293s] [ 16%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o[0m
+[7.300s] [ 22%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o[0m
+[11.728s] [ 27%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o[0m
+[22.034s] [ 33%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o[0m
+[22.286s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o[0m
+[25.785s] [ 44%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o[0m
+[38.237s] [ 50%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o[0m
+[44.215s] [ 55%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o[0m
+[53.335s] [ 61%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o[0m
+[83.418s] [ 66%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o[0m
+[85.544s] [ 72%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o[0m
+[87.626s] [ 77%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o[0m
+[106.271s] [ 83%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o[0m
+[122.206s] [ 88%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o[0m
+[130.711s] [ 94%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o[0m
+[135.980s] [100%] [32m[1mLinking CXX shared library libaruco.so[0m
+[138.501s] [100%] Built target aruco
+[138.563s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+[138.964s] Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
+[138.998s] -- Install configuration: ""
+[139.001s] -- Execute custom install script
+[139.004s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/lib/libaruco.so
+[139.050s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco.h
+[139.091s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco_cvversioning.h
+[139.129s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/aruco_export.h
+[139.168s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/cameraparameters.h
+[139.208s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/cvdrawingutils.h
+[139.248s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/debug.h
+[139.289s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/dictionary.h
+[139.327s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/dictionary_based.h
+[139.366s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractaldetector.h
+[139.405s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+[139.444s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+[139.486s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+[139.524s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+[139.561s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/ippe.h
+[139.598s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/levmarq.h
+[139.636s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/marker.h
+[139.674s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerdetector.h
+[139.713s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerdetector_impl.h
+[139.755s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markerlabeler.h
+[139.794s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/markermap.h
+[139.834s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/picoflann.h
+[139.874s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/posetracker.h
+[139.914s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/include/aruco/timers.h
+[139.955s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/library_path.sh
+[139.994s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/library_path.dsv
+[140.033s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+[140.073s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+[140.112s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/ament_prefix_path.sh
+[140.156s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+[140.198s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/path.sh
+[140.238s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/environment/path.dsv
+[140.278s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.bash
+[140.319s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.sh
+[140.356s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.zsh
+[140.395s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/local_setup.dsv
+[140.435s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.dsv
+[140.474s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/ament_index/resource_index/packages/aruco
+[140.515s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+[140.556s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+[140.596s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/arucoConfig.cmake
+[140.635s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+[140.673s] -- Symlinking: /home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco/share/aruco/package.xml
+[140.725s] Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco

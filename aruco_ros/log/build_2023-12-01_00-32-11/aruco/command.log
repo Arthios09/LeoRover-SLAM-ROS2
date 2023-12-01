@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/LeoRover-SLAM-ROS2/aruco_ros/aruco -DCMAKE_INSTALL_PREFIX=/home/pi/LeoRover-SLAM-ROS2/aruco_ros/install/aruco
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco -- -j4 -l4
+Invoking command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
+Invoked command in '/home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/LeoRover-SLAM-ROS2/aruco_ros/build/aruco
