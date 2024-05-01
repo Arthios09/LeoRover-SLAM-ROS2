@@ -62,7 +62,7 @@ $ ros2 run programmed_drive aruco_drive
 ```
 
 ### Running Foxglove
-1. Due to the way the websocket is set up, we need to export the port to point correctly on the one computer. Open a terminal:
+1. Due to the way the websocket is set up, we need to export the port to point correctly on the rover computer. Open a terminal:
 ```
 $ source install/setup.bash
 $ ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
