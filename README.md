@@ -14,10 +14,16 @@ $ ros2 run leo_bringup leo_system
 $ source /opt/ros/humble/setup.bash
 $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
-3. In order to get the Laserscan topic to appear correctly, we need to tie it to the correct frame. Open a terminal on the local com>
+3. In order to get the Laserscan topic to appear correctly, and for the Nav2 SLAM to function, we need to use a series of tf transfoms.
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.1415926 0 0 base_link laser
+$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.1415926 0 0 base_footprint laser
+
+$ source /opt/ros/humble/setup.bash
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
+
+$ source /opt/ros/humble/setup.bash
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
 ```
 
 ### Setting up a control computer and using RVIZ
@@ -67,5 +73,15 @@ $ foxglove-studio
 ```
 Set the port to default (8765), and use the provided template file to view the rover. Files may change.
 
-### SLAM Implementation
-
+### SLAM Implementation - Nav2
+1. For installation of Nav2 and the required dependencies, please follow the guide at https://navigation.ros.org/getting_started/
+2. To start the Nav2 + slamtec SLAM implementation, open 2 terminals and run:
+```
+$ source /opt/ros/humble/setup.bash
+$ ros2 launch nav2_bringup navigation_launch.py
+```
+and
+```
+$ source /opt/ros/humble/setup.bash
+$ ros2 launch slam_toolbox online_async_launch.py
+```
