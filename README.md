@@ -24,7 +24,7 @@ $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.1415926 0 0 base_link
 Requirements: Ubuntu 22.04 ROS2 Humble
 1. Pull this repository to your local computer, build, and install any required dependencies.
 ```
-$ git pull https://github.com/situjet/LeoRover-SLAM-ROS2.git
+$ git pull https://github.com/Arthios09/LeoRover-SLAM-ROS2.git
 $ rosdep update
 $ rosdep install --from-paths src -y --ignore-src
 $ colcon build --symlink-install
@@ -66,3 +66,6 @@ $ ros2 launch foxglove_bridge foxglove_bridge_launch.xml port:=8765
 $ foxglove-studio
 ```
 Set the port to default (8765), and use the provided template file to view the rover. Files may change.
+
+### SLAM Implementation
+
