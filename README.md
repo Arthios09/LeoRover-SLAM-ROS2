@@ -20,6 +20,9 @@ $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 0 0 0 base_footprint laser
 
 $ source /opt/ros/humble/setup.bash
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_footprint imu
+
+$ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
 
 $ source /opt/ros/humble/setup.bash
