@@ -17,16 +17,16 @@ $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 3. In order to get the Laserscan topic to appear correctly, and for the Nav2 SLAM to function, we need to use a series of tf transfoms. All are necessary for the tf tree to be complete. If not working please use rqt.
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 0 0 0 base_footprint laser
+$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.14159 0 0 base_footprint laser
 
 $ source /opt/ros/humble/setup.bash
-$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_footprint imu
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 3.14159 0 0 base_footprint imu
 
 $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
 
 $ source /opt/ros/humble/setup.bash
-$ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
+$ ros2 run tf2_ros static_transform_publisher 0 0 0 3.14159 0 0 odom base_footprint
 ```
 
 ### Setting up a control computer and using RVIZ
