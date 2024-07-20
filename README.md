@@ -73,11 +73,14 @@ Set the port to default (8765), and use the provided template file to view the r
 2. To start the Nav2 + slamtec SLAM implementation, open 2 terminals and run:
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 launch nav2_bringup navigation_launch.py params_file:=mapper_params_main.yaml
+$ ros2 launch nav2_bringup navigation_launch.py 
 ```
 and
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 launch slam_toolbox online_async_launch.py params_file:=ekf.yaml
+$ ros2 launch slam_toolbox online_async_launch.py params_file:=mapper_params_main.yaml
+
+$ source /opt/ros/humble/setup.bash
+$ ros2 launch robot_localization ekf.launch.py params_file:=ekf.yaml
 
 ```
