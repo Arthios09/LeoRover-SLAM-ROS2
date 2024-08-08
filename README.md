@@ -84,3 +84,11 @@ $ source /opt/ros/humble/setup.bash
 $ ros2 launch robot_localization ekf.launch.py params_file:=ekf.yaml
 
 ```
+
+### Startup Scirpt
+1. To start all necessary ROS2 nodes and services, open an ssh terminal connected to a Jetson and run:
+```
+python3 start_rover.py
+```
+### API Server
+1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
