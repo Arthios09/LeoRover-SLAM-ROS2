@@ -70,10 +70,10 @@ Set the port to default (8765), and use the provided template file to view the r
 
 ### SLAM Implementation - Nav2
 1. For installation of Nav2 and the required dependencies, please follow the guide at https://navigation.ros.org/getting_started/
-2. To start the Nav2 + slamtec SLAM implementation, open 2 terminals and run:
+2. To start the Nav2 + slamtec SLAM implementation, open 3 terminals and run:
 ```
 $ source /opt/ros/humble/setup.bash
-$ ros2 launch nav2_bringup navigation_launch.py 
+$ ros2 launch nav2_bringup navigation_launch.py params_file:=nav2_main.yaml
 ```
 and
 ```
