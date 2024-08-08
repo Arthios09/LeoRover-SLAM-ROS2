@@ -1,16 +1,16 @@
 # LeoRover-SLAM-ROS2
-Packages and instructions needed to launch the Leo System and attached rplidar in ROS2 Humble. Tested on Ubuntu 22.04 ROS2 Humble
+Packages and instructions needed to launch the Leo System and attached rplidar in ROS2 Humble. Please install the Zed SDK, Zed-ros2-wrapper, Nav2, SLAM-Toolbox, and robot-localization packages for ROS2 Humble.Tested on Ubuntu 22.04 ROS2 Humble
 
 ### Launching the Leo Rover
-After turning on the Leo Rover, ssh with the provided credentials.
-
+After turning on the Leo Rover, ssh with the provided credentials. Addresses for ssh are as follows pi@10.0.0.1 pw:raspberry, leoroverjetson1@10.0.0.120/leoroverjetson2@10.0.0.120 pw:cory337d
+, 
 1. Open a terminal and launch the Leo Rover's main system
 ```
 $ source /opt/ros/humble/setup.bash
 $ ros2 run leo_bringup leo_system
 ```
 2. Open a second terminal and launch the RPLidar node.
-```
+```.
 $ source /opt/ros/humble/setup.bash
 $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
