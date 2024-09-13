@@ -83,6 +83,8 @@ $ ros2 launch slam_toolbox online_async_launch.py params_file:=mapper_params_mai
 $ source /opt/ros/humble/setup.bash
 $ ros2 launch robot_localization ekf.launch.py params_file:=ekf.yaml
 
+$ ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2i  #zed node launch script
+
 ```
 
 ### Startup Scirpt
