@@ -94,3 +94,5 @@ python3 start_rover.py
 ```
 ### API Server
 1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
+
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
