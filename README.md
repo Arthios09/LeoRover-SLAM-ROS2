@@ -91,14 +91,14 @@ $ ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2i  #zed node la
 ### Startup Scirpt
 1. To start all necessary ROS2 nodes and services, open an ssh terminal connected to a Jetson and run:
 ```
-python3 start_rover.py
+$ python3 start_rover.py
 ```
 ### API Server
 1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
 ```
-$ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+$ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 2. To launch the websocket server:
 ```
-$roslaunch rosbridge_server rosbridge_websocket.launch
+$ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
