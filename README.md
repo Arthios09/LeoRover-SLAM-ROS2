@@ -18,7 +18,7 @@ $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
 $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.14159 0 0 base_link laser
-$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.2 3.14159 0 0 base_link camera_odom
+$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.1 3.14159 0 0 base_link zed_camera_link
 
 ```
 
