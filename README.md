@@ -18,6 +18,7 @@ $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
 $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.14159 0 0 base_link laser
+$ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 0 0 0 base_link camera_odom
 
 ```
 
@@ -41,7 +42,7 @@ Note: All required packages are already on-board the Leo Rover.
 1. Make sure to be in the aruco_ros folder before executing
 ```
 $ source install/setup.bash
-$ ros2 launch ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=0 reference_frame:=base_link camera_frame:=camera_optical_frame
+$ ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=0 reference_frame:=base_link camera_frame:=camera_optical_frame
 ```
 
 ### Running preprogrammed drive scripts
@@ -94,5 +95,10 @@ python3 start_rover.py
 ```
 ### API Server
 1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
-
-ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
+$ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+```
+2. To launch the websocket server:
+```
+$roslaunch rosbridge_server rosbridge_websocket.launch
+```
