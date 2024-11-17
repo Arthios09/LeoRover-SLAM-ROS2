@@ -1,0 +1,56 @@
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import PoseStamped
+from zed_interfaces.msg import ObjectsStamped
+
+class WaypointPublisher(Node):
+    def __init__(self):
+        super().__init__('waypoint_publisher')
+
+        self.pose_subscription = self.create_subscription(
+            ObjectsStamped,
+            '/zed2/obj_det/objects',  # Replace with your ZED topic
+            self.pose_callback,
+        )
+
+        self.waypoint_publisher = self.create_publisher(
+            PoseStamped,
+            '/goal_pose',
+        )
+
+        self.get_logger().info('Waypoint Publisher Node has been started')
+
+    def pose_callback(self, msg):
+        position = msg.Object.position
+
+        self.get_logger().info(
+            f'Received pose: x={position.x}, y={position.y}, z={position.z}'
+        )
+
+        goal_pose = PoseStamped()
+        goal_pose.pose.position.x = position[0]
+        goal_pose.pose.position.y = position[1]
+
+        self.waypoint_publisher.publish(waypoint_msg)
+
+        self.get_logger().info(
+            f'Published waypoint: x={waypoint_msg.x}, y={waypoint_msg.y}'
+        )
+
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    node = WaypointPublisher()
+
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
