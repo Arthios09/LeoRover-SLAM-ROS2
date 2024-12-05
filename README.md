@@ -87,6 +87,8 @@ $ ros2 launch robot_localization ekf.launch.py params_file:=ekf.yaml
 
 $ ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2i  #zed node launch script
 
+ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i params_file:=/Desktop/LeoRover/src/zed-ros2-examples/examples/zed_aruco_localization/config/aruco_loc.yaml
+
 ```
 
 ### Startup Scirpt
