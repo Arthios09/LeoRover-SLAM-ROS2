@@ -36,6 +36,7 @@ public:
     }
 
 private:
+//ballistics
     double calculate_distance_straight_line(double target_height, double launcher_angle = 60.0, double rover_angle = 0.0, double launcher_height = 1.0 / 3.0) {
         double effective_angle = launcher_angle + rover_angle;
         double tan_angle = std::tan(effective_angle * M_PI / 180.0);
