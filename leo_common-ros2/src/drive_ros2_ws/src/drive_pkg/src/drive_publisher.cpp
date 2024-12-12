@@ -15,14 +15,11 @@ public:
       tf_buffer_(std::make_shared<tf2_ros::Buffer>(this->get_clock())),
       tf_listener_(std::make_shared<tf2_ros::TransformListener>(*tf_buffer_))
     {
-        // Declare and get the parameter 'distance'
         this->declare_parameter<int>("distance", 0);
         distance_ = this->get_parameter("distance").as_int();
 
-        // Create a publisher for PoseStamped messages
         publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("/goal_pose", 10);
 
-        // Create a timer to repeatedly publish the goal pose
         timer_ = this->create_wall_timer(
             std::chrono::seconds(1),
             std::bind(&DrivePublisher::publish_goal_pose, this));
@@ -35,14 +32,11 @@ private:
     {
         geometry_msgs::msg::PoseStamped current_pose;
 
-        // Try to get the transform from the 'base_link' frame to the 'map' frame
         try {
-            // Lookup the transform between the robot base and the global frame
             geometry_msgs::msg::TransformStamped transform_stamped;
             transform_stamped = tf_buffer_->lookupTransform(
                 "map", "base_link", tf2::TimePointZero);
-
-            // Convert TransformStamped to PoseStamped
+            
             current_pose.header.stamp = this->get_clock()->now();
             current_pose.header.frame_id = "map";
             current_pose.pose.position.x = transform_stamped.transform.translation.x;
