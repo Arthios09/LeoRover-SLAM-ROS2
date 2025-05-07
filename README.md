@@ -87,31 +87,15 @@ $ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
 ## Startup Script
-1. To start all necessary ROS2 nodes and services for the Android project or basic navigation, open an ssh terminal connected to a Jetson and run:
+1. To start all ROS2 nodes on the NVIDIA Jetson (Sections before this and after "Launching the Leo Rover"):
 ```
 $ python3 start_rover.py
 ```
 
-## Launching Aruco ROS
-1. Make sure to be in the aruco_ros folder before executing
-```
-$ source install/setup.bash
-$ ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=0 reference_frame:=base_link camera_frame:=camera_optical_frame
-```
-
-## Running preprogrammed drive scripts
-1. To run preprogrammed commands, modify commands.txt and run the following program:
-```
-$ source install/setup.bash
-$ ros2 run programmed_drive drive
-```
-2. To run the Aruco follow command
-```
-$ source install/setup.bash
-$ ros2 run programmed_drive aruco_drive
-```
 
 ## Running Foxglove
+Foxglove allows users with non Linux computers to receive an RVIZ-like visualization. Please use in this case:
+
 1. Due to the way the websocket is set up, we need to export the port to point correctly on the rover computer. Open a terminal:
 ```
 $ source install/setup.bash
