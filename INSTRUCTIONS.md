@@ -5,6 +5,7 @@ Kai Mohl | ka.mohl@berkeley.edu | kai.mohl36@gmail.com
 
 ### Rover Use and Activation:
 
+### Note: Please see the private doc for unlisted links, passwords, hyperlinks, and pictures
 Github Repo
 LeoRover Documentation
 RPLidar Repo ROS2
