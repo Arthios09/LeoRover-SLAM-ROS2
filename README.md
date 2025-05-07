@@ -104,12 +104,13 @@ ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i p
 ```
 $ python3 start_rover.py
 ```
-## API Server
+## API Server and Rosbridge Suite Websockets
 1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
 ```
-$ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+$ cd .../api-server/
+$ python main.py
 ```
 2. To launch the websocket server:
 ```
-$ roslaunch rosbridge_server rosbridge_websocket.launch
+$ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
