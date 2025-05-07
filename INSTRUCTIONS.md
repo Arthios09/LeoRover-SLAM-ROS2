@@ -27,7 +27,7 @@ Along with the included RaspberryPi and LeoCore controller, the rover is equippe
 Our LeoRover uses 2 batteries per rover as opposed to the base version’s single battery (with 4 batteries, 2 per rover, existing in Cory 337D). The battery with the button connects to the internal power cable and powers the Raspberry pi, wheel motors, controller, etc. The other battery quarter powers the Nvidia Jetson.
 Use an hex key to remove the 3 screws connecting the battery quarters and the rover body. The Jetson battery may be plugged into its wall socket charger, with a red light indicating charging and a green light indicating full battery. The main battery may be plugged into its wall socket charger. Once plugged in, press the button on the side panel. Once pressed, the battery will begin charging, with a red light indicating charging and a green light indicating full battery
 
-Removing Adding and Changing Hardware Attachments:
+### Removing Adding and Changing Hardware Attachments:
 
 A full set of hex keys are recommended for deconstructing and reconstructing rover components. For the Nvidia Jetson mounts, holding plates, and other 3D printed components please see the CAD files in the main repo. For base LeoRover components, please see the Fictionlab website. 
 
@@ -45,7 +45,7 @@ The rover’s sensor fusion uses an EKF to combine odometry information collecte
 
 The rover’s connection to external devices is permitted through its onboard wifi chip. Although the onboard wifi does not have to be connected to another wifi network/the internet, connection to the rover’s wifi is necessary to ssh into either computer and transmit information via the api server/websockets. Two methods of communication exist for accessing ROS data and functions on the rover. The api server is used for running ROS2 commands on the rover from a remote device that cannot ssh and/or is not using Ubuntu 22.04. The rosbridge suite websocket server is used to monitor topic data from a remote device that cannot ssh and/or is not using Ubuntu 22.04.
 
-Setting Up a New Rover or Computer:
+### Setting Up a New Rover or Computer:
 
 To flash the base onboard RaspberryPi please follow the LeoRover Ros2 (experimental) guide here. A microSD, microSD-SD adapter, and a computer are required. 
 
