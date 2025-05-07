@@ -26,7 +26,7 @@ $ ros2 run leo_bringup leo_system
 $ source /opt/ros/humble/setup.bash
 $ ros2 launch rplidar_ros rplidar_a2m12_launch.py
 ```
-3. In order to get the Laserscan topic to appear correctly, and for the Nav2 SLAM to function, we need to use a series of tf transfoms. All are necessary for the tf tree to be complete. If not working please use rqt.
+3. In order to get the Laserscan topic to appear correctly, and for the Nav2 SLAM to function with the ZED camera, we need to use a series of tf transfoms. All are necessary for the tf tree to be complete. If not working please use rqt.
 ```
 $ source /opt/ros/humble/setup.bash
 $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.02 3.14159 0 0 base_link laser
@@ -72,7 +72,11 @@ The Zed Nodes may be launched with the following:
 ```
 $ ros2 launch zed_wrapper zed_camera.launch.py camera_model:=zed2i  #zed node launch script
 
-ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i params_file:=/Desktop/LeoRover/src/zed-ros2-examples/examples/zed_aruco_localization/config/aruco_loc.yaml
+$ ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i params_file:=/Desktop/LeoRover/src/zed-ros2-examples/examples/zed_aruco_localization/config/aruco_loc.yaml
+```
+The custom drive/waypoint node may be ran with the following. The node sets a waypoint based on the current position, driving linearly x meters and rotating y degrees:
+```
+$ ros2 run drive_pkg drive_publisher --ros-args -p x:=(meters) -p y:=(degrees)
 ```
 
 ## API Server and Rosbridge Suite Websockets
