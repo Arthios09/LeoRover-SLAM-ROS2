@@ -9,7 +9,6 @@ LeoRover Documentation
 RPLidar Repo ROS2
 
 Rover Background Knowledge and Important Concepts:
-Linux OS Guide - Ubuntu REMOVE
 https://developer.nvidia.com/embedded/jetpack-sdk-60 
 ROS2 Humble
 Nav2/SLAM
@@ -30,6 +29,7 @@ Raise3D Printer
 Cory337D contains a Raise 3D Pro printer. The slicing software can be found online on the Raise3D website. Please follow the instructions to properly slice your STL and print using this printer. Although there is a Dremel printer, I have no personal experience using it and recommend using the Raise3D Pro. 
 
 3. Software Setup and Development
+
 Software Scheme:
 Both the Raspberry Pi and Nvidia Jetson run on Ubuntu 22.04 and ROS2 Humble. Through their shared network (via ethernet cable) ros topic data, nodes, and services are shared between them. Please regularly run sudo apt update/sudo apt upgrade to insure all packages are up to date.
 The rover’s navigation stack is centered around two open source libraries, Nav2 and SLAM toolbox. Reading through the documentation of these libraries is highly recommended. The config/param files for these ros packages exist in the repo. Please see documentation for modification instructions, parameter definitions, and syntax. 
