@@ -1,7 +1,7 @@
-LeoRover Setup and User Guide
+# LeoRover Setup and User Guide
 Kai Mohl | ka.mohl@berkeley.edu | kai.mohl36@gmail.com
 
-1. Master Link List
+### 1. Master Link List
 
 Rover Use and Activation:
 Github Repo
@@ -13,7 +13,7 @@ https://developer.nvidia.com/embedded/jetpack-sdk-60
 ROS2 Humble
 Nav2/SLAM
 
-2. Hardware Setup
+### 2. Hardware Setup
 
 Hardware Scheme: 
 Along with the included RaspberryPi and LeoCore controller, the rover is equipped with a number of additional sensors and extra compute. The controller handles the basic wheel, motor, battery, and IMU monitoring and control. The RaspberryPi along with the more powerful Nvidia Jetson Orin Nano run all ROS2 nodes, allowing for function anywhere, regardless of access to a computer running ROS or internet access. The two computers are connected via an ethernet cable, permitting the transmission of ROS topic data. The RPLiDAR A2M12 and ZED stereo camera allow for accurate obstacle detection, navigation, and mapping. The Zed camera is our primary sensor for the detection of Aruco tags, objects, and people, while the 2D LiDAR provides information exclusively for SLAM.
@@ -28,7 +28,7 @@ A full set of hex keys are recommended for deconstructing and reconstructing rov
 Raise3D Printer
 Cory337D contains a Raise 3D Pro printer. The slicing software can be found online on the Raise3D website. Please follow the instructions to properly slice your STL and print using this printer. Although there is a Dremel printer, I have no personal experience using it and recommend using the Raise3D Pro. 
 
-3. Software Setup and Development
+### 3. Software Setup and Development
 
 Software Scheme:
 Both the Raspberry Pi and Nvidia Jetson run on Ubuntu 22.04 and ROS2 Humble. Through their shared network (via ethernet cable) ros topic data, nodes, and services are shared between them. Please regularly run sudo apt update/sudo apt upgrade to insure all packages are up to date.
@@ -61,7 +61,7 @@ For future development purposes, please fork the main repository (or duplicate i
 Sometimes, the rover’s onboard packages are ahead of the committed/pushed github repo. Please login to your github/create a github key on the rover so that you can check git status and make new commits/pulls from both your computer and the rover.
 
 
-4. Recommendations
+### 4. Recommendations
 
 Useful Software Tools:
 Nmap - Allows you to scan ports (finding new jetson address on network)
