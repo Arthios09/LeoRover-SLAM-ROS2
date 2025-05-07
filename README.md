@@ -1,6 +1,10 @@
 # LeoRover-SLAM-ROS2
 Packages and instructions needed to launch the Leo System and attached rplidar in ROS2 Humble. Please install the Zed SDK, Zed-ros2-wrapper, Nav2, SLAM-Toolbox, and robot-localization packages for ROS2 Humble. Tested on Ubuntu 22.04 ROS2 Humble
 
+## First Rover Use
+
+If this is your first time activating or using the Leo Rover, please read INSTRUCTIONS.md located in this repo. 
+
 ### Launching the Leo Rover
 , 
 1. Open a terminal and launch the Leo Rover's main system
