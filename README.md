@@ -5,8 +5,13 @@ Packages and instructions needed to launch the Leo System and attached rplidar i
 
 If this is your first time activating or using the Leo Rover, please read INSTRUCTIONS.md located in this repo. 
 
+### SSH Addresses and Passwords:
+
+Addresses and passwords are located on the private rover document, however connection to the rover's onboard wifi, and ssh connections to the Raspberry Pi and Jetson are necessary to run the nodes on the rover.
+
+
 ### Launching the Leo Rover
-, 
+
 1. Open a terminal and launch the Leo Rover's main system
 ```
 $ source /opt/ros/humble/setup.bash
