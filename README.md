@@ -99,7 +99,7 @@ ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i p
 
 ```
 
-## Startup Scirpt
+## Startup Script
 1. To start all necessary ROS2 nodes and services, open an ssh terminal connected to a Jetson and run:
 ```
 $ python3 start_rover.py
