@@ -2,7 +2,6 @@
 Packages and instructions needed to launch the Leo System and attached rplidar in ROS2 Humble. Please install the Zed SDK, Zed-ros2-wrapper, Nav2, SLAM-Toolbox, and robot-localization packages for ROS2 Humble. Tested on Ubuntu 22.04 ROS2 Humble
 
 ### Launching the Leo Rover
-After turning on the Leo Rover, ssh with the provided credentials. Addresses for ssh are as follows pi@10.0.0.1 PW: raspberry, leoroverjetson1@10.0.0.120 or leoroverjetson2@10.0.0.161 PW: cory337d
 , 
 1. Open a terminal and launch the Leo Rover's main system
 ```
