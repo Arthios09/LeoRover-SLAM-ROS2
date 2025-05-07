@@ -5,12 +5,12 @@ Packages and instructions needed to launch the Leo System and attached rplidar i
 
 If this is your first time activating or using the Leo Rover, please read INSTRUCTIONS.md located in this repo. 
 
-### SSH Addresses and Passwords:
+## SSH Addresses and Passwords:
 
 Addresses and passwords are located on the private rover document, however connection to the rover's onboard wifi, and ssh connections to the Raspberry Pi and Jetson are necessary to run the nodes on the rover.
 
 
-### Launching the Leo Rover
+## Launching the Leo Rover
 
 1. Open a terminal and launch the Leo Rover's main system
 ```
@@ -31,7 +31,7 @@ $ ros2 run tf2_ros static_transform_publisher 0.1 0 0.1 3.14159 0 0 base_link ze
 
 ```
 
-### Setting up a control computer and using RVIZ
+## Setting up a control computer and using RVIZ
 Requirements: Ubuntu 22.04 ROS2 Humble
 1. Pull this repository to your local computer, build, and install any required dependencies.
 ```
@@ -47,14 +47,14 @@ $ ros2 launch leo_viz rviz.launch.xml
 ```
 Note: All required packages are already on-board the Leo Rover.
 
-### Launching Aruco ROS
+## Launching Aruco ROS
 1. Make sure to be in the aruco_ros folder before executing
 ```
 $ source install/setup.bash
 $ ros2 launch aruco_ros single.launch.py marker_size:=.1 marker_id:=0 reference_frame:=base_link camera_frame:=camera_optical_frame
 ```
 
-### Running preprogrammed drive scripts
+## Running preprogrammed drive scripts
 1. To run preprogrammed commands, modify commands.txt and run the following program:
 ```
 $ source install/setup.bash
@@ -66,7 +66,7 @@ $ source install/setup.bash
 $ ros2 run programmed_drive aruco_drive
 ```
 
-### Running Foxglove
+## Running Foxglove
 1. Due to the way the websocket is set up, we need to export the port to point correctly on the rover computer. Open a terminal:
 ```
 $ source install/setup.bash
@@ -78,7 +78,7 @@ $ foxglove-studio
 ```
 Set the port to default (8765), and use the provided template file to view the rover. Files may change.
 
-### SLAM Implementation - Nav2
+## SLAM Implementation - Nav2
 1. For installation of Nav2 and the required dependencies, please follow the guide at https://navigation.ros.org/getting_started/
 2. To start the Nav2 + slamtec SLAM implementation, open 3 terminals and run:
 ```
@@ -99,12 +99,12 @@ ros2 launch zed_aruco_localization zed_aruco_loc.launch.py camera_model:=zed2i p
 
 ```
 
-### Startup Scirpt
+## Startup Scirpt
 1. To start all necessary ROS2 nodes and services, open an ssh terminal connected to a Jetson and run:
 ```
 $ python3 start_rover.py
 ```
-### API Server
+## API Server
 1. Please clone the repository and follow directions found at https://gitlab.com/roar-gokart/api-server
 ```
 $ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
