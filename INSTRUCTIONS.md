@@ -8,20 +8,23 @@ Kai Mohl | ka.mohl@berkeley.edu | kai.mohl36@gmail.com
 ### Note: Please see the private doc for unlisted links, passwords, hyperlinks, and pictures
 [Private Document Link](https://docs.google.com/document/d/13QJeMEwr39OPiz0HjwH_UOHRjEEE9kCBeV8xATVtMiI/edit?usp=sharing)
 
-LeoRover Documentation
-RPLidar Repo ROS2
+[LeoRover Documentation](https://docs.fictionlab.pl/leo-rover)
+
+[RPLidar Repo ROS2](https://index.ros.org/p/rplidar_ros/)
 
 ### Rover Background Knowledge and Important Concepts:
 
 [Jetpack](https://developer.nvidia.com/embedded/jetpack-sdk-60)
+
 [ROS2 Humble](https://docs.ros.org/en/humble/index.html)
-[Nav2/SLAM]
+
+[Nav2/SLAM](https://docs.nav2.org/concepts/index.html)
 
 ## 2. Hardware Setup
 
 ### Hardware Scheme: 
 
-Along with the included RaspberryPi and LeoCore controller, the rover is equipped with a number of additional sensors and extra compute. The controller handles the basic wheel, motor, battery, and IMU monitoring and control. The RaspberryPi along with the more powerful Nvidia Jetson Orin Nano run all ROS2 nodes, allowing for function anywhere, regardless of access to a computer running ROS or internet access. The two computers are connected via an ethernet cable, permitting the transmission of ROS topic data. The RPLiDAR A2M12 and ZED stereo camera allow for accurate obstacle detection, navigation, and mapping. The Zed camera is our primary sensor for the detection of Aruco tags, objects, and people, while the 2D LiDAR provides information exclusively for SLAM.
+Along with the included RaspberryPi and LeoCore controller, the rover is equipped with a number of additional sensors and extra compute. The controller handles the basic wheel, motor, battery, and IMU monitoring and control. The RaspberryPi along with the more powerful [Nvidia Jetson Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit) run all ROS2 nodes, allowing for function anywhere, regardless of access to a computer running ROS or internet access. The two computers are connected via an ethernet cable, permitting the transmission of ROS topic data. The RPLiDAR A2M12 and [ZED stereo camera](https://www.stereolabs.com/docs) allow for accurate obstacle detection, navigation, and mapping. The Zed camera is our primary sensor for the detection of Aruco tags, objects, and people, while the 2D LiDAR provides information exclusively for SLAM.
 
 ### Attaching and Charging Batteries:
 
@@ -41,30 +44,35 @@ Cory337D contains a Raise 3D Pro printer. The slicing software can be found onli
 ### Software Scheme:
 
 Both the Raspberry Pi and Nvidia Jetson run on Ubuntu 22.04 and ROS2 Humble. Through their shared network (via ethernet cable) ros topic data, nodes, and services are shared between them. Please regularly run sudo apt update/sudo apt upgrade to insure all packages are up to date.
-The rover’s navigation stack is centered around two open source libraries, Nav2 and SLAM toolbox. Reading through the documentation of these libraries is highly recommended. The config/param files for these ros packages exist in the repo. Please see documentation for modification instructions, parameter definitions, and syntax. 
-The rover’s sensor fusion uses an EKF to combine odometry information collected by the wheel encoders, IMUs, LiDAR, and Zed Camera. Please see the EKF config files and source code in the Github repository for modifications.
+The rover’s navigation stack is centered around two open source libraries, [Nav2](https://docs.nav2.org/tutorials/index.html) and [SLAM toolbox](https://github.com/SteveMacenski/slam_toolbox). Reading through the documentation of these libraries is highly recommended. The config/param files for these ros packages exist in the repo. Please see documentation for modification instructions, parameter definitions, and syntax. 
+The rover’s sensor fusion uses an [EKF](https://en.wikipedia.org/wiki/Extended_Kalman_filter) to combine odometry information collected by the wheel encoders, IMUs, LiDAR, and Zed Camera. Please see the EKF config files and source code in the Github repository for modifications.
 
 The rover’s connection to external devices is permitted through its onboard wifi chip. Although the onboard wifi does not have to be connected to another wifi network/the internet, connection to the rover’s wifi is necessary to ssh into either computer and transmit information via the api server/websockets. Two methods of communication exist for accessing ROS data and functions on the rover. The api server is used for running ROS2 commands on the rover from a remote device that cannot ssh and/or is not using Ubuntu 22.04. The rosbridge suite websocket server is used to monitor topic data from a remote device that cannot ssh and/or is not using Ubuntu 22.04.
 
 ### Setting Up a New Rover or Computer:
 
-To flash the base onboard RaspberryPi please follow the LeoRover Ros2 (experimental) guide here. A microSD, microSD-SD adapter, and a computer are required. 
+To flash the base onboard RaspberryPi please follow the [LeoRover Ros2 (experimental) guide here](https://docs.fictionlab.pl/leo-rover/advanced-guides/ros-2-support). A microSD, microSD-SD adapter, and a computer are required. 
 
-To flash the Nvidia Jetson Orin Nano please follow the Jetpack 6.0 guide here. To flash Jetpack 6.0 (Ubuntu 22.04), a microSD, microSD-SD adapter, and a computer are required. It is recommended to plug the Jetson into a monitor to more easily navigate the setup menus and BIOS. 
-Once both computers have been flashed, please proceed to the ROS2 Humble guide to install ROS, rosdep, and necessary dependencies.
+To flash the Nvidia Jetson Orin Nano please follow the [Jetpack 6.0 guide here](https://developer.nvidia.com/embedded/jetpack-sdk-60). To flash Jetpack 6.0 (Ubuntu 22.04), a microSD, microSD-SD adapter, and a computer are required. It is recommended to plug the Jetson into a monitor to more easily navigate the setup menus and BIOS. 
+Once both computers have been flashed, please proceed to the [ROS2 Humble guide](https://docs.ros.org/en/humble/index.html) to install ROS, rosdep, and necessary dependencies.
 
-The Zed cameras require the installation of CUDA (comes with Jetpack 6.0), and the Zed SDK. Please check the cuda version using nvcc and confirm that the base requirements are satisfied for the latest version of the Zed SDK. Once this is complete, you may proceed to pulling packages from the LeoRover repository and installing Nav2/Robot Localization or any new packages.
+The Zed cameras require the installation of CUDA (comes with Jetpack 6.0), and the [Zed SDK](https://www.stereolabs.com/developers/release). Please check the cuda version using nvcc and confirm that the base requirements are satisfied for the latest version of the Zed SDK. Once this is complete, you may proceed to pulling packages from the LeoRover repository and installing Nav2/Robot Localization or any new packages.
 
-When installing Nav2, SLAM toolbox, and Robot Localization there are 2 options, installing debian packages, or building from source. Installing the prebuilt packages provides easy use (while only having to source /opt/ros/humble/setup.bash) and maintains the ability to specify custom param files for quick modifications. Building from source allows greater control and potential modification of the provided packages however can increase your risk of running into ROS2 related errors and issues (out of date dependencies/versions, conflicts with other packages in the directory, etc.). The two functioning rovers utilize Nav2/SLAM toolbox (both on the Nav2 guide) installed through debian packages and Robot Localization built from source (due to customization of the ekf node).  
-Finally, the communication between the rover and phone must be set up. The rover uses two methods of communication, an API server linked on the github to transmit and execute commands from the phone to the rover, and rosbridge suite websockets for direct topic publication and monitoring from the phone. The API server may be pulled and ran (python main.py) with or without a virtual environment. Rosbridge suite may be installed via the prebuilt ros2 humble packages and ran with the command “ros2 launch rosbridge_server rosbridge_websocket_launch.xml”. The ports to access these will be displayed when activated.
+When installing Nav2, SLAM toolbox, and [Robot Localization](https://github.com/cra-ros-pkg/robot_localization/tree/humble-devel) there are 2 options, installing debian packages, or building from source. Installing the prebuilt packages provides easy use (while only having to source /opt/ros/humble/setup.bash) and maintains the ability to specify custom param files for quick modifications. Building from source allows greater control and potential modification of the provided packages however can increase your risk of running into ROS2 related errors and issues (out of date dependencies/versions, conflicts with other packages in the directory, etc.). The two functioning rovers utilize Nav2/SLAM toolbox (both on the Nav2 guide) installed through debian packages and Robot Localization built from source (due to customization of the ekf node).  
+
+Finally, the communication between the rover and phone must be set up. The rover uses two methods of communication, [an API server](https://gitlab.com/roar-gokart/api-server/-/tree/kai/server?ref_type=heads) linked on the github to transmit and execute commands from the phone to the rover, and [rosbridge suite websockets](https://github.com/RobotWebTools/rosbridge_suite/blob/humble/README.md) for direct topic publication and monitoring from the phone. The API server may be pulled and ran (python main.py) with or without a virtual environment. Rosbridge suite may be installed via the prebuilt ros2 humble packages and ran with the command “ros2 launch rosbridge_server rosbridge_websocket_launch.xml”. The ports to access these will be displayed when activated.
 
 
 ### Rover Activation and Use:
 
 For instructions and specific commands used to activate the rover, please see the README in the rover repo linked at the start of this document. 
+
 Although many commands, functions, and software abilities are available for use, the essential ROS2 nodes for the rover are:
+
 Raspi - leo_system and rplidar_a2m12_launch.py
+
 Jetson - static transforms, navigation_launch.py, online_async_launch.py (SLAM), ekf.launch.py, zed_camera.launch.py, rosbridge_websocket_launch.xml, and the api server
+
 To activate the api server, cd into api_folder/api_server and run python main.py. See linked documentation on repo. 
 All of these functions except the api-server can be started with a single command, “python3 start_rover.py” or “ros2 launch leo_common-ros2 rover_comp_launch.xml“. For development and testing, it is recommended to launch nodes individually to monitor output and restart nodes in the event of failure. 
 
@@ -82,17 +90,20 @@ Sometimes, the rover’s onboard packages are ahead of the committed/pushed gith
 ## 4. Recommendations
 
 ### Useful Software Tools:
-
 Nmap - Allows you to scan ports (finding new jetson address on network)
-Apt package manager - Frequently update your linux system using the apt package management command line tools. 
+
+[Apt package manager](https://documentation.ubuntu.com/server/how-to/software/package-management/index.html) - Frequently update your linux system using the apt package management command line tools. 
+
 Solidworks/Tinkercad/Any cad software - Make new attachments for the rover
-Useful Hardware Tools:
+
+### Useful Hardware Tools:
 Full Hexkey Set - A full set of hex wrenches are necessary for modifying the rover and replacing batteries. These should be accessible in the lab.
+
 Phillips Head Screwdriver - Necessary to dismantle the batter quarters and main electronics box of the rover.
 
 ### Qualifications:
 
-The most effective individuals to work on the project will be those that have completed at least EE106a (see my 106a project using the rover here!) and ideally 106b, although due to the limited amount of new software developments necessary to fulfill needs for the Qualcomm demo, I do not believe these are strict requirements. If you are looking to recruit more robotics students to work on the team, the spare rover/the rover project in general could potentially be offered to those in 106a looking for a final project (under the research category). Please clear this with Allen, Franco, or the active advisor and team lead.
+The most effective individuals to work on the project will be those that have completed at least EE106a [(see my 106a project using the rover here!)](https://docs.google.com/presentation/d/1WYj237CU580oSIGjfUOlJ4bm8z5D5LlKhrZEYEyIiic/edit?usp=sharing) and ideally 106b, although due to the limited amount of new software developments necessary to fulfill needs for the Qualcomm demo, I do not believe these are strict requirements. If you are looking to recruit more robotics students to work on the team, the spare rover/the rover project in general could potentially be offered to those in 106a looking for a final project (under the research category). Please clear this with Allen, Franco, or the active advisor and team lead.
 The most important qualifications for working with the rover are an interest in robotics and a desire to learn ROS/CAD/Network architecture. When I began working with the rover, I had not taken either robotics course and had never used Linux, ROS, or C++. The rover is a great platform for learning and experimenting with, so it is a great tool for those looking to gain new skills and begin involvement in lab research. 
 Make sure to upkeep the physical components that see stress. The wheels/wheel attachment bar but have their screws tightened and be readjusted every so often so as to prevent failure.
 
