@@ -6,16 +6,16 @@ Kai Mohl | ka.mohl@berkeley.edu | kai.mohl36@gmail.com
 ### Rover Use and Activation:
 
 ### Note: Please see the private doc for unlisted links, passwords, hyperlinks, and pictures
-Private Document Link: https://docs.google.com/document/d/13QJeMEwr39OPiz0HjwH_UOHRjEEE9kCBeV8xATVtMiI/edit?usp=sharing
+[Private Document Link](https://docs.google.com/document/d/13QJeMEwr39OPiz0HjwH_UOHRjEEE9kCBeV8xATVtMiI/edit?usp=sharing)
 
 LeoRover Documentation
 RPLidar Repo ROS2
 
 ### Rover Background Knowledge and Important Concepts:
 
-Jetpack: https://developer.nvidia.com/embedded/jetpack-sdk-60 
-ROS2 Humble: https://docs.ros.org/en/humble/index.html
-Nav2/SLAM: 
+[Jetpack](https://developer.nvidia.com/embedded/jetpack-sdk-60)
+[ROS2 Humble](https://docs.ros.org/en/humble/index.html)
+[Nav2/SLAM]
 
 ## 2. Hardware Setup
 
